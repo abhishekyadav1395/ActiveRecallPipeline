@@ -178,6 +178,17 @@ class SQLiteManager:
 
                 return [dict(row) for row in cursor.fetchall()]
 
+    def get_all_chapters(self) -> list[dict]:
+        """Return all chapters regardless of status."""
+        with self._lock:
+            with sqlite3.connect(self.db_path) as conn:
+                conn.row_factory = sqlite3.Row
+                cursor = conn.cursor()
+
+                cursor.execute("SELECT * FROM chapters")
+
+                return [dict(row) for row in cursor.fetchall()]
+
     # =========================================================================
     # Stage methods
     # =========================================================================
