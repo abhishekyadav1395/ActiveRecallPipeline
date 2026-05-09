@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import dataclasses
 import json
 import logging
 import time
@@ -78,6 +79,11 @@ class PipelineOrchestrator:
     def run_chapter(self, chapter_id: int) -> bool:
         """Run all pending stages for one chapter. Return True if all passed."""
         _ensure_dirs(self.cfg)
+
+        # Isolate interim files per chapter to prevent concurrent clobber
+        chapter_interim = self.cfg.interim_dir / str(chapter_id)
+        chapter_interim.mkdir(parents=True, exist_ok=True)
+        self.cfg = dataclasses.replace(self.cfg, interim_dir=chapter_interim)
 
         active_stages = self.cfg.active_stages()
         logger.info("Running %d active stages: %s", len(active_stages), [s.value for s in active_stages])
