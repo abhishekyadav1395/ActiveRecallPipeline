@@ -64,6 +64,12 @@ def run(cfg: PipelineConfig) -> None:
             # Parse JSON response
             concepts = _parse_and_validate_json(response)
 
+            # Convert under-populated CLUSTERs to STANDALONE
+            for concept in concepts:
+                if concept.get("type") == "CLUSTER" and len(concept.get("children", [])) < 2:
+                    concept["type"] = "STANDALONE"
+                    concept["children"] = []
+
             # Re-number ids sequentially
             for i, concept in enumerate(concepts, 1):
                 concept["id"] = i
