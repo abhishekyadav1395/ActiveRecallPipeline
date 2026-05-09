@@ -59,7 +59,7 @@ def run(cfg: PipelineConfig) -> None:
             )
 
             # Call Haiku
-            response = call_haiku(system_template, user_prompt)
+            response = call_haiku(system_template, user_prompt, stage="CONSOLIDATE")
 
             # Parse JSON response
             concepts = _parse_and_validate_json(response)

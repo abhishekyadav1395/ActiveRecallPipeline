@@ -80,7 +80,7 @@ def run(cfg: PipelineConfig) -> None:
                     "{GAP_CONCEPTS}", batch_json
                 )
 
-                response = call_haiku(system_prompt, user_prompt)
+                response = call_haiku(system_prompt, user_prompt, stage="PATCH")
                 questions = _parse_patch_response(response)
 
                 for q in questions:
