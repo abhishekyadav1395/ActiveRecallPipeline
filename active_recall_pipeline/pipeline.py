@@ -145,21 +145,23 @@ class PipelineOrchestrator:
             runner = STAGE_RUNNERS[stage]
             runner(self.cfg)
 
-            # Load output file
+            # Load output file (some stages like DELIVER may not have interim output)
             output_file = INTERIM_FILES.get(stage.value)
-            output_path = self.cfg.interim_dir / output_file
-            if not output_path.exists() or output_path.stat().st_size == 0:
-                error_msg = f"Output file missing or empty: {output_file}"
-                logger.error("[%s] %s", stage.value, error_msg)
-                self.db.set_stage_status(chapter_id, stage.value, "failed", error_msg)
-                return False
+            output_data = None
+            if output_file:
+                output_path = self.cfg.interim_dir / output_file
+                if not output_path.exists() or output_path.stat().st_size == 0:
+                    error_msg = f"Output file missing or empty: {output_file}"
+                    logger.error("[%s] %s", stage.value, error_msg)
+                    self.db.set_stage_status(chapter_id, stage.value, "failed", error_msg)
+                    return False
 
-            output_data = self._load_interim(output_file)
-            if output_data is None:
-                error_msg = f"Failed to parse output file: {output_file}"
-                logger.error("[%s] %s", stage.value, error_msg)
-                self.db.set_stage_status(chapter_id, stage.value, "failed", error_msg)
-                return False
+                output_data = self._load_interim(output_file)
+                if output_data is None:
+                    error_msg = f"Failed to parse output file: {output_file}"
+                    logger.error("[%s] %s", stage.value, error_msg)
+                    self.db.set_stage_status(chapter_id, stage.value, "failed", error_msg)
+                    return False
 
             # Run validation
             validation_result = self._validate_stage(chapter_id, stage, output_data)
