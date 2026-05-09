@@ -183,8 +183,7 @@ class BatchScheduler:
 
     def _detect_exam(self, subject: str) -> Exam | None:
         """Detect exam type from subject prefix."""
-        uppsc_prefixes = [s[:4] for s in UPPSC_SUBJECTS]
-        if subject in uppsc_prefixes or subject in UPPSC_SUBJECTS:
+        if subject in UPPSC_SUBJECTS:
             return Exam.UPPSC
         elif subject in ["JAIIB", "CAIIB"]:
             return Exam.JAIIB_CAIIB
