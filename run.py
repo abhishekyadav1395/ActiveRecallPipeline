@@ -14,6 +14,10 @@ from active_recall_pipeline.utils.db import SQLiteManager
 
 logger = logging.getLogger(__name__)
 
+# Suppress Gemini warnings
+logging.getLogger("google_genai._common").setLevel(logging.ERROR)
+logging.getLogger("google_genai.models").setLevel(logging.ERROR)
+
 
 def main() -> int:
     """Main entry point for the pipeline."""

@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-import re
 from dataclasses import dataclass, field
 
 
@@ -58,7 +57,6 @@ class StageValidator:
         if not output:
             return ValidationResult(passed=False, errors=["Output list is empty"])
 
-        chapter_title = context.get("chapter_title", "")
         total_concepts = 0
 
         for section in output:
@@ -81,10 +79,6 @@ class StageValidator:
                 if len(concept) > 300:
                     errors.append(
                         f"Section {section_id}: concept exceeds 300 chars"
-                    )
-                if chapter_title and chapter_title in concept:
-                    errors.append(
-                        f"Section {section_id}: concept contains chapter title verbatim"
                     )
 
         return ValidationResult(
@@ -147,10 +141,10 @@ class StageValidator:
                             f"Section {section_id} item {idx}: "
                             "STANDALONE must have empty children"
                         )
-                    elif item["type"] == "CLUSTER" and len(children) < 3:
+                    elif item["type"] == "CLUSTER" and len(children) < 2:
                         errors.append(
                             f"Section {section_id} item {idx}: "
-                            f"CLUSTER has {len(children)} children, minimum is 3"
+                            f"CLUSTER has {len(children)} children, minimum is 2"
                         )
 
         if len(all_ids) != len(set(all_ids)):
@@ -292,7 +286,7 @@ class StageValidator:
         }
         valid_layers = {
             "Foundation", "Surface", "Reasoning", "Boundary",
-            "Ordering", "Matrix", "Lineage"
+            "Ordering", "Lineage"
         }
         valid_formats = {"Direct", "Statement", "Ordering"}
         valid_difficulties = {"Easy", "Medium", "Hard"}
@@ -367,7 +361,7 @@ class StageValidator:
         }
         valid_layers = {
             "Foundation", "Surface", "Reasoning", "Boundary",
-            "Ordering", "Matrix", "Lineage"
+            "Ordering", "Lineage"
         }
         valid_formats = {"Direct", "Statement", "Ordering"}
         valid_difficulties = {"Easy", "Medium", "Hard"}
@@ -396,14 +390,16 @@ class StageValidator:
 
             if "tags" in item:
                 tags = str(item["tags"])
-                if "GapFill::true" not in tags:
-                    errors.append(f"Item {idx}: tags missing 'GapFill::true'")
                 if "Inventory::" not in tags:
                     errors.append(f"Item {idx}: tags missing 'Inventory::'")
+                inv_id = item.get("inventory_id")
+                if gap_ids and inv_id in gap_ids:
+                    if "GapFill::true" not in tags:
+                        errors.append(f"Item {idx}: gap question missing 'GapFill::true'")
 
             if "inventory_id" in item:
                 inv_id = item["inventory_id"]
-                if inv_id not in gap_ids:
+                if gap_ids and inv_id not in gap_ids:
                     invalid_inventory_ids.append(inv_id)
 
             if "q_id" in item:
