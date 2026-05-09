@@ -83,6 +83,11 @@ def run(cfg: PipelineConfig) -> None:
                 response = call_haiku(system_prompt, user_prompt, stage="PATCH")
                 questions = _parse_patch_response(response)
 
+                # Ensure GapFill::true tag on every patch question
+                for q in questions:
+                    if "GapFill::true" not in str(q.get("tags", "")):
+                        q["tags"] = str(q.get("tags", "")) + " GapFill::true"
+
                 for q in questions:
                     gap_id = q.get("inventory_id")
                     matching_gap = next(

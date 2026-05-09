@@ -392,10 +392,8 @@ class StageValidator:
                 tags = str(item["tags"])
                 if "Inventory::" not in tags:
                     errors.append(f"Item {idx}: tags missing 'Inventory::'")
-                inv_id = item.get("inventory_id")
-                if gap_ids and inv_id in gap_ids:
-                    if "GapFill::true" not in tags:
-                        errors.append(f"Item {idx}: gap question missing 'GapFill::true'")
+                if "GapFill::true" not in tags:
+                    errors.append(f"Item {idx}: tags missing 'GapFill::true'")
 
             if "inventory_id" in item:
                 inv_id = item["inventory_id"]
