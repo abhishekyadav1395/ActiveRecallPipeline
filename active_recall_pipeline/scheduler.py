@@ -75,7 +75,7 @@ class BatchScheduler:
         display_name = metadata.get("chapter_title") or metadata["pdf_path"].stem
         async with self.semaphore:
             print(f"[BATCH] {display_name} started")
-            loop = asyncio.get_event_loop()
+            loop = asyncio.get_running_loop()
             orchestrator = PipelineOrchestrator(cfg=cfg, db=self.db)
             try:
                 result = await loop.run_in_executor(None, orchestrator.run_chapter, chapter_id)
