@@ -256,21 +256,36 @@ class PipelineOrchestrator:
         elif stage == Stage.TIER:
             consolidated = self._load_interim("consolidated_concepts.json")
             if consolidated:
-                ctx["consolidate_count"] = len(consolidated)
-                ctx["consolidate_ids"] = [item["id"] for item in consolidated if isinstance(item, dict)]
+                all_concepts = [
+                    c for section in consolidated
+                    if isinstance(section, dict)
+                    for c in section.get("concepts", [])
+                    if isinstance(c, dict)
+                ]
+                ctx["consolidate_count"] = len(all_concepts)
+                ctx["consolidate_ids"] = [c["id"] for c in all_concepts if "id" in c]
 
         elif stage == Stage.EXCAVATE:
             tiered = self._load_interim("tiered_concepts.json")
             if tiered:
                 ctx["non_simple_ids"] = [
-                    item["id"] for item in tiered
-                    if isinstance(item, dict) and item.get("tier") != "SIMPLE"
+                    c["id"] for section in tiered
+                    if isinstance(section, dict)
+                    for c in section.get("concepts", [])
+                    if isinstance(c, dict) and c.get("tier") != "SIMPLE"
+                    and "id" in c
                 ]
 
         elif stage == Stage.FORGE:
             consolidated = self._load_interim("consolidated_concepts.json")
             if consolidated:
-                ctx["concept_count"] = len(consolidated)
+                all_concepts = [
+                    c for section in consolidated
+                    if isinstance(section, dict)
+                    for c in section.get("concepts", [])
+                    if isinstance(c, dict)
+                ]
+                ctx["concept_count"] = len(all_concepts)
 
         elif stage == Stage.PATCH:
             audit = self._load_interim("audit_report.json")
