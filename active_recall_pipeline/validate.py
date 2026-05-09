@@ -11,26 +11,28 @@ from active_recall_pipeline.utils.db import SQLiteManager
 
 
 INTERIM = {
-    "INGEST": "active_recall_pipeline/data/interim/ingest_metadata.json",
-    "PARSE": "active_recall_pipeline/data/interim/parsed_sections.json",
-    "SURVEY": "active_recall_pipeline/data/interim/survey_concepts.json",
-    "CONSOLIDATE": "active_recall_pipeline/data/interim/consolidated_concepts.json",
-    "TIER": "active_recall_pipeline/data/interim/tiered_concepts.json",
-    "EXCAVATE": "active_recall_pipeline/data/interim/excavated_concepts.json",
-    "FORGE": "active_recall_pipeline/data/interim/forge_questions.json",
-    "AUDIT": "active_recall_pipeline/data/interim/audit_report.json",
-    "COVERAGE": "active_recall_pipeline/data/interim/coverage_map.json",
-    "PATCH": "active_recall_pipeline/data/interim/patched_questions.json",
-    "MINT": "active_recall_pipeline/data/interim/minted_questions.json",
+    "INGEST":      "ingest_metadata.json",
+    "PARSE":       "parsed_sections.json",
+    "SURVEY":      "survey_concepts.json",
+    "CONSOLIDATE": "consolidated_concepts.json",
+    "TIER":        "tiered_concepts.json",
+    "EXCAVATE":    "excavated_concepts.json",
+    "FORGE":       "forge_questions.json",
+    "AUDIT":       "audit_report.json",
+    "COVERAGE":    "coverage_map.json",
+    "PATCH":       "patched_questions.json",
+    "MINT":        "minted_questions.json",
 }
 
 
-def check_input_file_exists(stage: str, base_path: Path) -> bool:
-    """Return True if the input file for this stage exists and is non-zero."""
+def check_input_file_exists(stage: str, interim_dir: Path) -> bool:
+    """Return True if the input file for this stage exists and is non-zero.
+    interim_dir should be the per-chapter path: data/interim/{chapter_id}/
+    """
     if stage not in INTERIM:
         return False
 
-    file_path = base_path / INTERIM[stage]
+    file_path = interim_dir / INTERIM[stage]
     return file_path.exists() and file_path.stat().st_size > 0
 
 
@@ -153,15 +155,20 @@ def print_full_report(db: SQLiteManager, base_path: Path) -> int:
     print(f"  {'TOTAL':12}: ${total_cost:8.4f}")
 
     print("\nInterim files present:")
-    for stage in STAGE_ORDER:
-        if stage.value not in INTERIM:
-            continue
-
-        exists = check_input_file_exists(stage.value, base_path)
-        symbol = "✅" if exists else "❌"
-        filename = Path(INTERIM[stage.value]).name
-        status_text = "missing" if not exists else ""
-        print(f"  {symbol} {filename} {status_text}".rstrip())
+    for chapter in chapters:
+        chapter_id = chapter.get("id")
+        chapter_interim = (
+            base_path / "active_recall_pipeline" / "data" / "interim" / str(chapter_id)
+        )
+        display = chapter.get("chapter_title") or chapter.get("pdf_path", "?")
+        print(f"  Chapter {chapter_id}: {display}")
+        for stage in STAGE_ORDER:
+            if stage.value not in INTERIM:
+                continue
+            exists = check_input_file_exists(stage.value, chapter_interim)
+            symbol = "✅" if exists else "❌"
+            filename = INTERIM[stage.value]
+            print(f"    {symbol} {filename}".rstrip())
 
     return 1 if has_any_failures else 0
 
@@ -190,6 +197,17 @@ def print_chapter_report(db: SQLiteManager, chapter_id: int, base_path: Path) ->
             out_tokens = data.get("output_tokens", 0)
             cost = data.get("cost_usd", 0.0)
             print(f"  {provider:12}: ${cost:8.4f}  ({in_tokens:,} in / {out_tokens:,} out tokens)")
+
+    chapter_interim = (
+        base_path / "active_recall_pipeline" / "data" / "interim" / str(chapter_id)
+    )
+    print("\nInterim files:")
+    for stage in STAGE_ORDER:
+        if stage.value not in INTERIM:
+            continue
+        exists = check_input_file_exists(stage.value, chapter_interim)
+        symbol = "✅" if exists else "❌"
+        print(f"  {symbol} {INTERIM[stage.value]}")
 
     return 1 if has_failures else 0
 
