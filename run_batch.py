@@ -51,6 +51,12 @@ def main() -> int:
         default=None,
         help="Filter to one book (e.g. Polity_Laxmikant)",
     )
+    parser.add_argument(
+        "--provider",
+        type=str,
+        default=None,
+        help="Force a specific provider: anthropic, gemini, deepseek",
+    )
 
     args = parser.parse_args()
 
@@ -89,6 +95,9 @@ def main() -> int:
     except ValueError as e:
         print(f"ERROR: {e}", file=sys.stderr)
         return 1
+
+    if args.provider:
+        cfg.active_provider = args.provider
 
     db = SQLiteManager()
     scheduler = BatchScheduler(
