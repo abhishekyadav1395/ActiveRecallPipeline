@@ -84,7 +84,7 @@ def run(cfg: PipelineConfig) -> None:
                         "{{INVENTORY}}", batch_json
                     )
 
-                    response = call_haiku(system_prompt, user_prompt, stage="FORGE")
+                    response = call_haiku(system_prompt, user_prompt, stage="FORGE", cfg=cfg, db_logger=cfg.db_logger, chapter_id=cfg.chapter_id)
                     questions = _parse_forge_response(response)
 
                     for q in questions:

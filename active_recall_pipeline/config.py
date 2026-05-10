@@ -239,6 +239,10 @@ class PipelineConfig:
     pdf_path: Path | None = None
     input_mode: str = ""
 
+    # Runtime — populated by orchestrator before passing to stage runners
+    db_logger: object = None  # SQLiteManager instance
+    chapter_id: int | None = None
+
     # Paths (override per environment)
     root_dir:      Path = ROOT_DIR
     data_dir:      Path = DATA_DIR

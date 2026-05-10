@@ -81,7 +81,7 @@ def run(cfg: PipelineConfig) -> None:
                         "{{CONCEPT_BATCH}}", batch_json
                     )
 
-                    response = call_sonnet(system_prompt, user_prompt, thinking_budget=2000, stage="EXCAVATE")
+                    response = call_sonnet(system_prompt, user_prompt, thinking_budget=2000, stage="EXCAVATE", cfg=cfg, db_logger=cfg.db_logger, chapter_id=cfg.chapter_id)
                     responses_array = _parse_batch_response(response)
 
                     # Validate all concept_ids appear in response
@@ -165,7 +165,7 @@ def run(cfg: PipelineConfig) -> None:
                         "{{CONCEPT_BATCH}}", batch_json
                     )
 
-                    response = call_sonnet(system_prompt, user_prompt, thinking_budget=4000, stage="EXCAVATE")
+                    response = call_sonnet(system_prompt, user_prompt, thinking_budget=4000, stage="EXCAVATE", cfg=cfg, db_logger=cfg.db_logger, chapter_id=cfg.chapter_id)
                     responses_array = _parse_batch_response(response)
 
                     # Validate all concept_ids appear in response

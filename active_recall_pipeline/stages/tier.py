@@ -49,7 +49,7 @@ def run(cfg: PipelineConfig) -> None:
             )
 
             # Call Haiku
-            response = call_haiku(system_prompt, user_prompt, stage="TIER")
+            response = call_haiku(system_prompt, user_prompt, stage="TIER", cfg=cfg, db_logger=cfg.db_logger, chapter_id=cfg.chapter_id)
 
             # Parse tier response
             tier_map = _parse_tier_response(response)

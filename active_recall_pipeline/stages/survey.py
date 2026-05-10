@@ -73,7 +73,7 @@ def run(cfg: PipelineConfig) -> None:
             )
 
             # Call Haiku and parse response
-            response = call_haiku(system_prompt, user_prompt, stage="SURVEY")
+            response = call_haiku(system_prompt, user_prompt, stage="SURVEY", cfg=cfg, db_logger=cfg.db_logger, chapter_id=cfg.chapter_id)
             concepts = _parse_concepts(response)
 
             survey_results.append({

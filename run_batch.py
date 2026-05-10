@@ -54,9 +54,16 @@ def main() -> int:
 
     args = parser.parse_args()
 
+    from pathlib import Path as _Path
+    _log_dir = _Path("active_recall_pipeline/logs")
+    _log_dir.mkdir(parents=True, exist_ok=True)
     logging.basicConfig(
         format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
         level=logging.INFO,
+        handlers=[
+            logging.FileHandler(_log_dir / "pipeline.log", encoding="utf-8"),
+            logging.StreamHandler(),
+        ]
     )
 
     api_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()

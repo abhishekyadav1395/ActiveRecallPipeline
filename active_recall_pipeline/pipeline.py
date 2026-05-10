@@ -148,8 +148,14 @@ class PipelineOrchestrator:
                             return False
 
             # Call stage runner
+            # Inject db_logger and chapter_id so stages can log API costs
+            stage_cfg = dataclasses.replace(
+                self.cfg,
+                db_logger=self.db,
+                chapter_id=chapter_id,
+            )
             runner = STAGE_RUNNERS[stage]
-            runner(self.cfg)
+            runner(stage_cfg)
 
             # Load output file (some stages like DELIVER may not have interim output)
             output_file = INTERIM_FILES.get(stage.value)

@@ -80,7 +80,7 @@ def run(cfg: PipelineConfig) -> None:
                     "{GAP_CONCEPTS}", batch_json
                 )
 
-                response = call_haiku(system_prompt, user_prompt, stage="PATCH")
+                response = call_haiku(system_prompt, user_prompt, stage="PATCH", cfg=cfg, db_logger=cfg.db_logger, chapter_id=cfg.chapter_id)
                 questions = _parse_patch_response(response)
 
                 # Ensure GapFill::true tag on every patch question
