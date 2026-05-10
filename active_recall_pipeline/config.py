@@ -329,6 +329,9 @@ class PipelineConfig:
                 active = Provider("anthropic_haiku" if tier == 1 else "anthropic_sonnet")
             elif self.active_provider == "gemini":
                 active = Provider("gemini_flash" if tier == 1 else "gemini_pro")
+            elif self.active_provider == "deepseek":
+                active = Provider("deepseek_v3" if tier == 1 else "deepseek_r1")
+                return [active]  # DeepSeek only — no fallback to other providers
             else:
                 active = Provider(self.active_provider + ("_v3" if tier == 1 else "_r1"))
             rest = [p for p in tier_waterfall if p != active]
