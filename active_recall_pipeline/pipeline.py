@@ -182,6 +182,9 @@ class PipelineOrchestrator:
                 self.db.set_stage_status(chapter_id, stage.value, "completed")
                 self.db.set_validation_status(chapter_id, stage.value, "passed")
                 print(f"[{stage.value:12}] completed ✅")
+                # Log any soft warnings without blocking progress
+                for warning in validation_result.warnings:
+                    logger.warning("[%s] [FLAG] %s", stage.value, warning)
                 return True
             else:
                 # Validation failed

@@ -1,0 +1,186 @@
+{
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\run.py": {
+    "mtime": 1778412563.0744426,
+    "hash": "4fc946a5599ce0ac4c7f487bffde982d"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\run_batch.py": {
+    "mtime": 1778412762.2943568,
+    "hash": "d6f3067acfd92bc861aab3e4842e6a28"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\validate.py": {
+    "mtime": 1778348665.067216,
+    "hash": "37ef00a08c05df4f2fe832cd103b24b1"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\config.py": {
+    "mtime": 1778414032.2214983,
+    "hash": "11d35fe7baff5f84de3ca3dfcdcc7cc4"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\pipeline.py": {
+    "mtime": 1778412527.7524908,
+    "hash": "38c282b8083d6fee1741be558e17254b"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\scheduler.py": {
+    "mtime": 1778321109.142137,
+    "hash": "53cc126c22b5345e6f98b00ec5ce61f0"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\__init__.py": {
+    "mtime": 1777276416.0800123,
+    "hash": "c56f79d6d6658c45098824bf785466bc"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\models\\__init__.py": {
+    "mtime": 1777276435.3516862,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\providers\\anthropic.py": {
+    "mtime": 1778226220.193789,
+    "hash": "e9546dc24c3786a4901d1aafe128150e"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\providers\\base.py": {
+    "mtime": 1778226211.6728244,
+    "hash": "9922a37fbd584cdc010a63bf45c91d4e"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\providers\\deepseek.py": {
+    "mtime": 1778226233.8304856,
+    "hash": "1ae44168b70acfdeae666fc31edb3d9e"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\providers\\gemini.py": {
+    "mtime": 1778398741.7299435,
+    "hash": "9c32eea472bd025c8689be420a897852"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\providers\\router.py": {
+    "mtime": 1778414030.280449,
+    "hash": "4efb69204bc3e413828343cada575c46"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\providers\\__init__.py": {
+    "mtime": 1778226203.315539,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\audit.py": {
+    "mtime": 1778327732.6815972,
+    "hash": "ec2aefd4e1c70445bd8796e6d2923d0d"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\consolidate.py": {
+    "mtime": 1778412536.012093,
+    "hash": "c324f97f00ee678064f8e58c8e09520b"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\deliver.py": {
+    "mtime": 1778332111.6620498,
+    "hash": "137138e9663466cbaff621c714dde6e8"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\excavate.py": {
+    "mtime": 1778412547.2807484,
+    "hash": "6f0f2ae0eeff39b17b71f19a82a0b45c"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\forge.py": {
+    "mtime": 1778434649.5659406,
+    "hash": "ed5eac5c596f929b7b1f4b161b2bd497"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\ingest.py": {
+    "mtime": 1778321353.92359,
+    "hash": "600a0ad1e93f369e98970ccb0fd73133"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\mint.py": {
+    "mtime": 1777289807.6806045,
+    "hash": "761368103e92ebee014c926cd7c3ac4b"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\parse.py": {
+    "mtime": 1778321360.5547392,
+    "hash": "b88bfad9d69b4f322f695d4940528c2e"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\patch.py": {
+    "mtime": 1778434634.9138348,
+    "hash": "8f857d55633e8b8c1820694c7656e546"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\survey.py": {
+    "mtime": 1778412532.4104984,
+    "hash": "7fb6a9f8e49116c762d059fad3fb8ab1"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\tier.py": {
+    "mtime": 1778412540.158936,
+    "hash": "ed487f1f30ed348f65fa254a4b87b82f"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\__init__.py": {
+    "mtime": 1777276433.1463861,
+    "hash": "530da375a617f7633912bda27294ece4"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\utils\\api.py": {
+    "mtime": 1778332267.6486504,
+    "hash": "e7c729584e2cc88d5248483ee12a88cc"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\utils\\db.py": {
+    "mtime": 1778222997.777586,
+    "hash": "2aa4736e6f5f386af55b2c0f0a78d373"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\utils\\validation.py": {
+    "mtime": 1778433227.252319,
+    "hash": "c34f64d99808d17a4d441fbf1f513b9e"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\utils\\__init__.py": {
+    "mtime": 1777276435.8462102,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\CLAUDE.md": {
+    "mtime": 1778317373.1733327,
+    "hash": "747e73a5e1af4b72c0d65c9169c23199"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\requirementV3.txt": {
+    "mtime": 1777282539.2787523,
+    "hash": "7e968cd49a2e240a34438276ecfcd60a"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\SESSION_2_BUILD_PROMPT.md": {
+    "mtime": 1778218719.0377162,
+    "hash": "844ea27e1e4b0e941212005432eacf96"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\SESSION_STATE.md": {
+    "mtime": 1778320687.6328626,
+    "hash": "e2d02cd37a0c6fde1b79b1af96518293"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\data\\interim\\14\\forge_errors\\section_3_batch_1_raw.txt": {
+    "mtime": 1778432404.9442356,
+    "hash": "091c0ec304c4c8db583a9e11ba720323"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\data\\interim\\15\\forge_errors\\section_2_batch_0_raw.txt": {
+    "mtime": 1778433885.514515,
+    "hash": "19a376a829675b51dbea1355e8ba7dd1"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\data\\interim\\15\\forge_errors\\section_3_batch_0_raw.txt": {
+    "mtime": 1778434606.3624403,
+    "hash": "7138f10c401f9332071d2b1feadf4e58"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\prompts\\consolidate_system.txt": {
+    "mtime": 1777287976.9222536,
+    "hash": "4645355cf0f3f0b476decf6418269731"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\prompts\\excavate_system.txt": {
+    "mtime": 1777406903.310933,
+    "hash": "b1dc51882f2b4a59c63a0faedb4ac2ae"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\prompts\\forge_system.txt": {
+    "mtime": 1777459238.2374883,
+    "hash": "27847858b3811c7be3b4988a8d71633e"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\prompts\\patch_system.txt": {
+    "mtime": 1777408037.3880465,
+    "hash": "ba72d4be5d3e99aedc3e90c07bb7531a"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\prompts\\survey_system.txt": {
+    "mtime": 1777448013.8918502,
+    "hash": "adb64ea49847869a4503b5f07c47afd5"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\prompts\\tier_system.txt": {
+    "mtime": 1777282829.1340985,
+    "hash": "6eaa7efcecfa5aad603f38d6bef5b314"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\data\\raw\\Polity_Laxmikant\\Ch01_HistoricalBackground.pdf": {
+    "mtime": 1778399095.9080987,
+    "hash": "42b9216a5805de71fa13dae1bfbf06f7"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\data\\raw\\Polity_Laxmikant\\Ch02_MakingOfTheConsitution.pdf": {
+    "mtime": 1778399156.8953898,
+    "hash": "1e4a507e2e6b3196a20b33c9eb344c56"
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\data\\raw\\Polity_Laxmikant\\Ch03_SalientFeaturesOfTheConstitution.pdf": {
+    "mtime": 1778399216.4218383,
+    "hash": "f06f99d54dfa5215961d27d57ebacf09"
+  }
+}

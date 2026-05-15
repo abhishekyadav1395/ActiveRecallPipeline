@@ -182,7 +182,21 @@ def _parse_patch_response(response: str) -> list[dict]:
 
     response = _sanitize_json_strings(response)
 
-    data = json.loads(response)
+    try:
+        data = json.loads(response)
+    except json.JSONDecodeError:
+        try:
+            import json_repair
+            data = json_repair.loads(response)
+        except ImportError:
+            raise json.JSONDecodeError(
+                "JSON parse failed and json_repair not available. "
+                "Install with: pip install json-repair",
+                response, 0
+            )
+        except Exception as e:
+            raise json.JSONDecodeError(str(e), response, 0)
+
     if not isinstance(data, list):
         data = [data] if isinstance(data, dict) else []
 

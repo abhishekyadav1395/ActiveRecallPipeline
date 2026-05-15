@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m py_compile run.py active_recall_pipeline/pipeline.py active_recall_pipeline/config.py)",
+      "Bash(python -c \"from active_recall_pipeline.pipeline import PipelineOrchestrator, STAGE_RUNNERS; print\\('✓ pipeline.py imports OK'\\); print\\('STAGE_RUNNERS keys:', list\\(STAGE_RUNNERS.keys\\(\\)\\)\\)\")",
+      "Bash(ANTHROPIC_API_KEY=test python -c \"from active_recall_pipeline.pipeline import PipelineOrchestrator, STAGE_RUNNERS; print\\('pipeline.py imports OK'\\); print\\('STAGE_RUNNERS has', len\\(STAGE_RUNNERS\\), 'entries'\\)\")",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(ANTHROPIC_API_KEY=test python -c \"from active_recall_pipeline.pipeline import PipelineOrchestrator; print\\('All imports successful'\\)\")",
+      "Bash(git commit *)",
+      "Bash(ANTHROPIC_API_KEY=test python)"
+    ]
+  }
+}

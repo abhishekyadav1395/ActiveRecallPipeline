@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>/ — graphify tree viewer</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      margin: 20px 0 0 24px;
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: #1e3a56;
+    }
+    .controls {
+      margin: 20px 0 15px 24px;
+    }
+    button {
+      margin-right: 10px;
+      padding: 8px 18px;
+      background: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.2s ease-in-out;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    button:active {
+      background: #004085;
+    }
+    #tree-container {
+      width: calc(100vw - 48px); /* Adjust for body margin/padding */
+      height: 85vh;
+      overflow: auto;
+      border-radius: 8px;
+      background: #fff;
+      margin-left: 24px;
+      margin-right: 24px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      border: 1px solid #ddd;
+    }
+    svg {
+      background: #fff;
+      border-radius: 8px;
+      display: block; /* Important for D3 */
+    }
+    .node circle {
+      stroke-width: 2.5px;
+    }
+    .node text { /* Base style for the <text> container */
+      font: 13px 'Segoe UI', sans-serif;
+      paint-order: stroke fill; /* Ensures text is readable over lines */
+      stroke: #fff; /* White halo */
+      stroke-width: 3px; /* Halo thickness */
+      stroke-linejoin: round;
+      stroke-opacity: 0.85; /* Halo opacity */
+    }
+    .link {
+      fill: none;
+      stroke-opacity: 0.7;
+      stroke-width: 2px;
+    }
+  </style>
+</head>
+<body>
+  <h1>/ — Knowledge Graph</h1>
+  <div class="controls">
+    <button onclick="expandAll()">Expand All</button>
+    <button onclick="collapseAll()">Collapse All</button>
+    <button onclick="resetView()">Reset View</button>
+  </div>
+  <div id="tree-container">
+    <svg id="tree-svg" width="6000" height="8000"></svg>
+  </div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script>
+    const initialJsonData = {"name":"/","total_count":229,"children":[{"name":"active_recall_pipeline","total_count":227,"children":[{"name":"config.py","total_count":34,"children":[{"name":".__post_init__()","total_count":1,"children":[]},{"name":".active_stages()","total_count":1,"children":[]},{"name":".get_stage_tier()","total_count":1,"children":[]},{"name":".get_waterfall()","total_count":1,"children":[]},{"name":".stage_config()","total_count":1,"children":[]},{"name":"AuditConfig","total_count":1,"children":[]},{"name":"Build prerequisite chains per concept. Model: Claude Sonnet (with thinking).","total_count":1,"children":[]},{"name":"Classify each concept: Simple/Medium/Complex. Model: Claude Haiku.","total_count":1,"children":[]},{"name":"ConsolidateConfig","total_count":1,"children":[]},{"name":"Deduplicate + convert JSON to tilde CSV. Model: Code only.","total_count":1,"children":[]},{"name":"DeliverConfig","total_count":1,"children":[]},{"name":"Exam","total_count":1,"children":[]},{"name":"ExcavateConfig","total_count":1,"children":[]},{"name":"Extract every surface concept from section text. Model: Claude Haiku.","total_count":1,"children":[]},{"name":"Extract metadata from PDF filenames. Model: Code only.","total_count":1,"children":[]},{"name":"Extract text and split into 10–15 page sections. Model: PyMuPDF.","total_count":1,"children":[]},{"name":"ForgeConfig","total_count":1,"children":[]},{"name":"Generate all MCQs across all 7 layers. Model: Claude Sonnet.","total_count":1,"children":[]},{"name":"Generate targeted questions for gaps. Model: Claude Sonnet.","total_count":1,"children":[]},{"name":"IngestConfig","total_count":1,"children":[]},{"name":"MintConfig","total_count":1,"children":[]},{"name":"ParseConfig","total_count":1,"children":[]},{"name":"PatchConfig","total_count":1,"children":[]},{"name":"PipelineConfig","total_count":1,"children":[]},{"name":"Provider","total_count":1,"children":[]},{"name":"Return ordered stages between start_stage and stop_stage, minus skips.","total_count":1,"children":[]},{"name":"Return provider waterfall for given tier.","total_count":1,"children":[]},{"name":"Return tier for stage, respecting CLI overrides.","total_count":1,"children":[]},{"name":"Stage","total_count":1,"children":[]},{"name":"SurveyConfig","total_count":1,"children":[]},{"name":"TierConfig","total_count":1,"children":[]},{"name":"Transform raw SURVEY concepts into clean structured inventory. Model: Claude Hai","total_count":1,"children":[]},{"name":"Verify every inventory item has ≥1 question. Model: Code only.","total_count":1,"children":[]},{"name":"Write final CSV files per chapter and per book. Model: Code only.","total_count":1,"children":[]}]},{"name":"models","total_count":1,"children":[{"name":"__init__.py","total_count":1,"children":[]}]},{"name":"pipeline.py","total_count":2,"children":[{"name":"_ensure_dirs()","total_count":1,"children":[]},{"name":"run()","total_count":1,"children":[]}]},{"name":"providers","total_count":45,"children":[{"name":"anthropic.py","total_count":6,"children":[{"name":".__init__()","total_count":1,"children":[]},{"name":".count_tokens()","total_count":1,"children":[]},{"name":".generate_content()","total_count":1,"children":[]},{"name":".initialize()","total_count":1,"children":[]},{"name":".warm_cache()","total_count":1,"children":[]},{"name":"AnthropicProvider","total_count":1,"children":[]}]},{"name":"base.py","total_count":14,"children":[{"name":"BaseProvider","total_count":1,"children":[]},{"name":"Count tokens. Used by build_batches().         Must not raise LLMBusyError — tok","total_count":1,"children":[]},{"name":"count_tokens()","total_count":1,"children":[]},{"name":"Generate content. Return normalized LLMResponse.         Raise LLMBusyError for","total_count":1,"children":[]},{"name":"generate_content()","total_count":1,"children":[]},{"name":"initialize()","total_count":1,"children":[]},{"name":"LLMBusyError","total_count":1,"children":[]},{"name":"LLMFatalError","total_count":1,"children":[]},{"name":"LLMResponse","total_count":1,"children":[]},{"name":"Load API keys and SDK clients. Called once.","total_count":1,"children":[]},{"name":"Permanent error — do not retry this provider.     Raised for: 400 bad request, 4","total_count":1,"children":[]},{"name":"Send a cheap request to reset cache TTL.         Use count_tokens internally. Si","total_count":1,"children":[]},{"name":"Transient error — retry or switch provider.     Raised for: 429 rate limit, 503","total_count":1,"children":[]},{"name":"warm_cache()","total_count":1,"children":[]}]},{"name":"deepseek.py","total_count":6,"children":[{"name":".__init__()","total_count":1,"children":[]},{"name":".count_tokens()","total_count":1,"children":[]},{"name":".generate_content()","total_count":1,"children":[]},{"name":".initialize()","total_count":1,"children":[]},{"name":".warm_cache()","total_count":1,"children":[]},{"name":"DeepSeekProvider","total_count":1,"children":[]}]},{"name":"gemini.py","total_count":6,"children":[{"name":".__init__()","total_count":1,"children":[]},{"name":".count_tokens()","total_count":1,"children":[]},{"name":".generate_content()","total_count":1,"children":[]},{"name":".initialize()","total_count":1,"children":[]},{"name":".warm_cache()","total_count":1,"children":[]},{"name":"GeminiProvider","total_count":1,"children":[]}]},{"name":"router.py","total_count":12,"children":[{"name":".__init__()","total_count":1,"children":[]},{"name":"._calculate_cost()","total_count":1,"children":[]},{"name":"._get_provider()","total_count":1,"children":[]},{"name":"._warm_cache_if_needed()","total_count":1,"children":[]},{"name":".call()","total_count":1,"children":[]},{"name":".count_tokens()","total_count":1,"children":[]},{"name":"Calculate cost in USD from token counts.","total_count":1,"children":[]},{"name":"Call providers in waterfall order.         Retry each with exponential backoff b","total_count":1,"children":[]},{"name":"Count tokens using first available provider.","total_count":1,"children":[]},{"name":"Lazy initialize provider on first use.","total_count":1,"children":[]},{"name":"ProviderRouter","total_count":1,"children":[]},{"name":"Reset cache TTL if approaching expiry.","total_count":1,"children":[]}]},{"name":"__init__.py","total_count":1,"children":[]}]},{"name":"stages","total_count":65,"children":[{"name":"audit.py","total_count":2,"children":[{"name":"AUDIT — Verify every inventory item has ≥1 question.      Input: config.interim_","total_count":1,"children":[]},{"name":"run()","total_count":1,"children":[]}]},{"name":"consolidate.py","total_count":6,"children":[{"name":"_parse_and_validate_json()","total_count":1,"children":[]},{"name":"_save_error_response()","total_count":1,"children":[]},{"name":"CONSOLIDATE — Transform raw SURVEY concepts into clean structured inventory.","total_count":1,"children":[]},{"name":"Parse and validate JSON response from Haiku.","total_count":1,"children":[]},{"name":"run()","total_count":1,"children":[]},{"name":"Save raw response for debugging when parsing fails.","total_count":1,"children":[]}]},{"name":"deliver.py","total_count":4,"children":[{"name":"_write_csv()","total_count":1,"children":[]},{"name":"DELIVER — Write final CSV files per chapter and per book.      Input: config.int","total_count":1,"children":[]},{"name":"run()","total_count":1,"children":[]},{"name":"Write questions to CSV with tilde delimiter.","total_count":1,"children":[]}]},{"name":"excavate.py","total_count":6,"children":[{"name":"_is_in_inventory()","total_count":1,"children":[]},{"name":"_parse_batch_response()","total_count":1,"children":[]},{"name":"Check if text already exists in concept inventory.","total_count":1,"children":[]},{"name":"EXCAVATE — Build prerequisite chains per concept using batching.      Input: con","total_count":1,"children":[]},{"name":"Parse batch response from Sonnet (array of concept objects).","total_count":1,"children":[]},{"name":"run()","total_count":1,"children":[]}]},{"name":"forge.py","total_count":8,"children":[{"name":"_load_profile()","total_count":1,"children":[]},{"name":"_parse_forge_response()","total_count":1,"children":[]},{"name":"_sanitize_json_strings()","total_count":1,"children":[]},{"name":"_save_error_response()","total_count":1,"children":[]},{"name":"Fix literal newlines and tabs inside JSON string values.     Haiku sometimes out","total_count":1,"children":[]},{"name":"FORGE — Generate all MCQs across all 7 layers.      Input: config.interim_dir/ex","total_count":1,"children":[]},{"name":"Parse forge response from Haiku.","total_count":1,"children":[]},{"name":"run()","total_count":1,"children":[]}]},{"name":"ingest.py","total_count":8,"children":[{"name":"_detect_exam()","total_count":1,"children":[]},{"name":"_extract_metadata_chapter()","total_count":1,"children":[]},{"name":"_extract_metadata_full_book()","total_count":1,"children":[]},{"name":"Detect exam type from subject prefix.","total_count":1,"children":[]},{"name":"Extract metadata from chapter PDF in subdirectory.","total_count":1,"children":[]},{"name":"Extract metadata from full book PDF.","total_count":1,"children":[]},{"name":"INGEST — Read PDF filenames, extract metadata.      Input: PDF files in cfg.raw_","total_count":1,"children":[]},{"name":"run()","total_count":1,"children":[]}]},{"name":"mint.py","total_count":4,"children":[{"name":"_jaccard_similarity()","total_count":1,"children":[]},{"name":"Calculate Jaccard similarity between two sets.","total_count":1,"children":[]},{"name":"MINT — Deduplicate questions using Jaccard similarity.      Input: config.interi","total_count":1,"children":[]},{"name":"run()","total_count":1,"children":[]}]},{"name":"parse.py","total_count":10,"children":[{"name":"_extract_chapters_from_toc()","total_count":1,"children":[]},{"name":"_extract_pdf_text()","total_count":1,"children":[]},{"name":"_extract_single_chapter()","total_count":1,"children":[]},{"name":"_split_chapter_into_sections()","total_count":1,"children":[]},{"name":"Extract chapters using table of contents.","total_count":1,"children":[]},{"name":"Extract entire PDF as single chapter.","total_count":1,"children":[]},{"name":"Extract text from PDF pages.","total_count":1,"children":[]},{"name":"PARSE — Extract text from PDFs and split into sections.      Input: config.inter","total_count":1,"children":[]},{"name":"run()","total_count":1,"children":[]},{"name":"Split chapter into sections of roughly 3000 words at paragraph boundaries.","total_count":1,"children":[]}]},{"name":"patch.py","total_count":6,"children":[{"name":"_parse_patch_response()","total_count":1,"children":[]},{"name":"_sanitize_json_strings()","total_count":1,"children":[]},{"name":"Fix literal newlines and tabs inside JSON string values.     Haiku sometimes out","total_count":1,"children":[]},{"name":"Parse patch response from Haiku.","total_count":1,"children":[]},{"name":"PATCH — Generate targeted questions for gaps identified by AUDIT.      Input: co","total_count":1,"children":[]},{"name":"run()","total_count":1,"children":[]}]},{"name":"survey.py","total_count":6,"children":[{"name":"_load_profile()","total_count":1,"children":[]},{"name":"_parse_concepts()","total_count":1,"children":[]},{"name":"Load subject profile JSON based on exam type.","total_count":1,"children":[]},{"name":"Parse numbered concept list from Haiku response.","total_count":1,"children":[]},{"name":"run()","total_count":1,"children":[]},{"name":"SURVEY — Extract every surface concept from section text.      Input: config.int","total_count":1,"children":[]}]},{"name":"tier.py","total_count":4,"children":[{"name":"_parse_tier_response()","total_count":1,"children":[]},{"name":"Parse tier response from Haiku.","total_count":1,"children":[]},{"name":"run()","total_count":1,"children":[]},{"name":"TIER — Classify each concept: Simple/Medium/Complex.      Input: config.interim_","total_count":1,"children":[]}]},{"name":"__init__.py","total_count":1,"children":[]}]},{"name":"utils","total_count":66,"children":[{"name":"api.py","total_count":8,"children":[{"name":"Backward-compatible wrapper. Routes through Tier 1 waterfall.","total_count":1,"children":[]},{"name":"Backward-compatible wrapper. Routes through Tier 2 waterfall.","total_count":1,"children":[]},{"name":"Build concept batches that fit within token limits.      Uses token counting t","total_count":1,"children":[]},{"name":"build_batches()","total_count":1,"children":[]},{"name":"call_haiku()","total_count":1,"children":[]},{"name":"call_sonnet()","total_count":1,"children":[]},{"name":"Get a ProviderRouter for the given stage.","total_count":1,"children":[]},{"name":"get_router()","total_count":1,"children":[]}]},{"name":"db.py","total_count":39,"children":[{"name":".__init__()","total_count":1,"children":[]},{"name":"._init_schema()","total_count":1,"children":[]},{"name":"._stage_completed_unsafe()","total_count":1,"children":[]},{"name":".get_actionable_stages()","total_count":1,"children":[]},{"name":".get_all_chapters()","total_count":1,"children":[]},{"name":".get_chapter_cost_summary()","total_count":1,"children":[]},{"name":".get_chapter_id()","total_count":1,"children":[]},{"name":".get_pending_chapters()","total_count":1,"children":[]},{"name":".get_pipeline_summary()","total_count":1,"children":[]},{"name":".get_stage_status()","total_count":1,"children":[]},{"name":".increment_retry()","total_count":1,"children":[]},{"name":".init_stage_runs()","total_count":1,"children":[]},{"name":".log_api_call()","total_count":1,"children":[]},{"name":".set_chapter_status()","total_count":1,"children":[]},{"name":".set_stage_status()","total_count":1,"children":[]},{"name":".set_validation_status()","total_count":1,"children":[]},{"name":".stage_completed()","total_count":1,"children":[]},{"name":".update_cost_ledger()","total_count":1,"children":[]},{"name":".upsert_chapter()","total_count":1,"children":[]},{"name":"Create all tables if they don't exist.","total_count":1,"children":[]},{"name":"Increment retry_count and return new count.","total_count":1,"children":[]},{"name":"Initialize database manager and create tables if needed.","total_count":1,"children":[]},{"name":"Insert a row for every stage with status=pending if not exists.","total_count":1,"children":[]},{"name":"Insert or ignore chapter. Return chapter_id.","total_count":1,"children":[]},{"name":"Manages SQLite database operations for the pipeline.","total_count":1,"children":[]},{"name":"Return all chapters regardless of status.","total_count":1,"children":[]},{"name":"Return all chapters where status != completed and != failed.","total_count":1,"children":[]},{"name":"Return chapter_id for given pdf_path or None.","total_count":1,"children":[]},{"name":"Return full stage_runs row as dict or None.","total_count":1,"children":[]},{"name":"Return stages where:         - status = pending or failed         - previous sta","total_count":1,"children":[]},{"name":"Return total cost across all chapters all providers.","total_count":1,"children":[]},{"name":"Return total cost per provider for this chapter.","total_count":1,"children":[]},{"name":"Return True only if status=completed AND validation_status=passed.","total_count":1,"children":[]},{"name":"Return True only if status=completed AND validation_status=passed.         Calle","total_count":1,"children":[]},{"name":"SQLiteManager","total_count":1,"children":[]},{"name":"Update chapter status and completed_at if status=completed.","total_count":1,"children":[]},{"name":"Update stage status, timestamps, and error message.","total_count":1,"children":[]},{"name":"Update validation status and errors (serialize as JSON).","total_count":1,"children":[]},{"name":"Upsert cost_ledger — add to totals if exists, insert if not.","total_count":1,"children":[]}]},{"name":"validation.py","total_count":18,"children":[{"name":"._check_required_keys()","total_count":1,"children":[]},{"name":"._parse_json_output()","total_count":1,"children":[]},{"name":".validate_consolidate()","total_count":1,"children":[]},{"name":".validate_excavate()","total_count":1,"children":[]},{"name":".validate_forge()","total_count":1,"children":[]},{"name":".validate_patch()","total_count":1,"children":[]},{"name":".validate_survey()","total_count":1,"children":[]},{"name":".validate_tier()","total_count":1,"children":[]},{"name":"Parse JSON from AI output. Strip ```json fences if present.         Returns (par","total_count":1,"children":[]},{"name":"Return list of error strings for missing keys.","total_count":1,"children":[]},{"name":"StageValidator","total_count":1,"children":[]},{"name":"Validate CONSOLIDATE output: structured concept inventory.","total_count":1,"children":[]},{"name":"Validate EXCAVATE output: prerequisite chains.","total_count":1,"children":[]},{"name":"Validate FORGE output: generated MCQ questions.","total_count":1,"children":[]},{"name":"Validate PATCH output: gap-fill questions.","total_count":1,"children":[]},{"name":"Validate SURVEY output: raw text string with numbered concept list.","total_count":1,"children":[]},{"name":"Validate TIER output: tiered concept inventory.","total_count":1,"children":[]},{"name":"ValidationResult","total_count":1,"children":[]}]},{"name":"__init__.py","total_count":1,"children":[]}]},{"name":"validate.py","total_count":13,"children":[{"name":"check_input_file_exists()","total_count":1,"children":[]},{"name":"do_fix()","total_count":1,"children":[]},{"name":"format_stage_status()","total_count":1,"children":[]},{"name":"main()","total_count":1,"children":[]},{"name":"Print audit report for one chapter. Return 0 if passed, 1 if failures.","total_count":1,"children":[]},{"name":"Print detailed stage report for one chapter. Return (has_failures, failures_list","total_count":1,"children":[]},{"name":"Print full audit report. Return 0 if all passed, 1 if failures found.","total_count":1,"children":[]},{"name":"print_chapter_detail()","total_count":1,"children":[]},{"name":"print_chapter_report()","total_count":1,"children":[]},{"name":"print_full_report()","total_count":1,"children":[]},{"name":"Reset all failed stages to pending. Return count of resets.","total_count":1,"children":[]},{"name":"Return symbol and formatted status string.","total_count":1,"children":[]},{"name":"Return True if the input file for this stage exists and is non-zero.","total_count":1,"children":[]}]},{"name":"__init__.py","total_count":1,"children":[]}]},{"name":"run.py","total_count":2,"children":[{"name":"Main entry point for the pipeline.","total_count":1,"children":[]},{"name":"main()","total_count":1,"children":[]}]}]};
+
+    function transformData(jsonData) {
+        // Helper function to recursively build the children structure
+        function processNode(node, parentL1StageName) {
+            let displayName = node.name;
+            // Append total_count if it exists and is not already in the name
+            if (node.total_count !== undefined) {
+                if (!/\(Total Count: \d+\)$/.test(displayName)) {
+                    displayName += ` (Total Count: ${node.total_count})`;
+                }
+            }
+
+            const newNode = { name: displayName };
+
+            if (parentL1StageName === "Root") {
+                 newNode.originalStageName = node.name;
+            } else {
+                newNode.originalStageName = parentL1StageName;
+            }
+
+            if (node.children && node.children.length > 0) {
+                const stageNameToPass = (parentL1StageName === "Root") ? node.name : parentL1StageName;
+                newNode.children = node.children.map(child => processNode(child, stageNameToPass));
+            }
+
+            return newNode;
+        }
+
+        let rootDisplayName = jsonData.name;
+        if (jsonData.total_count !== undefined && !/\(Total Count: \d+\)$/.test(rootDisplayName)) {
+            rootDisplayName += ` (Total Count: ${jsonData.total_count})`;
+        }
+
+        return {
+            name: rootDisplayName,
+            originalStageName: "Root",
+            children: (jsonData.children || []).map(child => processNode(child, "Root"))
+        };
+    }
+
+    const treeData = transformData(initialJsonData);
+
+    // Auto-populated phaseColors: every depth-1 child of the root gets
+    // a stable colour from a bigger palette so all top-level dirs are
+    // distinguishable.
+    const PALETTE = [
+      ["#3498DB","#2980B9","#AED6F1"], ["#2ECC71","#27AE60","#A9DFBF"],
+      ["#E74C3C","#C0392B","#F5B7B1"], ["#9B59B6","#8E44AD","#D7BDE2"],
+      ["#F39C12","#D68910","#FAD7A0"], ["#1ABC9C","#117864","#A2D9CE"],
+      ["#34495E","#1B2631","#ABB2B9"], ["#E67E22","#BA4A00","#F5CBA7"],
+      ["#16A085","#0E6655","#A2D9CE"], ["#D35400","#A04000","#EDBB99"],
+      ["#7F8C8D","#566573","#D5DBDB"], ["#C0392B","#7B241C","#F5B7B1"],
+      ["#2E86C1","#1B4F72","#A9CCE3"], ["#28B463","#196F3D","#A9DFBF"],
+      ["#AF7AC5","#6C3483","#D2B4DE"],
+    ];
+    const phaseColors = { "Root": { fill: "#4A4A4A", stroke: "#333333", collapsedFill: "#6C757D" },
+                          "Default": { fill: "#BDC3C7", stroke: "#95A5A6", collapsedFill: "#ECF0F1" } };
+    (initialJsonData.children || []).forEach((c, i) => {
+      const pal = PALETTE[i % PALETTE.length];
+      phaseColors[c.name] = { fill: pal[0], stroke: pal[1], collapsedFill: pal[2] };
+    });
+
+    const levelSpecificPalettes = {
+      0: { fill: "#4A4A4A", stroke: "#333333", collapsedFill: "#6C757D" },
+      2: { fill: "#6ab04c", stroke: "#508a38", collapsedFill: "#a3d391" },
+      3: { fill: "#f0932b", stroke: "#d0730f", collapsedFill: "#f6c07e" },
+      4: { fill: "#be2edd", stroke: "#a01cb3", collapsedFill: "#e08bf2" },
+      5: { fill: "#00a8ff", stroke: "#007ac1", collapsedFill: "#74d2ff" },
+      6: { fill: "#e55039", stroke: "#c23620", collapsedFill: "#f09a8d" },
+      default: { fill: "#747d8c", stroke: "#57606f", collapsedFill: "#a4b0be" }
+    };
+
+    const svgElement = d3.select("#tree-svg");
+    const initialSvgWidth = +svgElement.attr("width");
+    const initialSvgHeight = +svgElement.attr("height");
+    const margin = { top: 40, right: 120, bottom: 80, left: 450 };
+    let width = initialSvgWidth - margin.left - margin.right;
+    let height = initialSvgHeight - margin.top - margin.bottom;
+    const duration = 500;
+    let nodeCounter = 0;
+    const g = svgElement.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+    const treemap = d3.tree().nodeSize([40, 0]);
+    let rootNode = d3.hierarchy(treeData, d => d.children);
+    rootNode.x0 = 0;
+    rootNode.y0 = 0;
+
+    if (rootNode.children) {
+      rootNode.children.forEach(d_child => {
+        if (d_child.children) { collapseBranch(d_child); }
+      });
+    }
+    updateTree(rootNode);
+
+    function collapseBranch(d) { if (d.children) { d._children = d.children; d._children.forEach(collapseBranch); d.children = null; } }
+    function expandBranch(d) { if (d._children) { d.children = d._children; d._children = null; } if (d.children) { d.children.forEach(expandBranch); } }
+    window.expandAll = () => { expandBranch(rootNode); updateTree(rootNode); };
+    window.collapseAll = () => { if (rootNode.children) { rootNode.children.forEach(collapseBranch); } updateTree(rootNode); };
+    window.resetView = () => { if (rootNode.children) { rootNode.children.forEach(d_child => { if (d_child.children || d_child._children) { collapseBranch(d_child); } }); } if (rootNode._children && !rootNode.children) { rootNode.children = rootNode._children; rootNode._children = null; } updateTree(rootNode); };
+
+    function updateTree(source) {
+      const treeLayoutData = treemap(rootNode);
+      let nodes = treeLayoutData.descendants();
+      let links = treeLayoutData.descendants().slice(1);
+
+      let minX = 0;
+      let maxX = 0;
+      if (nodes.length > 0) {
+        minX = d3.min(nodes, d => d.x);
+        maxX = d3.max(nodes, d => d.x);
+      }
+
+      let neededHeight = Math.max(initialSvgHeight, maxX - minX + margin.top + margin.bottom + 100);
+      svgElement.transition().duration(duration / 2).attr("height", neededHeight);
+      g.transition().duration(duration / 2).attr("transform", `translate(${margin.left},${margin.top - minX + 40})`);
+
+      nodes.forEach(d => { d.y = d.depth * 400; }); // Adjust horizontal separation if needed
+
+      const node = g.selectAll('g.node').data(nodes, d => d.id || (d.id = ++nodeCounter));
+      const nodeEnter = node.enter().append('g')
+        .attr('class', d => "node" + (d.children || d._children ? " node--internal" : " node--leaf") + (d._children ? " _children" : ""))
+        .attr('transform', d => `translate(${source.y0},${source.x0})`)
+        .on('click', (event, d) => { if (d.children) { d._children = d.children; d.children = null; } else if (d._children) { d.children = d._children; d._children = null; } updateTree(d); })
+        .style('cursor', d => (d.children || d._children) ? 'pointer' : 'default');
+
+      nodeEnter.append('circle').attr('r', 1e-6);
+
+      nodeEnter.append('text')
+        .attr('dy', '.35em')
+        .attr('x', d => d.children || d._children ? -14 : 14)
+        .attr('text-anchor', d => d.children || d._children ? 'end' : 'start')
+        .style("fill-opacity", 1e-6)
+        .call(wrapText, 380);
+
+      const nodeUpdate = nodeEnter.merge(node);
+      nodeUpdate.transition().duration(duration)
+        .attr('transform', d => `translate(${d.y},${d.x})`)
+        .attr('class', d => "node" + (d.children ? " node--internal" : " node--leaf") + (d._children ? " node--internal _children" : ""));
+
+      nodeUpdate.select('circle').attr('r', 8.5)
+        .style('fill', d => {
+            let palette;
+            if (d.depth === 0) {
+                palette = levelSpecificPalettes[0];
+            } else if (d.depth === 1) {
+                palette = phaseColors[d.data.originalStageName] || phaseColors.Default;
+            } else {
+                palette = levelSpecificPalettes[d.depth] || levelSpecificPalettes.default;
+            }
+            if (d._children) return palette.collapsedFill;
+            if (d.children) return palette.fill;
+            return "#fff";
+        })
+        .style('stroke', d => {
+            let palette;
+            if (d.depth === 0) {
+                palette = levelSpecificPalettes[0];
+            } else if (d.depth === 1) {
+                palette = phaseColors[d.data.originalStageName] || phaseColors.Default;
+            } else {
+                palette = levelSpecificPalettes[d.depth] || levelSpecificPalettes.default;
+            }
+            return palette.stroke;
+        });
+      nodeUpdate.select('text').style("fill-opacity", 1).call(wrapText, 380);
+
+      const nodeExit = node.exit().transition().duration(duration).attr('transform', d => `translate(${source.y},${source.x})`).remove();
+      nodeExit.select('circle').attr('r', 1e-6);
+      nodeExit.select('text').style('fill-opacity', 1e-6);
+
+      const link = g.selectAll('path.link').data(links, d => d.id);
+      const linkEnter = link.enter().insert('path', "g").attr('class', 'link').attr('d', d => { const o = { x: source.x0, y: source.y0 }; return diagonal(o, o); });
+
+      linkEnter.merge(link).transition().duration(duration).attr('d', d => diagonal(d, d.parent))
+        .style('stroke', d => {
+            const sourceNode = d.parent;
+            if (!sourceNode) return phaseColors.Default.stroke;
+            const l1AncestorName = sourceNode.data.originalStageName;
+            const colorPalette = phaseColors[l1AncestorName] || phaseColors.Default;
+            return colorPalette.stroke;
+        });
+      link.exit().transition().duration(duration).attr('d', d => { const o = { x: source.x, y: source.y }; return diagonal(o, o); }).remove();
+      nodes.forEach(d => { d.x0 = d.x; d.y0 = d.y; });
+    }
+
+    function diagonal(s, d) { return `M ${s.y} ${s.x} C ${(s.y + d.y) / 2} ${s.x}, ${(s.y + d.y) / 2} ${d.x}, ${d.y} ${d.x}`; }
+
+    function wrapText(textElements, maxWidth) {
+        const textPartColors = {
+            name: '#343a40',
+            count: '#0056b3'
+        };
+        const countRegex = /(\s\(Total Count: \d+\))$/;
+
+        textElements.each(function () {
+            const textD3 = d3.select(this);
+            const originalNodeText = textD3.datum().data.name;
+            const x = parseFloat(textD3.attr("x") || 0);
+            const initialDy = textD3.attr("dy");
+            const textAnchor = textD3.attr("text-anchor");
+            const lineHeight = 1.1;
+
+            textD3.text(null);
+
+            let namePart = originalNodeText;
+            let countPartText = "";
+
+            const countMatch = originalNodeText.match(countRegex);
+            if (countMatch && originalNodeText.endsWith(countMatch[0])) {
+                namePart = originalNodeText.substring(0, originalNodeText.length - countMatch[0].length).trim();
+                countPartText = countMatch[0].trim();
+            }
+
+            const tokens = [];
+            namePart.split(/\s+/).filter(Boolean).forEach(word => {
+                tokens.push({ text: word, type: 'name' });
+            });
+            if (countPartText) {
+                tokens.push({ text: countPartText, type: 'count' });
+            }
+
+            if (tokens.length === 0 && originalNodeText) {
+                tokens.push({ text: originalNodeText, type: 'name' });
+            }
+
+            let currentTspan = textD3.append("tspan").attr("x", x).attr("dy", initialDy);
+            if (textAnchor === "end") currentTspan.attr("text-anchor", "end");
+
+            let lineTokens = [];
+
+            for (let i = 0; i < tokens.length; i++) {
+                const tokenObj = tokens[i];
+
+                lineTokens.push(tokenObj);
+                currentTspan.text(lineTokens.map(t => t.text).join(" "));
+
+                if (currentTspan.node().getComputedTextLength() > maxWidth && lineTokens.length > 1) {
+                    lineTokens.pop();
+
+                    currentTspan.text(null);
+                    lineTokens.forEach((prevToken, idx) => {
+                        currentTspan.append("tspan")
+                            .text((idx > 0 ? " " : "") + prevToken.text)
+                            .style("fill", textPartColors[prevToken.type] || textPartColors.name)
+                            .style("font-weight", prevToken.type === 'count' ? "bold" : "normal");
+                    });
+
+                    lineTokens = [tokenObj];
+                    currentTspan = textD3.append("tspan").attr("x", x).attr("dy", lineHeight + "em");
+                    if (textAnchor === "end") currentTspan.attr("text-anchor", "end");
+                }
+            }
+
+            currentTspan.text(null);
+            lineTokens.forEach((token, idx) => {
+                currentTspan.append("tspan")
+                    .text((idx > 0 ? " " : "") + token.text)
+                    .style("fill", textPartColors[token.type] || textPartColors.name)
+                    .style("font-weight", token.type === 'count' ? "bold" : "normal");
+            });
+
+            if (textD3.selectAll("tspan > tspan").empty() && textD3.select("tspan").text().length === 0 && originalNodeText) {
+                let t = textD3.select("tspan");
+                let displayText = originalNodeText;
+                t.text(displayText).style("fill", textPartColors.name);
+                if (t.node() && t.node().getComputedTextLength() > maxWidth && displayText.length > 20) {
+                    let estimatedChars = Math.floor(maxWidth / (t.node().getComputedTextLength()/displayText.length) );
+                    displayText = displayText.substring(0, Math.max(0, estimatedChars - 3)) + "...";
+                    t.text(displayText);
+                }
+            }
+        });
+    }
+  </script>
+</body>
+</html>

@@ -130,17 +130,8 @@ ActiveRecall/
 | Session 5 | Async Producer-Consumer scheduler | Pending |
 
 ---
-
-## Session 2 Opening Prompt
-```
-Read active_recall_pipeline/config.py and active_recall_pipeline/utils/db.py only.
-Do not read any other files unless I ask.
-
-We are building the Active Recall Pipeline. Session 1 is complete.
-utils/db.py is done and audited — do not modify it.
-utils/api.py already exists — do not touch it.
-
-Session 2 task: build the Validation Layer.
-I will paste the full spec now.
-```
-Then paste SESSION_2_BUILD_PROMPT.md in full.
+## Debt 
+- run.py imports _extract_metadata_full_book/_extract_metadata_chapter 
+  from stages/ingest.py (private API) — fix when stages refactored
+- Metadata extraction runs twice (run.py + INGEST stage) — acceptable for Phase 1
+- _build_validation_context calls get_all_chapters() per stage — minor inefficiency

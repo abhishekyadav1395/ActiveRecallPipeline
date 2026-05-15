@@ -253,7 +253,7 @@ def main() -> int:
 
     args = parser.parse_args()
 
-    base_path = Path(__file__).parent.parent
+    base_path = Path(__file__).parent / "active_recall_pipeline"
     db = SQLiteManager(base_path / "data" / "pipeline.db")
 
     if args.fix:
