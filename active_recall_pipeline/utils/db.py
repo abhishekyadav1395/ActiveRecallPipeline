@@ -117,6 +117,7 @@ class SQLiteManager:
         input_mode: str,
     ) -> int:
         """Insert or ignore chapter. Return chapter_id."""
+        pdf_path = str(Path(pdf_path).resolve())
         with self._lock:
             with sqlite3.connect(self.db_path) as conn:
                 cursor = conn.cursor()
