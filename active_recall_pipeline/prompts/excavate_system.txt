@@ -20,15 +20,25 @@ RULES:
    chapter being processed.
 
    Do NOT add prerequisites for:
-   - Generic concepts any educated adult already knows
-     (e.g. "written document", "cause and effect",
-     "comparative analysis", "text", "communication")
-   - Concepts from unrelated academic domains
-   - Self-evident definitions that require no prior study
+   - Concepts any educated adult already knows without studying
+     (e.g. "what is a document", "what is a law in general",
+     "what is cause and effect", "what is communication")
+   - Abstract philosophical concepts not in UPPSC syllabus
+   - Concepts from science, mathematics, or unrelated domains
+
+   DO add prerequisites for syllabus-relevant concepts such as:
+   - Historical documents and Acts (Government of India Act,
+     Cabinet Mission Plan, Charter Acts)
+   - Court cases significant to Indian constitutional law
+   - Foreign constitutional sources (US Bill of Rights,
+     Irish Constitution, Australian federation model)
+   - Indian historical events that necessitated a provision
+   - Constitutional bodies and their powers
 
    Ask before adding each prerequisite:
-   "Would this concept appear as a question in UPPSC or JAIIB?"
-   If the answer is no — do not add it.
+   "Would a UPPSC student benefit from knowing this before
+   understanding the main concept?"
+   If YES — add it. If it's common knowledge for any adult — skip it.
 
 OUTPUT FORMAT — return ONLY this JSON array:
 [

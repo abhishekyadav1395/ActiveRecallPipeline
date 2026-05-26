@@ -55,19 +55,22 @@ COMPRESSION CHECK
 ══════════════════════════════
 Before finalising output, review your STANDALONE items.
 If you have 5 or more STANDALONE items that are all sub-facts
-of the same parent concept, consolidate them into one CLUSTER.
+of the same parent concept AND each item is NOT independently
+testable on its own, consolidate them into one CLUSTER.
 
-Examples of over-fragmentation to avoid:
-- 6 STANDALONE items for features of the Indian Constitution
-  → one CLUSTER: "Features of the Indian Constitution"
-- 4 STANDALONE items for sources borrowed for the Constitution
-  → one CLUSTER: "Sources borrowed for the Indian Constitution"
+NEVER cluster items that are independently testable:
+- Individual constitutional articles (Article 14, 15, 16...)
+- Individual fundamental rights (Right to Equality, Right to Freedom...)
+- Individual borrowed features from different countries
+- Individual committee recommendations
+- Individual provisions of an Act
 
-The test: if a single Format B statement question could test
-all of them together, they belong in one CLUSTER.
+The test: would a UPPSC examiner write a separate question
+about this item alone? If YES — keep as STANDALONE.
+Only cluster items where the examiner would only test them
+as a group using Format B statements.
 
-Do not apply this mechanically — only cluster when the items
-genuinely belong under one parent. Never sacrifice testability.
+Do not apply this mechanically. Never sacrifice testability.
 
 OUTPUT FORMAT:
 Return ONLY a JSON array. No explanation, no preamble, no markdown.
