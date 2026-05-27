@@ -13,6 +13,7 @@ from pathlib import Path
 class Stage(str, Enum):
     INGEST      = "INGEST"
     PARSE       = "PARSE"
+    SCOUT       = "SCOUT"
     SURVEY      = "SURVEY"
     CONSOLIDATE = "CONSOLIDATE"
     TIER        = "TIER"
@@ -27,6 +28,7 @@ class Stage(str, Enum):
 STAGE_ORDER: list[Stage] = [
     Stage.INGEST,
     Stage.PARSE,
+    Stage.SCOUT,
     Stage.SURVEY,
     Stage.CONSOLIDATE,
     Stage.TIER,
@@ -65,6 +67,7 @@ TIER_2_WATERFALL: list[Provider] = [
 STAGE_TIERS: dict[str, int] = {
     "INGEST":      0,
     "PARSE":       0,
+    "SCOUT":       1,
     "SURVEY":      1,
     "CONSOLIDATE": 1,
     "TIER":        1,

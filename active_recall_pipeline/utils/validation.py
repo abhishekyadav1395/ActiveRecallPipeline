@@ -37,6 +37,62 @@ class StageValidator:
         return [f"Item {item_index}: missing key '{k}'" for k in sorted(missing)]
 
     # ─────────────────────────────────────────────────────────────────
+    # SCOUT
+    # ─────────────────────────────────────────────────────────────────
+    def validate_scout(self, output: dict, context: dict) -> ValidationResult:
+        """Validate SCOUT output (Chapter Intelligence Document). Fatal on failure."""
+        errors = []
+
+        if not isinstance(output, dict):
+            return ValidationResult(passed=False, errors=["Output is not a dict"])
+
+        required_fields = {
+            "chapter_title",
+            "primary_domain",
+            "structural_type",
+            "core_entities",
+            "dominant_themes",
+            "concept_density",
+            "scope_boundary",
+            "natural_clusters",
+        }
+
+        missing = required_fields - set(output.keys())
+        if missing:
+            errors.append(f"Missing required fields: {sorted(missing)}")
+
+        if not output.get("chapter_title") or not str(output.get("chapter_title", "")).strip():
+            errors.append("chapter_title is empty")
+
+        if not output.get("primary_domain") or not str(output.get("primary_domain", "")).strip():
+            errors.append("primary_domain is empty")
+
+        if not output.get("structural_type") or not str(output.get("structural_type", "")).strip():
+            errors.append("structural_type is empty")
+
+        if not isinstance(output.get("core_entities"), list):
+            errors.append("core_entities must be a list")
+        elif not output.get("core_entities"):
+            errors.append("core_entities is empty")
+
+        if not isinstance(output.get("dominant_themes"), list):
+            errors.append("dominant_themes must be a list")
+        elif not output.get("dominant_themes"):
+            errors.append("dominant_themes is empty")
+
+        concept_density = output.get("concept_density")
+        if concept_density not in ("low", "medium", "high"):
+            errors.append(f"concept_density must be 'low', 'medium', or 'high', got '{concept_density}'")
+
+        if not output.get("scope_boundary") or not str(output.get("scope_boundary", "")).strip():
+            errors.append("scope_boundary is empty")
+
+        if not isinstance(output.get("natural_clusters"), list):
+            errors.append("natural_clusters must be a list")
+
+        return ValidationResult(passed=len(errors) == 0, errors=errors, warnings=[])
+
+    # ─────────────────────────────────────────────────────────────────
     # SURVEY
     # ─────────────────────────────────────────────────────────────────
     def validate_survey(self, output: list, context: dict) -> ValidationResult:

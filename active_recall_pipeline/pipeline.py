@@ -9,6 +9,7 @@ from pathlib import Path
 from active_recall_pipeline.config import PipelineConfig, Stage, STAGE_ORDER
 from active_recall_pipeline.stages.ingest import run as ingest_run
 from active_recall_pipeline.stages.parse import run as parse_run
+from active_recall_pipeline.stages.scout import run as scout_run
 from active_recall_pipeline.stages.survey import run as survey_run
 from active_recall_pipeline.stages.consolidate import run as consolidate_run
 from active_recall_pipeline.stages.tier import run as tier_run
@@ -28,6 +29,7 @@ logger = logging.getLogger(__name__)
 STAGE_RUNNERS: dict[Stage, type] = {
     Stage.INGEST: ingest_run,
     Stage.PARSE: parse_run,
+    Stage.SCOUT: scout_run,
     Stage.SURVEY: survey_run,
     Stage.CONSOLIDATE: consolidate_run,
     Stage.TIER: tier_run,
@@ -42,6 +44,7 @@ STAGE_RUNNERS: dict[Stage, type] = {
 INTERIM_FILES = {
     "INGEST": "ingest_metadata.json",
     "PARSE": "parsed_sections.json",
+    "SCOUT": "chapter_profile.json",
     "SURVEY": "survey_concepts.json",
     "CONSOLIDATE": "consolidated_concepts.json",
     "TIER": "tiered_concepts.json",
@@ -53,6 +56,7 @@ INTERIM_FILES = {
 }
 
 VALIDATED_STAGES = {
+    Stage.SCOUT,
     Stage.SURVEY,
     Stage.CONSOLIDATE,
     Stage.TIER,
@@ -223,7 +227,9 @@ class PipelineOrchestrator:
         context = self._build_validation_context(chapter_id, stage)
 
         # Call the appropriate validator
-        if stage == Stage.SURVEY:
+        if stage == Stage.SCOUT:
+            result = self.validator.validate_scout(output, context)
+        elif stage == Stage.SURVEY:
             result = self.validator.validate_survey(output, context)
         elif stage == Stage.CONSOLIDATE:
             result = self.validator.validate_consolidate(output, context)

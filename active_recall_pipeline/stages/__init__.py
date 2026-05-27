@@ -1,5 +1,6 @@
 from .ingest      import run as ingest
 from .parse       import run as parse
+from .scout       import run as scout
 from .survey      import run as survey
 from .consolidate import run as consolidate
 from .tier        import run as tier
@@ -15,6 +16,7 @@ from active_recall_pipeline.config import Stage
 STAGE_RUNNERS = {
     Stage.INGEST:      ingest,
     Stage.PARSE:       parse,
+    Stage.SCOUT:       scout,
     Stage.SURVEY:      survey,
     Stage.CONSOLIDATE: consolidate,
     Stage.TIER:        tier,

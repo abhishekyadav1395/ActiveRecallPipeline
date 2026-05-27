@@ -100,6 +100,15 @@ class SQLiteManager:
                     )
                 """)
 
+                # Chapter profiles table
+                cursor.execute("""
+                    CREATE TABLE IF NOT EXISTS chapter_profiles (
+                        chapter_id INTEGER PRIMARY KEY REFERENCES chapters(id),
+                        profile_json TEXT NOT NULL,
+                        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                    )
+                """)
+
                 conn.commit()
 
     # =========================================================================
@@ -189,6 +198,39 @@ class SQLiteManager:
                 cursor.execute("SELECT * FROM chapters")
 
                 return [dict(row) for row in cursor.fetchall()]
+
+    def upsert_chapter_profile(self, chapter_id: int, profile: dict) -> None:
+        """Insert or replace chapter profile (CID) for a chapter."""
+        with self._lock:
+            with sqlite3.connect(self.db_path) as conn:
+                cursor = conn.cursor()
+                profile_json = json.dumps(profile)
+                cursor.execute(
+                    """
+                    INSERT OR REPLACE INTO chapter_profiles
+                    (chapter_id, profile_json, created_at)
+                    VALUES (?, ?, CURRENT_TIMESTAMP)
+                    """,
+                    (chapter_id, profile_json),
+                )
+                conn.commit()
+
+    def get_chapter_profile(self, chapter_id: int) -> dict | None:
+        """Return chapter profile (CID) for given chapter_id or None."""
+        with self._lock:
+            with sqlite3.connect(self.db_path) as conn:
+                cursor = conn.cursor()
+                cursor.execute(
+                    "SELECT profile_json FROM chapter_profiles WHERE chapter_id = ?",
+                    (chapter_id,)
+                )
+                result = cursor.fetchone()
+                if result:
+                    try:
+                        return json.loads(result[0])
+                    except json.JSONDecodeError:
+                        return None
+                return None
 
     # =========================================================================
     # Stage methods

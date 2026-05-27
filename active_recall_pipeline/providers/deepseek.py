@@ -67,7 +67,7 @@ class DeepSeekProvider(BaseProvider):
             output_tokens = response.usage.completion_tokens
 
             provider_name = (
-                "deepseek_v3" if "chat" in self.model
+                "deepseek_v3" if "flash" in self.model or "chat" in self.model
                 else "deepseek_r1"
             )
 

@@ -1,0 +1,3 @@
+Claude Prompt for ActiveRecallPipeline in Comet at 13:10 on 27-5-26
+
+Lets Leave audit as it is it was ment to audit only forge, Agree about rest of the changes except this "single atomic testable assertion" it should also be in the scope of the chapter while testing polity it should not start testing what is a legal document, and I also agree on Domain Specific Extraction i believe there should be one extra stage to give context to every stage probably a master stage or it could just give context at the start of the pipeline before survey(You suggest the approach and impacts precision wise and cost wise). This would also make the pipeline more Portable fit for UPSC,JAIIB,Independent exams whichever the user chooses

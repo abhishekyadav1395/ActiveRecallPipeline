@@ -13,6 +13,7 @@ from active_recall_pipeline.utils.db import SQLiteManager
 INTERIM = {
     "INGEST":      "ingest_metadata.json",
     "PARSE":       "parsed_sections.json",
+    "SCOUT":       "chapter_profile.json",
     "SURVEY":      "survey_concepts.json",
     "CONSOLIDATE": "consolidated_concepts.json",
     "TIER":        "tiered_concepts.json",
