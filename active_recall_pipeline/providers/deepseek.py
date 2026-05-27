@@ -67,8 +67,8 @@ class DeepSeekProvider(BaseProvider):
             output_tokens = response.usage.completion_tokens
 
             provider_name = (
-                "deepseek_v3" if "flash" in self.model or "chat" in self.model
-                else "deepseek_r1"
+                "deepseek_r1" if "r1" in self.model or "reasoner" in self.model
+                else "deepseek_v4"
             )
 
             return LLMResponse(

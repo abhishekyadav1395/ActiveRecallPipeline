@@ -71,9 +71,10 @@ def run(cfg: PipelineConfig) -> None:
             )
 
             # Chunk concepts into groups of 30, then build batches for each chunk
-            concept_chunks = []
-            for i in range(0, len(section["concepts"]), 30):
-                concept_chunks.append(section["concepts"][i:i+30])
+            concept_chunks = [
+                section["concepts"][i:i+30]
+                for i in range(0, len(section["concepts"]), 30)
+            ]
 
             all_batches = []
             for chunk in concept_chunks:

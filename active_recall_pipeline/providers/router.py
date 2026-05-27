@@ -26,7 +26,7 @@ PROVIDER_MODELS = {
     Provider.ANTHROPIC_SONNET: "claude-sonnet-4-5",
     Provider.GEMINI_FLASH: "gemini-2.5-flash-preview-05-20",
     Provider.GEMINI_PRO: "gemini-2.5-pro-preview-05-06",
-    Provider.DEEPSEEK_V3: "deepseek-v4-flash",
+    Provider.DEEPSEEK_V4: "deepseek-v4-flash",
     Provider.DEEPSEEK_R1: "deepseek-v4-pro",
 }
 
@@ -35,7 +35,7 @@ PROVIDER_CLASSES = {
     Provider.ANTHROPIC_SONNET: AnthropicProvider,
     Provider.GEMINI_FLASH: GeminiProvider,
     Provider.GEMINI_PRO: GeminiProvider,
-    Provider.DEEPSEEK_V3: DeepSeekProvider,
+    Provider.DEEPSEEK_V4: DeepSeekProvider,
     Provider.DEEPSEEK_R1: DeepSeekProvider,
 }
 
