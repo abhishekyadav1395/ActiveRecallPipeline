@@ -152,11 +152,13 @@ class PipelineOrchestrator:
                             return False
 
             # Call stage runner
-            # Inject db_logger and chapter_id so stages can log API costs
+            # Inject db_logger, chapter_id, and context_preamble (CID context)
+            cid_preamble = self._build_cid_preamble(chapter_id, stage)
             stage_cfg = dataclasses.replace(
                 self.cfg,
                 db_logger=self.db,
                 chapter_id=chapter_id,
+                context_preamble=cid_preamble,
             )
             runner = STAGE_RUNNERS[stage]
             runner(stage_cfg)
@@ -329,3 +331,56 @@ class PipelineOrchestrator:
         except json.JSONDecodeError as e:
             logger.error("Failed to parse %s: %s", filename, e)
             return None
+
+    def _load_chapter_profile(self, chapter_id: int) -> dict | None:
+        """Load chapter profile (CID) from interim file or database."""
+        profile_path = self.cfg.interim_dir / "chapter_profile.json"
+        if profile_path.exists() and profile_path.stat().st_size > 0:
+            try:
+                return json.loads(profile_path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                pass
+        if self.db:
+            return self.db.get_chapter_profile(chapter_id)
+        return None
+
+    def _build_cid_preamble(self, chapter_id: int, stage: Stage) -> str:
+        """Build formatted CID context preamble for a stage. Return empty string if no CID."""
+        profile = self._load_chapter_profile(chapter_id)
+        if not profile:
+            return ""
+
+        # Define which CID fields each stage receives
+        cid_slices: dict[Stage, list[str]] = {
+            Stage.SURVEY:      ["scope_boundary", "primary_domain"],
+            Stage.CONSOLIDATE: ["scope_boundary", "structural_type", "natural_clusters"],
+            Stage.EXCAVATE:    ["scope_boundary", "core_entities"],
+            Stage.FORGE:       ["chapter_title", "primary_domain", "structural_type",
+                               "core_entities", "dominant_themes", "concept_density",
+                               "scope_boundary", "natural_clusters"],
+            Stage.PATCH:       ["core_entities", "dominant_themes"],
+            Stage.AUDIT:       [],  # Audit gets no CID intentionally
+        }
+
+        fields = cid_slices.get(stage, [])
+        if not fields:
+            return ""
+
+        # Format each field
+        lines = []
+        for field in fields:
+            value = profile.get(field)
+            if value is None:
+                continue
+            if isinstance(value, list):
+                value = ", ".join(str(v) for v in value)
+            elif isinstance(value, dict):
+                value = json.dumps(value)
+            else:
+                value = str(value)
+            lines.append(f"  {field}: {value}")
+
+        if not lines:
+            return ""
+
+        return "=== CHAPTER CONTEXT ===\n" + "\n".join(lines) + "\n=== END CONTEXT ===\n"

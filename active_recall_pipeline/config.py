@@ -160,6 +160,13 @@ class ParseConfig:
 
 
 @dataclass
+class ScoutConfig:
+    """Generate Chapter Intelligence Document (CID). Model: Claude Haiku."""
+    model: str = "claude-3-5-haiku-20241022"
+    prompt_file: Path = field(default_factory=lambda: PROMPTS_DIR / "scout_system.txt")
+
+
+@dataclass
 class SurveyConfig:
     """Extract every surface concept from section text. Model: Claude Haiku."""
     model: str = "claude-3-5-haiku-20241022"
@@ -289,6 +296,7 @@ class PipelineConfig:
     # Per-stage configs
     ingest:      IngestConfig      = field(default_factory=IngestConfig)
     parse:       ParseConfig       = field(default_factory=ParseConfig)
+    scout:       ScoutConfig       = field(default_factory=ScoutConfig)
     survey:      SurveyConfig      = field(default_factory=SurveyConfig)
     consolidate: ConsolidateConfig = field(default_factory=ConsolidateConfig)
     tier:        TierConfig        = field(default_factory=TierConfig)
@@ -297,6 +305,9 @@ class PipelineConfig:
     audit:       AuditConfig       = field(default_factory=AuditConfig)
     patch:       PatchConfig       = field(default_factory=PatchConfig)
     mint:        MintConfig        = field(default_factory=MintConfig)
+
+    # CID context — populated by PipelineOrchestrator at runtime
+    context_preamble: str = ""
     deliver:     DeliverConfig     = field(default_factory=DeliverConfig)
 
     def __post_init__(self) -> None:
