@@ -70,24 +70,29 @@ def run(cfg: PipelineConfig) -> None:
                 f"All other STANDALONE concepts → start at Layer 2 Surface."
             )
 
-            # Build batches — split by both input and output limits
-            batches = build_batches(
-                concepts=section["concepts"],
-                system_prompt=system_prompt,
-                user_prompt_template=user_prompt_template,
-                placeholder="{{INVENTORY}}",
-                model=DEFAULT_CONFIG.model_haiku,
-                tokens_per_output_item=600,
-            )
+            # Chunk concepts into groups of 30, then build batches for each chunk
+            concept_chunks = []
+            for i in range(0, len(section["concepts"]), 30):
+                concept_chunks.append(section["concepts"][i:i+30])
 
-            logger.info(
-                f"Section {section['section_id']}: "
-                f"{len(section['concepts'])} concepts → {len(batches)} batches"
-            )
+            all_batches = []
+            for chunk in concept_chunks:
+                batches = build_batches(
+                    concepts=chunk,
+                    system_prompt=system_prompt,
+                    user_prompt_template=user_prompt_template,
+                    placeholder="{{INVENTORY}}",
+                    model=DEFAULT_CONFIG.model_haiku,
+                    tokens_per_output_item=600,
+                )
+                all_batches.extend(batches)
+
+            batches = all_batches
 
             section_questions = []
+            batch_num = 0
 
-            for batch_num, batch in enumerate(batches):
+            for batch in batches:
                 response = None
                 try:
                     batch_json = json.dumps(batch, indent=2)
@@ -120,9 +125,22 @@ def run(cfg: PipelineConfig) -> None:
                         )
                     continue
 
+                batch_num += 1
+
+            # Deduplicate by q_id
+            seen_q_ids = set()
+            deduped_questions = []
+            for q in section_questions:
+                q_id = q.get("q_id")
+                if q_id not in seen_q_ids:
+                    deduped_questions.append(q)
+                    seen_q_ids.add(q_id)
+
+            section_questions = deduped_questions
+
             logger.info(
                 f"Section {section['section_id']}: "
-                f"{len(section_questions)} questions generated"
+                f"{len(section['concepts'])} concepts → {len(concept_chunks)} chunks → {len(section_questions)} questions generated"
             )
             all_questions.extend(section_questions)
 

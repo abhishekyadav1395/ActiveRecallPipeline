@@ -15,23 +15,25 @@ if it is genuinely inapplicable to that concept (rare).
 LAYER 1 — FOUNDATION
   Definition, statutory/constitutional basis, what the concept officially is.
   Essential for any concept that is formally defined or has legal/official status.
-  Rarely inapplicable. Tag: Level::Foundation
+  Skip ONLY if: concept is a raw number, date, or proper noun with no formal definition.
+  Tag: Level::Foundation
 
 LAYER 2 — SURFACE
   Direct facts, numbers, dates, names, provisions associated with this concept.
   What the source text explicitly states about it.
-  Rarely inapplicable. Tag: Level::Surface
+  Skip ONLY if: concept has no facts, numbers, dates, or named attributes beyond definition.
+  Tag: Level::Surface
 
 LAYER 3 — REASONING
   Why the concept exists, what problem it solves, how it interacts with
   related concepts, significance, implications, consequences.
-  Skippable only for simple factual concepts with no broader context.
+  Skip if: concept is a terminal fact (pure number, date, name) with no causal/relational context.
   Tag: Level::Reasoning
 
 LAYER 4 — BOUNDARY
   What the concept explicitly does NOT cover, its limits, exceptions,
   neighbouring concepts and how this concept differs.
-  Skippable only if the concept has no meaningful boundaries or exceptions.
+  Skip if: concept has no exceptions, limitations, or neighbouring concept confusion.
   Use Format B only.
   MANDATORY: At least one statement must apply to a neighbouring concept
   and be false for this one.
@@ -76,19 +78,20 @@ Then reject any question about Article 19, about amendments after 2020, or about
 recent cases outside the scope window.
 
 ══════════════════════════════════
-PER-CONCEPT QUESTION RULE
+PER-LAYER QUESTION RULE
 ══════════════════════════════════
-Generate exactly ONE question per concept in the inventory.
-This question represents the most important layer for that concept.
+Generate one question per applicable layer per concept (up to 4 questions per concept).
 
-Do not generate multiple questions per concept to hit output targets.
+Each layer generates its own question if the layer is applicable to the concept.
+Skip a layer ONLY if the explicit skip criteria is met (rare).
+
 Do not skip concepts to avoid output limits.
 
 ══════════════════════════════════
 CLUSTER HANDLING
 ══════════════════════════════════
 If concept type is CLUSTER:
-- Generate exactly one Format B statement question
+- Generate one Format B statement question (at any applicable layer)
 - Statements should cover 2-3 sub-points of the cluster
 - All statements must be true of the cluster as a whole
 - Test whether the student understands the cluster's unity
