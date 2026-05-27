@@ -34,6 +34,9 @@ def run(cfg: PipelineConfig) -> None:
     with open(system_file, encoding="utf-8") as f:
         system_template = f.read()
 
+    # Prepend CID context preamble if available
+    system_prompt = (cfg.context_preamble + "\n" + system_template).strip()
+
     consolidated_results = []
 
     for section in survey_results:
@@ -59,7 +62,7 @@ def run(cfg: PipelineConfig) -> None:
             )
 
             # Call Haiku
-            response = call_haiku(system_template, user_prompt, stage="CONSOLIDATE", cfg=cfg, db_logger=cfg.db_logger, chapter_id=cfg.chapter_id)
+            response = call_haiku(system_prompt, user_prompt, stage="CONSOLIDATE", cfg=cfg, db_logger=cfg.db_logger, chapter_id=cfg.chapter_id)
 
             # Parse JSON response
             concepts = _parse_and_validate_json(response)

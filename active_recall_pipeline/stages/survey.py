@@ -62,6 +62,8 @@ def run(cfg: PipelineConfig) -> None:
                 "{{DOMAIN_SPECIFIC_EXTRACTION}}",
                 profile["survey_addition"]
             )
+            # Prepend CID context preamble if available
+            system_prompt = (cfg.context_preamble + "\n" + system_prompt).strip()
 
             # Build user prompt with template replacements
             user_prompt = (

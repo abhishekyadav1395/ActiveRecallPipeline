@@ -53,6 +53,8 @@ def run(cfg: PipelineConfig) -> None:
             system_prompt = system_template.replace(
                 "{{LINEAGE_GUIDANCE}}", profile["forge_lineage"]
             )
+            # Prepend CID context preamble if available
+            system_prompt = (cfg.context_preamble + "\n" + system_prompt).strip()
 
             section_text = parsed_by_id.get(section["section_id"], "")
 

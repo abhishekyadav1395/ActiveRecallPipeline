@@ -31,6 +31,9 @@ def run(cfg: PipelineConfig) -> None:
     with open(system_file, encoding="utf-8") as f:
         system_prompt = f.read()
 
+    # Prepend CID context preamble if available
+    system_prompt = (cfg.context_preamble + "\n" + system_prompt).strip()
+
     excavated_sections = []
 
     for section in sections:
