@@ -10,18 +10,18 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\validate.py": {
-    "mtime": 1778348665.067216,
-    "ast_hash": "37ef00a08c05df4f2fe832cd103b24b1",
+    "mtime": 1779876335.1832175,
+    "ast_hash": "d304f863bd59cc888a282a5476f32211",
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\config.py": {
-    "mtime": 1778414032.2214983,
-    "ast_hash": "11d35fe7baff5f84de3ca3dfcdcc7cc4",
+    "mtime": 1779876612.4426818,
+    "ast_hash": "332be68211a458a416954aa97478a5b5",
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\pipeline.py": {
-    "mtime": 1778844088.168784,
-    "ast_hash": "41cbe21cb1dda9eac99fa29f11edc2aa",
+    "mtime": 1779876619.4038033,
+    "ast_hash": "5a51cc34f00540780ae357a258743bd8",
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\scheduler.py": {
@@ -75,8 +75,8 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\consolidate.py": {
-    "mtime": 1778412536.012093,
-    "ast_hash": "c324f97f00ee678064f8e58c8e09520b",
+    "mtime": 1779876920.144593,
+    "ast_hash": "d86fbc724fa8fcbccf551ec475275913",
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\deliver.py": {
@@ -85,13 +85,13 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\excavate.py": {
-    "mtime": 1778412547.2807484,
-    "ast_hash": "6f0f2ae0eeff39b17b71f19a82a0b45c",
+    "mtime": 1779876929.7920294,
+    "ast_hash": "fd9d076fb275844fb5bcb031c647961c",
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\forge.py": {
-    "mtime": 1778434649.5659406,
-    "ast_hash": "ed5eac5c596f929b7b1f4b161b2bd497",
+    "mtime": 1779876940.8203695,
+    "ast_hash": "395e5e38fa7e28284518e1858442af03",
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\ingest.py": {
@@ -110,13 +110,13 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\patch.py": {
-    "mtime": 1778434634.9138348,
-    "ast_hash": "8f857d55633e8b8c1820694c7656e546",
+    "mtime": 1779876953.5583994,
+    "ast_hash": "9b8ab875b848e70dac8cb7283fe087a0",
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\survey.py": {
-    "mtime": 1778412532.4104984,
-    "ast_hash": "7fb6a9f8e49116c762d059fad3fb8ab1",
+    "mtime": 1779876900.3853438,
+    "ast_hash": "4e27dae9be65960182b8c71e873ec314",
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\tier.py": {
@@ -125,8 +125,8 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\__init__.py": {
-    "mtime": 1777276433.1463861,
-    "ast_hash": "530da375a617f7633912bda27294ece4",
+    "mtime": 1779876267.1943023,
+    "ast_hash": "febb378237c9daf8ed6a095f1bc9bd64",
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\utils\\api.py": {
@@ -135,13 +135,13 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\utils\\db.py": {
-    "mtime": 1779255988.3565495,
-    "ast_hash": "ce466466a66fcc1822d184de86b47933",
+    "mtime": 1779876196.6386611,
+    "ast_hash": "41d80d0e880a1238dee783f3edf7f680",
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\utils\\validation.py": {
-    "mtime": 1778844083.6579964,
-    "ast_hash": "ad1a4f086f2f1faee05b76f4a8eca721",
+    "mtime": 1779876216.6230347,
+    "ast_hash": "8db691b061b977dc7337495a9b434444",
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\utils\\__init__.py": {
@@ -170,8 +170,8 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\prompts\\consolidate_system.txt": {
-    "mtime": 1779809837.1270664,
-    "ast_hash": "f7b7728f9d6c192d080ea48da04fe4a9",
+    "mtime": 1779877037.3226113,
+    "ast_hash": "628a2a5955212e39475da4deadb0f051",
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\prompts\\excavate_system.txt": {
@@ -180,8 +180,8 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\prompts\\forge_system.txt": {
-    "mtime": 1777459238.2374883,
-    "ast_hash": "27847858b3811c7be3b4988a8d71633e",
+    "mtime": 1779877073.3051257,
+    "ast_hash": "8f2f66136e9a5f8f2a711f215d3b474e",
     "semantic_hash": ""
   },
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\prompts\\patch_system.txt": {
@@ -222,6 +222,16 @@
   "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\Subsequent Prompt.txt": {
     "mtime": 1779867621.507782,
     "ast_hash": "2ec144c478706d277f250f21e0997dc3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\stages\\scout.py": {
+    "mtime": 1779876149.184106,
+    "ast_hash": "6181f3a949fc5f1306950ff08dac0ecd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\prompts\\scout_system.txt": {
+    "mtime": 1779876129.856007,
+    "ast_hash": "6728a8d9dc9539353e231f8eed499fcd",
     "semantic_hash": ""
   }
 }
