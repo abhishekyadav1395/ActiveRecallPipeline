@@ -68,6 +68,7 @@ class DeepSeekProvider(BaseProvider):
 
             provider_name = (
                 "deepseek_r1" if "r1" in self.model or "reasoner" in self.model
+                else "deepseek_v4_pro" if "pro" in self.model
                 else "deepseek_v4"
             )
 

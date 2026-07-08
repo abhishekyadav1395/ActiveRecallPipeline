@@ -306,7 +306,7 @@
       "source_file": "",
       "source_location": "",
       "id": "str",
-      "community": 3,
+      "community": 10,
       "norm_label": "str"
     },
     {
@@ -648,7 +648,7 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L1",
       "id": "active_recall_pipeline_pipeline_py",
-      "community": 26,
+      "community": 39,
       "norm_label": "pipeline.py"
     },
     {
@@ -657,7 +657,7 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L72",
       "id": "active_recall_pipeline_pipeline_ensure_dirs",
-      "community": 26,
+      "community": 39,
       "norm_label": "_ensure_dirs()"
     },
     {
@@ -738,7 +738,7 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L110",
       "id": "stage",
-      "community": 10,
+      "community": 27,
       "norm_label": "stage"
     },
     {
@@ -756,7 +756,7 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L222",
       "id": "active_recall_pipeline_pipeline_pipelineorchestrator_validate_stage",
-      "community": 32,
+      "community": 27,
       "norm_label": "._validate_stage()"
     },
     {
@@ -765,7 +765,7 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L222",
       "id": "validationresult",
-      "community": 32,
+      "community": 26,
       "norm_label": "validationresult"
     },
     {
@@ -783,7 +783,7 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L324",
       "id": "active_recall_pipeline_pipeline_pipelineorchestrator_load_interim",
-      "community": 27,
+      "community": 10,
       "norm_label": "._load_interim()"
     },
     {
@@ -846,7 +846,7 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L223",
       "id": "active_recall_pipeline_pipeline_rationale_223",
-      "community": 32,
+      "community": 27,
       "norm_label": "run the appropriate validator and write result to sqlite."
     },
     {
@@ -864,7 +864,7 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L325",
       "id": "active_recall_pipeline_pipeline_rationale_325",
-      "community": 27,
+      "community": 10,
       "norm_label": "load a json file from data/interim/. return none if missing or invalid."
     },
     {
@@ -1881,7 +1881,7 @@
       "source_file": "active_recall_pipeline/stages/audit.py",
       "source_location": "L1",
       "id": "active_recall_pipeline_stages_audit_py",
-      "community": 6,
+      "community": 43,
       "norm_label": "audit.py"
     },
     {
@@ -1890,7 +1890,7 @@
       "source_file": "active_recall_pipeline/stages/audit.py",
       "source_location": "L8",
       "id": "stages_audit_run",
-      "community": 6,
+      "community": 43,
       "norm_label": "run()"
     },
     {
@@ -1899,7 +1899,7 @@
       "source_file": "active_recall_pipeline/stages/audit.py",
       "source_location": "L8",
       "id": "active_recall_pipeline_stages_audit_py_pipelineconfig",
-      "community": 6,
+      "community": 43,
       "norm_label": "pipelineconfig"
     },
     {
@@ -1908,7 +1908,7 @@
       "source_file": "active_recall_pipeline/stages/audit.py",
       "source_location": "L9",
       "id": "stages_audit_rationale_9",
-      "community": 6,
+      "community": 43,
       "norm_label": "audit \u2014 verify every inventory item has \u22651 question.      input: config.interim_"
     },
     {
@@ -1998,7 +1998,7 @@
       "source_file": "active_recall_pipeline/stages/deliver.py",
       "source_location": "L1",
       "id": "active_recall_pipeline_stages_deliver_py",
-      "community": 6,
+      "community": 39,
       "norm_label": "deliver.py"
     },
     {
@@ -2007,7 +2007,7 @@
       "source_file": "active_recall_pipeline/stages/deliver.py",
       "source_location": "L9",
       "id": "stages_deliver_run",
-      "community": 6,
+      "community": 39,
       "norm_label": "run()"
     },
     {
@@ -2016,7 +2016,7 @@
       "source_file": "active_recall_pipeline/stages/deliver.py",
       "source_location": "L9",
       "id": "active_recall_pipeline_stages_deliver_py_pipelineconfig",
-      "community": 6,
+      "community": 39,
       "norm_label": "pipelineconfig"
     },
     {
@@ -2025,7 +2025,7 @@
       "source_file": "active_recall_pipeline/stages/deliver.py",
       "source_location": "L104",
       "id": "stages_deliver_write_csv",
-      "community": 6,
+      "community": 39,
       "norm_label": "_write_csv()"
     },
     {
@@ -2034,7 +2034,7 @@
       "source_file": "active_recall_pipeline/stages/deliver.py",
       "source_location": "L10",
       "id": "stages_deliver_rationale_10",
-      "community": 6,
+      "community": 39,
       "norm_label": "deliver \u2014 write final csv files per chapter and per book.      input: config.int"
     },
     {
@@ -2043,7 +2043,7 @@
       "source_file": "active_recall_pipeline/stages/deliver.py",
       "source_location": "L105",
       "id": "stages_deliver_rationale_105",
-      "community": 6,
+      "community": 39,
       "norm_label": "write questions to csv with pipe delimiter."
     },
     {
@@ -2142,7 +2142,7 @@
       "source_file": "active_recall_pipeline/stages/forge.py",
       "source_location": "L1",
       "id": "active_recall_pipeline_stages_forge_py",
-      "community": 3,
+      "community": 32,
       "norm_label": "forge.py"
     },
     {
@@ -2151,7 +2151,7 @@
       "source_file": "active_recall_pipeline/stages/forge.py",
       "source_location": "L13",
       "id": "stages_forge_run",
-      "community": 3,
+      "community": 32,
       "norm_label": "run()"
     },
     {
@@ -2160,68 +2160,68 @@
       "source_file": "active_recall_pipeline/stages/forge.py",
       "source_location": "L13",
       "id": "active_recall_pipeline_stages_forge_py_pipelineconfig",
-      "community": 3,
+      "community": 32,
       "norm_label": "pipelineconfig"
     },
     {
       "label": "_load_profile()",
       "file_type": "code",
       "source_file": "active_recall_pipeline/stages/forge.py",
-      "source_location": "L144",
+      "source_location": "L163",
       "id": "stages_forge_load_profile",
-      "community": 3,
+      "community": 32,
       "norm_label": "_load_profile()"
     },
     {
       "label": "Exam",
       "file_type": "code",
       "source_file": "active_recall_pipeline/stages/forge.py",
-      "source_location": "L144",
+      "source_location": "L163",
       "id": "active_recall_pipeline_stages_forge_py_exam",
-      "community": 3,
+      "community": 32,
       "norm_label": "exam"
     },
     {
       "label": "_sanitize_json_strings()",
       "file_type": "code",
       "source_file": "active_recall_pipeline/stages/forge.py",
-      "source_location": "L154",
+      "source_location": "L173",
       "id": "stages_forge_sanitize_json_strings",
-      "community": 3,
+      "community": 32,
       "norm_label": "_sanitize_json_strings()"
     },
     {
       "label": "str",
       "file_type": "code",
       "source_file": "active_recall_pipeline/stages/forge.py",
-      "source_location": "L154",
+      "source_location": "L173",
       "id": "active_recall_pipeline_stages_forge_py_str",
-      "community": 3,
+      "community": 32,
       "norm_label": "str"
     },
     {
       "label": "_parse_forge_response()",
       "file_type": "code",
       "source_file": "active_recall_pipeline/stages/forge.py",
-      "source_location": "L179",
+      "source_location": "L198",
       "id": "stages_forge_parse_forge_response",
-      "community": 3,
+      "community": 32,
       "norm_label": "_parse_forge_response()"
     },
     {
       "label": "_save_error_response()",
       "file_type": "code",
       "source_file": "active_recall_pipeline/stages/forge.py",
-      "source_location": "L226",
+      "source_location": "L245",
       "id": "stages_forge_save_error_response",
-      "community": 3,
+      "community": 32,
       "norm_label": "_save_error_response()"
     },
     {
       "label": "int",
       "file_type": "code",
       "source_file": "active_recall_pipeline/stages/forge.py",
-      "source_location": "L226",
+      "source_location": "L245",
       "id": "active_recall_pipeline_stages_forge_py_int",
       "community": 7,
       "norm_label": "int"
@@ -2232,25 +2232,25 @@
       "source_file": "active_recall_pipeline/stages/forge.py",
       "source_location": "L14",
       "id": "stages_forge_rationale_14",
-      "community": 3,
+      "community": 32,
       "norm_label": "forge \u2014 generate all mcqs across all 7 layers.      input: config.interim_dir/ex"
     },
     {
       "label": "Fix literal newlines and tabs inside JSON string values.     Haiku sometimes out",
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/stages/forge.py",
-      "source_location": "L155",
-      "id": "stages_forge_rationale_155",
-      "community": 3,
+      "source_location": "L174",
+      "id": "stages_forge_rationale_174",
+      "community": 32,
       "norm_label": "fix literal newlines and tabs inside json string values.     haiku sometimes out"
     },
     {
       "label": "Parse forge response from Haiku.",
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/stages/forge.py",
-      "source_location": "L180",
-      "id": "stages_forge_rationale_180",
-      "community": 3,
+      "source_location": "L199",
+      "id": "stages_forge_rationale_199",
+      "community": 32,
       "norm_label": "parse forge response from haiku."
     },
     {
@@ -2376,7 +2376,7 @@
       "source_file": "active_recall_pipeline/stages/mint.py",
       "source_location": "L1",
       "id": "active_recall_pipeline_stages_mint_py",
-      "community": 6,
+      "community": 43,
       "norm_label": "mint.py"
     },
     {
@@ -2385,7 +2385,7 @@
       "source_file": "active_recall_pipeline/stages/mint.py",
       "source_location": "L12",
       "id": "stages_mint_run",
-      "community": 6,
+      "community": 43,
       "norm_label": "run()"
     },
     {
@@ -2394,7 +2394,7 @@
       "source_file": "active_recall_pipeline/stages/mint.py",
       "source_location": "L12",
       "id": "active_recall_pipeline_stages_mint_py_pipelineconfig",
-      "community": 6,
+      "community": 43,
       "norm_label": "pipelineconfig"
     },
     {
@@ -2403,7 +2403,7 @@
       "source_file": "active_recall_pipeline/stages/mint.py",
       "source_location": "L64",
       "id": "stages_mint_jaccard_similarity",
-      "community": 6,
+      "community": 43,
       "norm_label": "_jaccard_similarity()"
     },
     {
@@ -2412,7 +2412,7 @@
       "source_file": "active_recall_pipeline/stages/mint.py",
       "source_location": "L64",
       "id": "active_recall_pipeline_stages_mint_py_float",
-      "community": 6,
+      "community": 43,
       "norm_label": "float"
     },
     {
@@ -2421,7 +2421,7 @@
       "source_file": "active_recall_pipeline/stages/mint.py",
       "source_location": "L13",
       "id": "stages_mint_rationale_13",
-      "community": 6,
+      "community": 43,
       "norm_label": "mint \u2014 deduplicate questions using jaccard similarity.      input: config.interi"
     },
     {
@@ -2430,7 +2430,7 @@
       "source_file": "active_recall_pipeline/stages/mint.py",
       "source_location": "L65",
       "id": "stages_mint_rationale_65",
-      "community": 6,
+      "community": 43,
       "norm_label": "calculate jaccard similarity between two sets."
     },
     {
@@ -2565,7 +2565,7 @@
       "source_file": "active_recall_pipeline/stages/patch.py",
       "source_location": "L1",
       "id": "active_recall_pipeline_stages_patch_py",
-      "community": 3,
+      "community": 35,
       "norm_label": "patch.py"
     },
     {
@@ -2574,7 +2574,7 @@
       "source_file": "active_recall_pipeline/stages/patch.py",
       "source_location": "L13",
       "id": "stages_patch_run",
-      "community": 3,
+      "community": 35,
       "norm_label": "run()"
     },
     {
@@ -2583,7 +2583,7 @@
       "source_file": "active_recall_pipeline/stages/patch.py",
       "source_location": "L13",
       "id": "active_recall_pipeline_stages_patch_py_pipelineconfig",
-      "community": 3,
+      "community": 35,
       "norm_label": "pipelineconfig"
     },
     {
@@ -2592,7 +2592,7 @@
       "source_file": "active_recall_pipeline/stages/patch.py",
       "source_location": "L150",
       "id": "stages_patch_sanitize_json_strings",
-      "community": 3,
+      "community": 35,
       "norm_label": "_sanitize_json_strings()"
     },
     {
@@ -2601,7 +2601,7 @@
       "source_file": "active_recall_pipeline/stages/patch.py",
       "source_location": "L150",
       "id": "active_recall_pipeline_stages_patch_py_str",
-      "community": 3,
+      "community": 35,
       "norm_label": "str"
     },
     {
@@ -2610,7 +2610,7 @@
       "source_file": "active_recall_pipeline/stages/patch.py",
       "source_location": "L175",
       "id": "stages_patch_parse_patch_response",
-      "community": 3,
+      "community": 35,
       "norm_label": "_parse_patch_response()"
     },
     {
@@ -2619,7 +2619,7 @@
       "source_file": "active_recall_pipeline/stages/patch.py",
       "source_location": "L14",
       "id": "stages_patch_rationale_14",
-      "community": 3,
+      "community": 35,
       "norm_label": "patch \u2014 generate targeted questions for gaps identified by audit.      input: co"
     },
     {
@@ -2628,7 +2628,7 @@
       "source_file": "active_recall_pipeline/stages/patch.py",
       "source_location": "L151",
       "id": "stages_patch_rationale_151",
-      "community": 3,
+      "community": 35,
       "norm_label": "fix literal newlines and tabs inside json string values.     haiku sometimes out"
     },
     {
@@ -2637,7 +2637,7 @@
       "source_file": "active_recall_pipeline/stages/patch.py",
       "source_location": "L176",
       "id": "stages_patch_rationale_176",
-      "community": 3,
+      "community": 35,
       "norm_label": "parse patch response from haiku."
     },
     {
@@ -2646,7 +2646,7 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L1",
       "id": "active_recall_pipeline_stages_scout_py",
-      "community": 6,
+      "community": 41,
       "norm_label": "scout.py"
     },
     {
@@ -2655,7 +2655,7 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L14",
       "id": "stages_scout_run",
-      "community": 6,
+      "community": 41,
       "norm_label": "run()"
     },
     {
@@ -2664,7 +2664,7 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L14",
       "id": "active_recall_pipeline_stages_scout_py_pipelineconfig",
-      "community": 6,
+      "community": 41,
       "norm_label": "pipelineconfig"
     },
     {
@@ -2673,7 +2673,7 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L90",
       "id": "stages_scout_parse_profile",
-      "community": 6,
+      "community": 41,
       "norm_label": "_parse_profile()"
     },
     {
@@ -2682,7 +2682,7 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L90",
       "id": "active_recall_pipeline_stages_scout_py_str",
-      "community": 6,
+      "community": 41,
       "norm_label": "str"
     },
     {
@@ -2691,7 +2691,7 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L110",
       "id": "stages_scout_is_valid_profile",
-      "community": 6,
+      "community": 41,
       "norm_label": "_is_valid_profile()"
     },
     {
@@ -2700,7 +2700,7 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L110",
       "id": "active_recall_pipeline_stages_scout_py_bool",
-      "community": 6,
+      "community": 41,
       "norm_label": "bool"
     },
     {
@@ -2709,7 +2709,7 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L15",
       "id": "stages_scout_rationale_15",
-      "community": 6,
+      "community": 41,
       "norm_label": "scout \u2014 generate chapter intelligence document (cid).      input: config.interim"
     },
     {
@@ -2718,7 +2718,7 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L91",
       "id": "stages_scout_rationale_91",
-      "community": 6,
+      "community": 41,
       "norm_label": "parse json from scout response. handle markdown fences if present."
     },
     {
@@ -2727,7 +2727,7 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L111",
       "id": "stages_scout_rationale_111",
-      "community": 6,
+      "community": 41,
       "norm_label": "check if profile has all required fields."
     },
     {
@@ -2826,7 +2826,7 @@
       "source_file": "active_recall_pipeline/stages/tier.py",
       "source_location": "L1",
       "id": "active_recall_pipeline_stages_tier_py",
-      "community": 6,
+      "community": 31,
       "norm_label": "tier.py"
     },
     {
@@ -2835,7 +2835,7 @@
       "source_file": "active_recall_pipeline/stages/tier.py",
       "source_location": "L13",
       "id": "stages_tier_run",
-      "community": 6,
+      "community": 31,
       "norm_label": "run()"
     },
     {
@@ -2844,7 +2844,7 @@
       "source_file": "active_recall_pipeline/stages/tier.py",
       "source_location": "L13",
       "id": "active_recall_pipeline_stages_tier_py_pipelineconfig",
-      "community": 6,
+      "community": 31,
       "norm_label": "pipelineconfig"
     },
     {
@@ -2853,7 +2853,7 @@
       "source_file": "active_recall_pipeline/stages/tier.py",
       "source_location": "L103",
       "id": "stages_tier_parse_tier_response",
-      "community": 6,
+      "community": 31,
       "norm_label": "_parse_tier_response()"
     },
     {
@@ -2862,7 +2862,7 @@
       "source_file": "active_recall_pipeline/stages/tier.py",
       "source_location": "L103",
       "id": "active_recall_pipeline_stages_tier_py_str",
-      "community": 6,
+      "community": 31,
       "norm_label": "str"
     },
     {
@@ -2871,7 +2871,7 @@
       "source_file": "active_recall_pipeline/stages/tier.py",
       "source_location": "L103",
       "id": "active_recall_pipeline_stages_tier_py_int",
-      "community": 6,
+      "community": 31,
       "norm_label": "int"
     },
     {
@@ -2880,7 +2880,7 @@
       "source_file": "active_recall_pipeline/stages/tier.py",
       "source_location": "L14",
       "id": "stages_tier_rationale_14",
-      "community": 6,
+      "community": 31,
       "norm_label": "tier \u2014 classify each concept: simple/medium/complex.      input: config.interim_"
     },
     {
@@ -2889,7 +2889,7 @@
       "source_file": "active_recall_pipeline/stages/tier.py",
       "source_location": "L104",
       "id": "stages_tier_rationale_104",
-      "community": 6,
+      "community": 31,
       "norm_label": "parse tier response from haiku."
     },
     {
@@ -2898,7 +2898,7 @@
       "source_file": "active_recall_pipeline/stages/__init__.py",
       "source_location": "L1",
       "id": "active_recall_pipeline_stages_init_py",
-      "community": 6,
+      "community": 43,
       "norm_label": "__init__.py"
     },
     {
@@ -2907,7 +2907,7 @@
       "source_file": "active_recall_pipeline/utils/api.py",
       "source_location": "L1",
       "id": "active_recall_pipeline_utils_api_py",
-      "community": 3,
+      "community": 38,
       "norm_label": "api.py"
     },
     {
@@ -2916,7 +2916,7 @@
       "source_file": "active_recall_pipeline/utils/api.py",
       "source_location": "L9",
       "id": "utils_api_get_router",
-      "community": 3,
+      "community": 38,
       "norm_label": "get_router()"
     },
     {
@@ -2925,7 +2925,7 @@
       "source_file": "active_recall_pipeline/utils/api.py",
       "source_location": "L9",
       "id": "active_recall_pipeline_utils_api_py_str",
-      "community": 3,
+      "community": 38,
       "norm_label": "str"
     },
     {
@@ -2934,7 +2934,7 @@
       "source_file": "active_recall_pipeline/utils/api.py",
       "source_location": "L9",
       "id": "providerrouter",
-      "community": 3,
+      "community": 38,
       "norm_label": "providerrouter"
     },
     {
@@ -2943,7 +2943,7 @@
       "source_file": "active_recall_pipeline/utils/api.py",
       "source_location": "L20",
       "id": "utils_api_call_haiku",
-      "community": 3,
+      "community": 38,
       "norm_label": "call_haiku()"
     },
     {
@@ -2952,7 +2952,7 @@
       "source_file": "active_recall_pipeline/utils/api.py",
       "source_location": "L29",
       "id": "utils_api_call_sonnet",
-      "community": 3,
+      "community": 38,
       "norm_label": "call_sonnet()"
     },
     {
@@ -2961,7 +2961,7 @@
       "source_file": "active_recall_pipeline/utils/api.py",
       "source_location": "L29",
       "id": "active_recall_pipeline_utils_api_py_int",
-      "community": 3,
+      "community": 38,
       "norm_label": "int"
     },
     {
@@ -2970,7 +2970,7 @@
       "source_file": "active_recall_pipeline/utils/api.py",
       "source_location": "L41",
       "id": "utils_api_build_batches",
-      "community": 3,
+      "community": 38,
       "norm_label": "build_batches()"
     },
     {
@@ -2979,7 +2979,7 @@
       "source_file": "active_recall_pipeline/utils/api.py",
       "source_location": "L41",
       "id": "active_recall_pipeline_utils_api_py_float",
-      "community": 3,
+      "community": 38,
       "norm_label": "float"
     },
     {
@@ -2988,7 +2988,7 @@
       "source_file": "active_recall_pipeline/utils/api.py",
       "source_location": "L14",
       "id": "utils_api_rationale_14",
-      "community": 3,
+      "community": 38,
       "norm_label": "get a providerrouter for the given stage."
     },
     {
@@ -2997,7 +2997,7 @@
       "source_file": "active_recall_pipeline/utils/api.py",
       "source_location": "L23",
       "id": "utils_api_rationale_23",
-      "community": 3,
+      "community": 38,
       "norm_label": "backward-compatible wrapper. routes through tier 1 waterfall."
     },
     {
@@ -3006,7 +3006,7 @@
       "source_file": "active_recall_pipeline/utils/api.py",
       "source_location": "L33",
       "id": "utils_api_rationale_33",
-      "community": 3,
+      "community": 38,
       "norm_label": "backward-compatible wrapper. routes through tier 2 waterfall."
     },
     {
@@ -3015,7 +3015,7 @@
       "source_file": "active_recall_pipeline/utils/api.py",
       "source_location": "L51",
       "id": "utils_api_rationale_51",
-      "community": 3,
+      "community": 38,
       "norm_label": "build concept batches that fit within token limits.      uses token counting t"
     },
     {
@@ -3042,7 +3042,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L15",
       "id": "utils_db_sqlitemanager_init",
-      "community": 4,
+      "community": 42,
       "norm_label": ".__init__()"
     },
     {
@@ -3051,7 +3051,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L15",
       "id": "active_recall_pipeline_utils_db_py_path",
-      "community": 4,
+      "community": 42,
       "norm_label": "path"
     },
     {
@@ -3060,7 +3060,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L29",
       "id": "utils_db_sqlitemanager_init_schema",
-      "community": 4,
+      "community": 42,
       "norm_label": "._init_schema()"
     },
     {
@@ -3069,7 +3069,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L118",
       "id": "utils_db_sqlitemanager_upsert_chapter",
-      "community": 43,
+      "community": 42,
       "norm_label": ".upsert_chapter()"
     },
     {
@@ -3078,7 +3078,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L118",
       "id": "active_recall_pipeline_utils_db_py_str",
-      "community": 29,
+      "community": 44,
       "norm_label": "str"
     },
     {
@@ -3114,7 +3114,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L178",
       "id": "utils_db_sqlitemanager_get_pending_chapters",
-      "community": 37,
+      "community": 46,
       "norm_label": ".get_pending_chapters()"
     },
     {
@@ -3123,7 +3123,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L191",
       "id": "utils_db_sqlitemanager_get_all_chapters",
-      "community": 38,
+      "community": 37,
       "norm_label": ".get_all_chapters()"
     },
     {
@@ -3150,7 +3150,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L239",
       "id": "utils_db_sqlitemanager_init_stage_runs",
-      "community": 39,
+      "community": 28,
       "norm_label": ".init_stage_runs()"
     },
     {
@@ -3168,7 +3168,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L272",
       "id": "utils_db_sqlitemanager_set_stage_status",
-      "community": 31,
+      "community": 29,
       "norm_label": ".set_stage_status()"
     },
     {
@@ -3177,7 +3177,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L314",
       "id": "utils_db_sqlitemanager_set_validation_status",
-      "community": 31,
+      "community": 29,
       "norm_label": ".set_validation_status()"
     },
     {
@@ -3222,7 +3222,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L360",
       "id": "utils_db_sqlitemanager_increment_retry",
-      "community": 41,
+      "community": 47,
       "norm_label": ".increment_retry()"
     },
     {
@@ -3231,7 +3231,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L385",
       "id": "utils_db_sqlitemanager_get_actionable_stages",
-      "community": 2,
+      "community": 48,
       "norm_label": ".get_actionable_stages()"
     },
     {
@@ -3240,7 +3240,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L430",
       "id": "utils_db_sqlitemanager_log_api_call",
-      "community": 29,
+      "community": 44,
       "norm_label": ".log_api_call()"
     },
     {
@@ -3249,7 +3249,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L430",
       "id": "active_recall_pipeline_utils_db_py_float",
-      "community": 29,
+      "community": 44,
       "norm_label": "float"
     },
     {
@@ -3258,7 +3258,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L473",
       "id": "utils_db_sqlitemanager_update_cost_ledger",
-      "community": 29,
+      "community": 44,
       "norm_label": ".update_cost_ledger()"
     },
     {
@@ -3267,7 +3267,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L507",
       "id": "utils_db_sqlitemanager_get_chapter_cost_summary",
-      "community": 28,
+      "community": 49,
       "norm_label": ".get_chapter_cost_summary()"
     },
     {
@@ -3276,7 +3276,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L533",
       "id": "utils_db_sqlitemanager_get_pipeline_summary",
-      "community": 42,
+      "community": 50,
       "norm_label": ".get_pipeline_summary()"
     },
     {
@@ -3294,7 +3294,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L16",
       "id": "utils_db_rationale_16",
-      "community": 4,
+      "community": 42,
       "norm_label": "initialize database manager and create tables if needed."
     },
     {
@@ -3303,7 +3303,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L30",
       "id": "utils_db_rationale_30",
-      "community": 4,
+      "community": 42,
       "norm_label": "create all tables if they don't exist."
     },
     {
@@ -3312,7 +3312,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L128",
       "id": "utils_db_rationale_128",
-      "community": 43,
+      "community": 42,
       "norm_label": "insert or ignore chapter. return chapter_id."
     },
     {
@@ -3339,7 +3339,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L179",
       "id": "utils_db_rationale_179",
-      "community": 37,
+      "community": 46,
       "norm_label": "return all chapters where status != completed and != failed."
     },
     {
@@ -3348,7 +3348,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L192",
       "id": "utils_db_rationale_192",
-      "community": 38,
+      "community": 37,
       "norm_label": "return all chapters regardless of status."
     },
     {
@@ -3375,7 +3375,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L240",
       "id": "utils_db_rationale_240",
-      "community": 39,
+      "community": 28,
       "norm_label": "insert a row for every stage with status=pending if not exists."
     },
     {
@@ -3393,7 +3393,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L279",
       "id": "utils_db_rationale_279",
-      "community": 31,
+      "community": 29,
       "norm_label": "update stage status, timestamps, and error message."
     },
     {
@@ -3402,7 +3402,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L321",
       "id": "utils_db_rationale_321",
-      "community": 31,
+      "community": 29,
       "norm_label": "update validation status and errors (serialize as json)."
     },
     {
@@ -3429,7 +3429,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L361",
       "id": "utils_db_rationale_361",
-      "community": 41,
+      "community": 47,
       "norm_label": "increment retry_count and return new count."
     },
     {
@@ -3438,7 +3438,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L386",
       "id": "utils_db_rationale_386",
-      "community": 2,
+      "community": 48,
       "norm_label": "return stages where:         - status = pending or failed         - previous sta"
     },
     {
@@ -3447,7 +3447,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L482",
       "id": "utils_db_rationale_482",
-      "community": 29,
+      "community": 44,
       "norm_label": "upsert cost_ledger \u2014 add to totals if exists, insert if not."
     },
     {
@@ -3456,7 +3456,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L508",
       "id": "utils_db_rationale_508",
-      "community": 28,
+      "community": 49,
       "norm_label": "return total cost per provider for this chapter."
     },
     {
@@ -3465,7 +3465,7 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L534",
       "id": "utils_db_rationale_534",
-      "community": 42,
+      "community": 50,
       "norm_label": "return total cost across all chapters all providers."
     },
     {
@@ -3582,7 +3582,7 @@
       "source_file": "active_recall_pipeline/utils/validation.py",
       "source_location": "L309",
       "id": "utils_validation_stagevalidator_validate_forge",
-      "community": 35,
+      "community": 45,
       "norm_label": ".validate_forge()"
     },
     {
@@ -3654,7 +3654,7 @@
       "source_file": "active_recall_pipeline/utils/validation.py",
       "source_location": "L310",
       "id": "utils_validation_rationale_310",
-      "community": 35,
+      "community": 45,
       "norm_label": "validate forge output. auto-remove unusable questions. no floor check."
     },
     {
@@ -4153,6 +4153,42 @@
       "norm_label": "debt"
     },
     {
+      "label": "Fix literal newlines and tabs inside JSON string values.     Haiku sometimes out",
+      "file_type": "rationale",
+      "source_file": "active_recall_pipeline/stages/forge.py",
+      "source_location": "L173",
+      "community": 32,
+      "norm_label": "fix literal newlines and tabs inside json string values.     haiku sometimes out",
+      "id": "stages_forge_rationale_173"
+    },
+    {
+      "label": "Parse forge response from Haiku.",
+      "file_type": "rationale",
+      "source_file": "active_recall_pipeline/stages/forge.py",
+      "source_location": "L198",
+      "community": 32,
+      "norm_label": "parse forge response from haiku.",
+      "id": "stages_forge_rationale_198"
+    },
+    {
+      "label": "Fix literal newlines and tabs inside JSON string values.     Haiku sometimes out",
+      "file_type": "rationale",
+      "source_file": "active_recall_pipeline/stages/forge.py",
+      "source_location": "L155",
+      "community": 32,
+      "norm_label": "fix literal newlines and tabs inside json string values.     haiku sometimes out",
+      "id": "stages_forge_rationale_155"
+    },
+    {
+      "label": "Parse forge response from Haiku.",
+      "file_type": "rationale",
+      "source_file": "active_recall_pipeline/stages/forge.py",
+      "source_location": "L180",
+      "community": 32,
+      "norm_label": "parse forge response from haiku.",
+      "id": "stages_forge_rationale_180"
+    },
+    {
       "label": "Return True if the input file for this stage exists and is non-zero.     interim",
       "file_type": "rationale",
       "source_file": "validate.py",
@@ -4355,7 +4391,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L217",
-      "community": 32,
+      "community": 27,
       "norm_label": "run the appropriate validator and write result to sqlite.",
       "id": "active_recall_pipeline_pipeline_rationale_217"
     },
@@ -4373,7 +4409,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L317",
-      "community": 27,
+      "community": 10,
       "norm_label": "load a json file from data/interim/. return none if missing or invalid.",
       "id": "active_recall_pipeline_pipeline_rationale_317"
     },
@@ -4418,7 +4454,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/stages/forge.py",
       "source_location": "L153",
-      "community": 3,
+      "community": 32,
       "norm_label": "fix literal newlines and tabs inside json string values.     haiku sometimes out",
       "id": "stages_forge_rationale_153"
     },
@@ -4427,7 +4463,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/stages/forge.py",
       "source_location": "L178",
-      "community": 3,
+      "community": 32,
       "norm_label": "parse forge response from haiku.",
       "id": "stages_forge_rationale_178"
     },
@@ -4436,7 +4472,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/stages/patch.py",
       "source_location": "L148",
-      "community": 3,
+      "community": 35,
       "norm_label": "fix literal newlines and tabs inside json string values.     haiku sometimes out",
       "id": "stages_patch_rationale_148"
     },
@@ -4445,7 +4481,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/stages/patch.py",
       "source_location": "L173",
-      "community": 3,
+      "community": 35,
       "norm_label": "parse patch response from haiku.",
       "id": "stages_patch_rationale_173"
     },
@@ -4472,7 +4508,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L119",
-      "community": 43,
+      "community": 42,
       "norm_label": "insert or ignore chapter. return chapter_id.",
       "id": "utils_db_rationale_119"
     },
@@ -4490,7 +4526,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L170",
-      "community": 37,
+      "community": 46,
       "norm_label": "return all chapters where status != completed and != failed.",
       "id": "utils_db_rationale_170"
     },
@@ -4499,7 +4535,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L183",
-      "community": 38,
+      "community": 37,
       "norm_label": "return all chapters regardless of status.",
       "id": "utils_db_rationale_183"
     },
@@ -4508,7 +4544,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L198",
-      "community": 39,
+      "community": 28,
       "norm_label": "insert a row for every stage with status=pending if not exists.",
       "id": "utils_db_rationale_198"
     },
@@ -4526,7 +4562,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L237",
-      "community": 31,
+      "community": 29,
       "norm_label": "update stage status, timestamps, and error message.",
       "id": "utils_db_rationale_237"
     },
@@ -4553,7 +4589,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L319",
-      "community": 41,
+      "community": 47,
       "norm_label": "increment retry_count and return new count.",
       "id": "utils_db_rationale_319"
     },
@@ -4562,7 +4598,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L344",
-      "community": 2,
+      "community": 48,
       "norm_label": "return stages where:         - status = pending or failed         - previous sta",
       "id": "utils_db_rationale_344"
     },
@@ -4571,7 +4607,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L440",
-      "community": 29,
+      "community": 44,
       "norm_label": "upsert cost_ledger \u2014 add to totals if exists, insert if not.",
       "id": "utils_db_rationale_440"
     },
@@ -4580,7 +4616,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L466",
-      "community": 28,
+      "community": 49,
       "norm_label": "return total cost per provider for this chapter.",
       "id": "utils_db_rationale_466"
     },
@@ -4589,7 +4625,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L492",
-      "community": 42,
+      "community": 50,
       "norm_label": "return total cost across all chapters all providers.",
       "id": "utils_db_rationale_492"
     },
@@ -4625,7 +4661,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/validation.py",
       "source_location": "L254",
-      "community": 35,
+      "community": 45,
       "norm_label": "validate forge output. auto-remove unusable questions. no floor check.",
       "id": "utils_validation_rationale_254"
     },
@@ -4643,7 +4679,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L214",
-      "community": 32,
+      "community": 27,
       "norm_label": "run the appropriate validator and write result to sqlite.",
       "id": "active_recall_pipeline_pipeline_rationale_214"
     },
@@ -4661,7 +4697,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L314",
-      "community": 27,
+      "community": 10,
       "norm_label": "load a json file from data/interim/. return none if missing or invalid.",
       "id": "active_recall_pipeline_pipeline_rationale_314"
     },
@@ -4715,7 +4751,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L169",
-      "community": 37,
+      "community": 46,
       "norm_label": "return all chapters where status != completed and != failed.",
       "id": "utils_db_rationale_169"
     },
@@ -4724,7 +4760,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L182",
-      "community": 38,
+      "community": 37,
       "norm_label": "return all chapters regardless of status.",
       "id": "utils_db_rationale_182"
     },
@@ -4733,7 +4769,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L197",
-      "community": 39,
+      "community": 28,
       "norm_label": "insert a row for every stage with status=pending if not exists.",
       "id": "utils_db_rationale_197"
     },
@@ -4751,7 +4787,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L236",
-      "community": 31,
+      "community": 29,
       "norm_label": "update stage status, timestamps, and error message.",
       "id": "utils_db_rationale_236"
     },
@@ -4760,7 +4796,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L278",
-      "community": 31,
+      "community": 29,
       "norm_label": "update validation status and errors (serialize as json).",
       "id": "utils_db_rationale_278"
     },
@@ -4787,7 +4823,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L318",
-      "community": 41,
+      "community": 47,
       "norm_label": "increment retry_count and return new count.",
       "id": "utils_db_rationale_318"
     },
@@ -4796,7 +4832,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L343",
-      "community": 2,
+      "community": 48,
       "norm_label": "return stages where:         - status = pending or failed         - previous sta",
       "id": "utils_db_rationale_343"
     },
@@ -4805,7 +4841,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L439",
-      "community": 29,
+      "community": 44,
       "norm_label": "upsert cost_ledger \u2014 add to totals if exists, insert if not.",
       "id": "utils_db_rationale_439"
     },
@@ -4814,7 +4850,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L465",
-      "community": 28,
+      "community": 49,
       "norm_label": "return total cost per provider for this chapter.",
       "id": "utils_db_rationale_465"
     },
@@ -4823,7 +4859,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L491",
-      "community": 42,
+      "community": 50,
       "norm_label": "return total cost across all chapters all providers.",
       "id": "utils_db_rationale_491"
     },
@@ -4886,7 +4922,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/validation.py",
       "source_location": "L243",
-      "community": 35,
+      "community": 45,
       "norm_label": "validate forge output: generated mcq questions.",
       "id": "utils_validation_rationale_243"
     },
@@ -4904,7 +4940,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/stages/forge.py",
       "source_location": "L144",
-      "community": 3,
+      "community": 32,
       "norm_label": "fix literal newlines and tabs inside json string values.     haiku sometimes out",
       "id": "stages_forge_rationale_144"
     },
@@ -4913,7 +4949,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/stages/forge.py",
       "source_location": "L169",
-      "community": 3,
+      "community": 32,
       "norm_label": "parse forge response from haiku.",
       "id": "stages_forge_rationale_169"
     },
@@ -4940,7 +4976,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L208",
-      "community": 32,
+      "community": 27,
       "norm_label": "run the appropriate validator and write result to sqlite.",
       "id": "active_recall_pipeline_pipeline_rationale_208"
     },
@@ -4958,7 +4994,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L308",
-      "community": 27,
+      "community": 10,
       "norm_label": "load a json file from data/interim/. return none if missing or invalid.",
       "id": "active_recall_pipeline_pipeline_rationale_308"
     },
@@ -4985,7 +5021,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/validation.py",
       "source_location": "L255",
-      "community": 35,
+      "community": 45,
       "norm_label": "validate forge output: generated mcq questions.",
       "id": "utils_validation_rationale_255"
     },
@@ -5156,7 +5192,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/stages/patch.py",
       "source_location": "L143",
-      "community": 3,
+      "community": 35,
       "norm_label": "fix literal newlines and tabs inside json string values.     haiku sometimes out",
       "id": "stages_patch_rationale_143"
     },
@@ -5165,7 +5201,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/stages/patch.py",
       "source_location": "L168",
-      "community": 3,
+      "community": 35,
       "norm_label": "parse patch response from haiku.",
       "id": "stages_patch_rationale_168"
     },
@@ -5210,7 +5246,7 @@
       "file_type": "code",
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L18",
-      "community": 26,
+      "community": 39,
       "norm_label": "run()",
       "id": "active_recall_pipeline_pipeline_run"
     },
@@ -5417,7 +5453,7 @@
       "file_type": "rationale",
       "source_file": "active_recall_pipeline/utils/validation.py",
       "source_location": "L267",
-      "community": 35,
+      "community": 45,
       "norm_label": "validate forge output: generated mcq questions.",
       "id": "utils_validation_rationale_267"
     },
@@ -5811,9 +5847,9 @@
       "source_file": "validate.py",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_check_input_file_exists",
-      "target": "validate_py_str",
-      "confidence_score": 1.0
+      "target": "validate_py_str"
     },
     {
       "relation": "references",
@@ -5822,9 +5858,9 @@
       "source_file": "validate.py",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_check_input_file_exists",
-      "target": "validate_py_path",
-      "confidence_score": 1.0
+      "target": "validate_py_path"
     },
     {
       "relation": "references",
@@ -5833,9 +5869,9 @@
       "source_file": "validate.py",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_check_input_file_exists",
-      "target": "validate_py_bool",
-      "confidence_score": 1.0
+      "target": "validate_py_bool"
     },
     {
       "relation": "calls",
@@ -5865,9 +5901,9 @@
       "source_file": "validate.py",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_rationale_30",
-      "target": "activerecall_validate_check_input_file_exists",
-      "confidence_score": 1.0
+      "target": "activerecall_validate_check_input_file_exists"
     },
     {
       "relation": "rationale_for",
@@ -5886,9 +5922,9 @@
       "source_file": "validate.py",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_format_stage_status",
-      "target": "validate_py_str",
-      "confidence_score": 1.0
+      "target": "validate_py_str"
     },
     {
       "relation": "references",
@@ -5897,9 +5933,9 @@
       "source_file": "validate.py",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_print_chapter_detail",
-      "target": "validate_py_str",
-      "confidence_score": 1.0
+      "target": "validate_py_str"
     },
     {
       "relation": "calls",
@@ -5908,9 +5944,9 @@
       "source_file": "validate.py",
       "source_location": "L162",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_print_full_report",
-      "target": "validate_py_str",
-      "confidence_score": 1.0
+      "target": "validate_py_str"
     },
     {
       "relation": "calls",
@@ -5919,9 +5955,9 @@
       "source_file": "validate.py",
       "source_location": "L203",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_print_chapter_report",
-      "target": "validate_py_str",
-      "confidence_score": 1.0
+      "target": "validate_py_str"
     },
     {
       "relation": "uses",
@@ -5929,9 +5965,9 @@
       "source_file": "validate.py",
       "source_location": "L10",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "validate_py_str",
-      "target": "utils_db_sqlitemanager",
-      "confidence_score": 0.5
+      "target": "utils_db_sqlitemanager"
     },
     {
       "relation": "references",
@@ -5940,9 +5976,9 @@
       "source_file": "validate.py",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_print_full_report",
-      "target": "validate_py_path",
-      "confidence_score": 1.0
+      "target": "validate_py_path"
     },
     {
       "relation": "references",
@@ -5951,9 +5987,9 @@
       "source_file": "validate.py",
       "source_location": "L177",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_print_chapter_report",
-      "target": "validate_py_path",
-      "confidence_score": 1.0
+      "target": "validate_py_path"
     },
     {
       "relation": "calls",
@@ -5962,9 +5998,9 @@
       "source_file": "validate.py",
       "source_location": "L257",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_main",
-      "target": "validate_py_path",
-      "confidence_score": 1.0
+      "target": "validate_py_path"
     },
     {
       "relation": "uses",
@@ -5972,9 +6008,9 @@
       "source_file": "validate.py",
       "source_location": "L10",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "validate_py_path",
-      "target": "utils_db_sqlitemanager",
-      "confidence_score": 0.5
+      "target": "utils_db_sqlitemanager"
     },
     {
       "relation": "references",
@@ -5983,9 +6019,9 @@
       "source_file": "validate.py",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_print_chapter_detail",
-      "target": "validate_py_bool",
-      "confidence_score": 1.0
+      "target": "validate_py_bool"
     },
     {
       "relation": "uses",
@@ -5993,9 +6029,9 @@
       "source_file": "validate.py",
       "source_location": "L10",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "validate_py_bool",
-      "target": "utils_db_sqlitemanager",
-      "confidence_score": 0.5
+      "target": "utils_db_sqlitemanager"
     },
     {
       "relation": "calls",
@@ -6014,9 +6050,9 @@
       "source_file": "validate.py",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_rationale_41",
-      "target": "activerecall_validate_format_stage_status",
-      "confidence_score": 1.0
+      "target": "activerecall_validate_format_stage_status"
     },
     {
       "relation": "rationale_for",
@@ -6035,9 +6071,9 @@
       "source_file": "validate.py",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_print_chapter_detail",
-      "target": "validate_py_sqlitemanager",
-      "confidence_score": 1.0
+      "target": "validate_py_sqlitemanager"
     },
     {
       "relation": "references",
@@ -6046,9 +6082,9 @@
       "source_file": "validate.py",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_print_chapter_detail",
-      "target": "validate_py_int",
-      "confidence_score": 1.0
+      "target": "validate_py_int"
     },
     {
       "relation": "calls",
@@ -6078,9 +6114,9 @@
       "source_file": "validate.py",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_rationale_57",
-      "target": "activerecall_validate_print_chapter_detail",
-      "confidence_score": 1.0
+      "target": "activerecall_validate_print_chapter_detail"
     },
     {
       "relation": "rationale_for",
@@ -6099,9 +6135,9 @@
       "source_file": "validate.py",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_print_full_report",
-      "target": "validate_py_sqlitemanager",
-      "confidence_score": 1.0
+      "target": "validate_py_sqlitemanager"
     },
     {
       "relation": "references",
@@ -6110,9 +6146,9 @@
       "source_file": "validate.py",
       "source_location": "L177",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_print_chapter_report",
-      "target": "validate_py_sqlitemanager",
-      "confidence_score": 1.0
+      "target": "validate_py_sqlitemanager"
     },
     {
       "relation": "references",
@@ -6121,9 +6157,9 @@
       "source_file": "validate.py",
       "source_location": "L216",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_do_fix",
-      "target": "validate_py_sqlitemanager",
-      "confidence_score": 1.0
+      "target": "validate_py_sqlitemanager"
     },
     {
       "relation": "calls",
@@ -6132,9 +6168,9 @@
       "source_file": "validate.py",
       "source_location": "L258",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_main",
-      "target": "validate_py_sqlitemanager",
-      "confidence_score": 1.0
+      "target": "validate_py_sqlitemanager"
     },
     {
       "relation": "uses",
@@ -6142,9 +6178,9 @@
       "source_file": "validate.py",
       "source_location": "L10",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "validate_py_sqlitemanager",
-      "target": "utils_db_sqlitemanager",
-      "confidence_score": 0.5
+      "target": "utils_db_sqlitemanager"
     },
     {
       "relation": "references",
@@ -6153,9 +6189,9 @@
       "source_file": "validate.py",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_print_full_report",
-      "target": "validate_py_int",
-      "confidence_score": 1.0
+      "target": "validate_py_int"
     },
     {
       "relation": "references",
@@ -6164,9 +6200,9 @@
       "source_file": "validate.py",
       "source_location": "L177",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_print_chapter_report",
-      "target": "validate_py_int",
-      "confidence_score": 1.0
+      "target": "validate_py_int"
     },
     {
       "relation": "references",
@@ -6175,9 +6211,9 @@
       "source_file": "validate.py",
       "source_location": "L216",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_do_fix",
-      "target": "validate_py_int",
-      "confidence_score": 1.0
+      "target": "validate_py_int"
     },
     {
       "relation": "references",
@@ -6186,9 +6222,9 @@
       "source_file": "validate.py",
       "source_location": "L239",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_main",
-      "target": "validate_py_int",
-      "confidence_score": 1.0
+      "target": "validate_py_int"
     },
     {
       "relation": "uses",
@@ -6196,9 +6232,9 @@
       "source_file": "validate.py",
       "source_location": "L10",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "validate_py_int",
-      "target": "utils_db_sqlitemanager",
-      "confidence_score": 0.5
+      "target": "utils_db_sqlitemanager"
     },
     {
       "relation": "calls",
@@ -6217,9 +6253,9 @@
       "source_file": "validate.py",
       "source_location": "L109",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_rationale_109",
-      "target": "activerecall_validate_print_full_report",
-      "confidence_score": 1.0
+      "target": "activerecall_validate_print_full_report"
     },
     {
       "relation": "rationale_for",
@@ -6259,9 +6295,9 @@
       "source_file": "validate.py",
       "source_location": "L178",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_rationale_178",
-      "target": "activerecall_validate_print_chapter_report",
-      "confidence_score": 1.0
+      "target": "activerecall_validate_print_chapter_report"
     },
     {
       "relation": "rationale_for",
@@ -6301,9 +6337,9 @@
       "source_file": "validate.py",
       "source_location": "L217",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "activerecall_validate_rationale_217",
-      "target": "activerecall_validate_do_fix",
-      "confidence_score": 1.0
+      "target": "activerecall_validate_do_fix"
     },
     {
       "relation": "rationale_for",
@@ -6433,9 +6469,9 @@
       "source_file": "active_recall_pipeline/config.py",
       "source_location": "L163",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_config_py",
-      "target": "active_recall_pipeline_config_scoutconfig",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_config_scoutconfig"
     },
     {
       "relation": "contains",
@@ -7365,9 +7401,9 @@
       "source_file": "active_recall_pipeline/config.py",
       "source_location": "L147",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_config_rationale_147",
-      "target": "active_recall_pipeline_config_ingestconfig",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_config_ingestconfig"
     },
     {
       "relation": "rationale_for",
@@ -7385,9 +7421,9 @@
       "source_file": "active_recall_pipeline/config.py",
       "source_location": "L157",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_config_rationale_157",
-      "target": "active_recall_pipeline_config_parseconfig",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_config_parseconfig"
     },
     {
       "relation": "rationale_for",
@@ -7405,9 +7441,9 @@
       "source_file": "active_recall_pipeline/config.py",
       "source_location": "L164",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_config_rationale_164",
-      "target": "active_recall_pipeline_config_scoutconfig",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_config_scoutconfig"
     },
     {
       "relation": "rationale_for",
@@ -7415,9 +7451,9 @@
       "source_file": "active_recall_pipeline/config.py",
       "source_location": "L171",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_config_rationale_171",
-      "target": "active_recall_pipeline_config_surveyconfig",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_config_surveyconfig"
     },
     {
       "relation": "rationale_for",
@@ -7435,9 +7471,9 @@
       "source_file": "active_recall_pipeline/config.py",
       "source_location": "L178",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_config_rationale_178",
-      "target": "active_recall_pipeline_config_consolidateconfig",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_config_consolidateconfig"
     },
     {
       "relation": "rationale_for",
@@ -7455,9 +7491,9 @@
       "source_file": "active_recall_pipeline/config.py",
       "source_location": "L185",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_config_rationale_185",
-      "target": "active_recall_pipeline_config_tierconfig",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_config_tierconfig"
     },
     {
       "relation": "rationale_for",
@@ -7475,9 +7511,9 @@
       "source_file": "active_recall_pipeline/config.py",
       "source_location": "L192",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_config_rationale_192",
-      "target": "active_recall_pipeline_config_excavateconfig",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_config_excavateconfig"
     },
     {
       "relation": "rationale_for",
@@ -7495,9 +7531,9 @@
       "source_file": "active_recall_pipeline/config.py",
       "source_location": "L202",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_config_rationale_202",
-      "target": "active_recall_pipeline_config_forgeconfig",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_config_forgeconfig"
     },
     {
       "relation": "rationale_for",
@@ -7515,9 +7551,9 @@
       "source_file": "active_recall_pipeline/config.py",
       "source_location": "L209",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_config_rationale_209",
-      "target": "active_recall_pipeline_config_auditconfig",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_config_auditconfig"
     },
     {
       "relation": "rationale_for",
@@ -7535,9 +7571,9 @@
       "source_file": "active_recall_pipeline/config.py",
       "source_location": "L215",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_config_rationale_215",
-      "target": "active_recall_pipeline_config_patchconfig",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_config_patchconfig"
     },
     {
       "relation": "rationale_for",
@@ -7555,9 +7591,9 @@
       "source_file": "active_recall_pipeline/config.py",
       "source_location": "L222",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_config_rationale_222",
-      "target": "active_recall_pipeline_config_mintconfig",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_config_mintconfig"
     },
     {
       "relation": "rationale_for",
@@ -7575,9 +7611,9 @@
       "source_file": "active_recall_pipeline/config.py",
       "source_location": "L228",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_config_rationale_228",
-      "target": "active_recall_pipeline_config_deliverconfig",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_config_deliverconfig"
     },
     {
       "relation": "rationale_for",
@@ -7789,9 +7825,9 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_stages_scout_py",
-      "target": "active_recall_pipeline_config_pipelineconfig",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_config_pipelineconfig"
     },
     {
       "relation": "imports",
@@ -8271,9 +8307,9 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L7",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "active_recall_pipeline_stages_scout_py_pipelineconfig",
-      "target": "active_recall_pipeline_config_pipelineconfig",
-      "confidence_score": 0.5
+      "target": "active_recall_pipeline_config_pipelineconfig"
     },
     {
       "relation": "uses",
@@ -8281,9 +8317,9 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L7",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "active_recall_pipeline_stages_scout_py_str",
-      "target": "active_recall_pipeline_config_pipelineconfig",
-      "confidence_score": 0.5
+      "target": "active_recall_pipeline_config_pipelineconfig"
     },
     {
       "relation": "uses",
@@ -8291,9 +8327,9 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L7",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "active_recall_pipeline_stages_scout_py_bool",
-      "target": "active_recall_pipeline_config_pipelineconfig",
-      "confidence_score": 0.5
+      "target": "active_recall_pipeline_config_pipelineconfig"
     },
     {
       "relation": "uses",
@@ -8361,9 +8397,9 @@
       "source_file": "active_recall_pipeline/config.py",
       "source_location": "L321",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_config_rationale_321",
-      "target": "active_recall_pipeline_config_pipelineconfig_active_stages",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_config_pipelineconfig_active_stages"
     },
     {
       "relation": "rationale_for",
@@ -8412,9 +8448,9 @@
       "source_file": "active_recall_pipeline/config.py",
       "source_location": "L333",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_config_rationale_333",
-      "target": "active_recall_pipeline_config_pipelineconfig_get_stage_tier",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_config_pipelineconfig_get_stage_tier"
     },
     {
       "relation": "rationale_for",
@@ -8463,9 +8499,9 @@
       "source_file": "active_recall_pipeline/config.py",
       "source_location": "L339",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_config_rationale_339",
-      "target": "active_recall_pipeline_config_pipelineconfig_get_waterfall",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_config_pipelineconfig_get_waterfall"
     },
     {
       "relation": "rationale_for",
@@ -8546,9 +8582,9 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_pipeline_py",
-      "target": "stages_scout_run",
-      "confidence_score": 1.0
+      "target": "stages_scout_run"
     },
     {
       "relation": "imports",
@@ -8842,9 +8878,9 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L335",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_pipeline_pipelineorchestrator",
-      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_load_chapter_profile",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_load_chapter_profile"
     },
     {
       "relation": "method",
@@ -8852,9 +8888,9 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L347",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_pipeline_pipelineorchestrator",
-      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_build_cid_preamble",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_build_cid_preamble"
     },
     {
       "relation": "imports",
@@ -9090,9 +9126,9 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_pipeline_rationale_84",
-      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_run_chapter",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_run_chapter"
     },
     {
       "relation": "rationale_for",
@@ -9155,9 +9191,9 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L335",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_pipeline_pipelineorchestrator_load_chapter_profile",
-      "target": "active_recall_pipeline_pipeline_py_int",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_pipeline_py_int"
     },
     {
       "relation": "references",
@@ -9166,9 +9202,9 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L347",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_pipeline_pipelineorchestrator_build_cid_preamble",
-      "target": "active_recall_pipeline_pipeline_py_int",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_pipeline_py_int"
     },
     {
       "relation": "uses",
@@ -9280,9 +9316,9 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L111",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_pipeline_rationale_111",
-      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_run_stage",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_run_stage"
     },
     {
       "relation": "rationale_for",
@@ -9334,9 +9370,9 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L347",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_pipeline_pipelineorchestrator_build_cid_preamble",
-      "target": "stage",
-      "confidence_score": 1.0
+      "target": "stage"
     },
     {
       "relation": "uses",
@@ -9375,9 +9411,9 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L156",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_pipeline_pipelineorchestrator_execute_stage",
-      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_build_cid_preamble",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_build_cid_preamble"
     },
     {
       "relation": "calls",
@@ -9418,9 +9454,9 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L133",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_pipeline_rationale_133",
-      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_execute_stage",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_execute_stage"
     },
     {
       "relation": "rationale_for",
@@ -9460,9 +9496,9 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L223",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_pipeline_rationale_223",
-      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_validate_stage",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_validate_stage"
     },
     {
       "relation": "rationale_for",
@@ -9552,9 +9588,9 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L252",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_pipeline_rationale_252",
-      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_build_validation_context",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_build_validation_context"
     },
     {
       "relation": "rationale_for",
@@ -9603,9 +9639,9 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L325",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_pipeline_rationale_325",
-      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_load_interim",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_load_interim"
     },
     {
       "relation": "rationale_for",
@@ -9644,9 +9680,9 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L376",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_pipeline_pipelineorchestrator_build_cid_preamble",
-      "target": "active_recall_pipeline_pipeline_py_str",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_pipeline_py_str"
     },
     {
       "relation": "uses",
@@ -9685,9 +9721,9 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L349",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_pipeline_pipelineorchestrator_build_cid_preamble",
-      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_load_chapter_profile",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_load_chapter_profile"
     },
     {
       "relation": "rationale_for",
@@ -9695,9 +9731,9 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L336",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_pipeline_rationale_336",
-      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_load_chapter_profile",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_load_chapter_profile"
     },
     {
       "relation": "rationale_for",
@@ -9705,9 +9741,9 @@
       "source_file": "active_recall_pipeline/pipeline.py",
       "source_location": "L348",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_pipeline_rationale_348",
-      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_build_cid_preamble",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_pipeline_pipelineorchestrator_build_cid_preamble"
     },
     {
       "relation": "contains",
@@ -12821,9 +12857,9 @@
       "source_file": "active_recall_pipeline/stages/consolidate.py",
       "source_location": "L125",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stages_consolidate_rationale_125",
-      "target": "stages_consolidate_parse_and_validate_json",
-      "confidence_score": 1.0
+      "target": "stages_consolidate_parse_and_validate_json"
     },
     {
       "relation": "rationale_for",
@@ -12872,9 +12908,9 @@
       "source_file": "active_recall_pipeline/stages/consolidate.py",
       "source_location": "L171",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stages_consolidate_rationale_171",
-      "target": "stages_consolidate_save_error_response",
-      "confidence_score": 1.0
+      "target": "stages_consolidate_save_error_response"
     },
     {
       "relation": "rationale_for",
@@ -13146,9 +13182,9 @@
       "source_file": "active_recall_pipeline/stages/excavate.py",
       "source_location": "L238",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stages_excavate_rationale_238",
-      "target": "stages_excavate_parse_batch_response",
-      "confidence_score": 1.0
+      "target": "stages_excavate_parse_batch_response"
     },
     {
       "relation": "rationale_for",
@@ -13198,9 +13234,9 @@
       "source_file": "active_recall_pipeline/stages/excavate.py",
       "source_location": "L266",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stages_excavate_rationale_266",
-      "target": "stages_excavate_is_in_inventory",
-      "confidence_score": 1.0
+      "target": "stages_excavate_is_in_inventory"
     },
     {
       "relation": "rationale_for",
@@ -13462,11 +13498,31 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "active_recall_pipeline/stages/forge.py",
-      "source_location": "L155",
+      "source_location": "L174",
       "weight": 1.0,
-      "source": "stages_forge_rationale_155",
+      "source": "stages_forge_rationale_174",
       "target": "stages_forge_sanitize_json_strings",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "active_recall_pipeline/stages/forge.py",
+      "source_location": "L173",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stages_forge_rationale_173",
+      "target": "stages_forge_sanitize_json_strings"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "active_recall_pipeline/stages/forge.py",
+      "source_location": "L155",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stages_forge_rationale_155",
+      "target": "stages_forge_sanitize_json_strings"
     },
     {
       "relation": "rationale_for",
@@ -13514,11 +13570,31 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "active_recall_pipeline/stages/forge.py",
-      "source_location": "L180",
+      "source_location": "L199",
       "weight": 1.0,
-      "source": "stages_forge_rationale_180",
+      "source": "stages_forge_rationale_199",
       "target": "stages_forge_parse_forge_response",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "active_recall_pipeline/stages/forge.py",
+      "source_location": "L198",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stages_forge_rationale_198",
+      "target": "stages_forge_parse_forge_response"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "active_recall_pipeline/stages/forge.py",
+      "source_location": "L180",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stages_forge_rationale_180",
+      "target": "stages_forge_parse_forge_response"
     },
     {
       "relation": "rationale_for",
@@ -14368,9 +14444,9 @@
       "source_file": "active_recall_pipeline/stages/patch.py",
       "source_location": "L151",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stages_patch_rationale_151",
-      "target": "stages_patch_sanitize_json_strings",
-      "confidence_score": 1.0
+      "target": "stages_patch_sanitize_json_strings"
     },
     {
       "relation": "rationale_for",
@@ -14409,9 +14485,9 @@
       "source_file": "active_recall_pipeline/stages/patch.py",
       "source_location": "L176",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stages_patch_rationale_176",
-      "target": "stages_patch_parse_patch_response",
-      "confidence_score": 1.0
+      "target": "stages_patch_parse_patch_response"
     },
     {
       "relation": "rationale_for",
@@ -14439,9 +14515,9 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_stages_scout_py",
-      "target": "stages_scout_run",
-      "confidence_score": 1.0
+      "target": "stages_scout_run"
     },
     {
       "relation": "contains",
@@ -14449,9 +14525,9 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L90",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_stages_scout_py",
-      "target": "stages_scout_parse_profile",
-      "confidence_score": 1.0
+      "target": "stages_scout_parse_profile"
     },
     {
       "relation": "contains",
@@ -14459,9 +14535,9 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L110",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_stages_scout_py",
-      "target": "stages_scout_is_valid_profile",
-      "confidence_score": 1.0
+      "target": "stages_scout_is_valid_profile"
     },
     {
       "relation": "re_exports",
@@ -14470,9 +14546,9 @@
       "source_file": "active_recall_pipeline/stages/__init__.py",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_stages_init_py",
-      "target": "active_recall_pipeline_stages_scout_py",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_stages_scout_py"
     },
     {
       "relation": "imports",
@@ -14481,9 +14557,9 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_stages_scout_py",
-      "target": "utils_api_call_haiku",
-      "confidence_score": 1.0
+      "target": "utils_api_call_haiku"
     },
     {
       "relation": "references",
@@ -14492,9 +14568,9 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stages_scout_run",
-      "target": "active_recall_pipeline_stages_scout_py_pipelineconfig",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_stages_scout_py_pipelineconfig"
     },
     {
       "relation": "calls",
@@ -14503,9 +14579,9 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stages_scout_run",
-      "target": "stages_scout_is_valid_profile",
-      "confidence_score": 1.0
+      "target": "stages_scout_is_valid_profile"
     },
     {
       "relation": "calls",
@@ -14514,9 +14590,9 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stages_scout_run",
-      "target": "stages_scout_parse_profile",
-      "confidence_score": 1.0
+      "target": "stages_scout_parse_profile"
     },
     {
       "relation": "rationale_for",
@@ -14524,9 +14600,9 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stages_scout_rationale_15",
-      "target": "stages_scout_run",
-      "confidence_score": 1.0
+      "target": "stages_scout_run"
     },
     {
       "relation": "imports",
@@ -14535,9 +14611,9 @@
       "source_file": "active_recall_pipeline/stages/__init__.py",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "active_recall_pipeline_stages_init_py",
-      "target": "stages_scout_run",
-      "confidence_score": 1.0
+      "target": "stages_scout_run"
     },
     {
       "relation": "calls",
@@ -14546,9 +14622,9 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stages_scout_run",
-      "target": "utils_api_call_haiku",
-      "confidence_score": 1.0
+      "target": "utils_api_call_haiku"
     },
     {
       "relation": "references",
@@ -14557,9 +14633,9 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L90",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stages_scout_parse_profile",
-      "target": "active_recall_pipeline_stages_scout_py_str",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_stages_scout_py_str"
     },
     {
       "relation": "rationale_for",
@@ -14567,9 +14643,9 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stages_scout_rationale_91",
-      "target": "stages_scout_parse_profile",
-      "confidence_score": 1.0
+      "target": "stages_scout_parse_profile"
     },
     {
       "relation": "references",
@@ -14578,9 +14654,9 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L110",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stages_scout_is_valid_profile",
-      "target": "active_recall_pipeline_stages_scout_py_bool",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_stages_scout_py_bool"
     },
     {
       "relation": "rationale_for",
@@ -14588,9 +14664,9 @@
       "source_file": "active_recall_pipeline/stages/scout.py",
       "source_location": "L111",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stages_scout_rationale_111",
-      "target": "stages_scout_is_valid_profile",
-      "confidence_score": 1.0
+      "target": "stages_scout_is_valid_profile"
     },
     {
       "relation": "contains",
@@ -14748,9 +14824,9 @@
       "source_file": "active_recall_pipeline/stages/survey.py",
       "source_location": "L113",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stages_survey_rationale_113",
-      "target": "stages_survey_load_profile",
-      "confidence_score": 1.0
+      "target": "stages_survey_load_profile"
     },
     {
       "relation": "rationale_for",
@@ -14779,9 +14855,9 @@
       "source_file": "active_recall_pipeline/stages/survey.py",
       "source_location": "L124",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stages_survey_rationale_124",
-      "target": "stages_survey_parse_concepts",
-      "confidence_score": 1.0
+      "target": "stages_survey_parse_concepts"
     },
     {
       "relation": "rationale_for",
@@ -15208,9 +15284,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L202",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_sqlitemanager",
-      "target": "utils_db_sqlitemanager_upsert_chapter_profile",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_upsert_chapter_profile"
     },
     {
       "relation": "method",
@@ -15218,9 +15294,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L218",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_sqlitemanager",
-      "target": "utils_db_sqlitemanager_get_chapter_profile",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_get_chapter_profile"
     },
     {
       "relation": "method",
@@ -15444,9 +15520,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L128",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_rationale_128",
-      "target": "utils_db_sqlitemanager_upsert_chapter",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_upsert_chapter"
     },
     {
       "relation": "rationale_for",
@@ -15608,9 +15684,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L202",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_sqlitemanager_upsert_chapter_profile",
-      "target": "active_recall_pipeline_utils_db_py_int",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_utils_db_py_int"
     },
     {
       "relation": "references",
@@ -15619,9 +15695,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L218",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_sqlitemanager_get_chapter_profile",
-      "target": "active_recall_pipeline_utils_db_py_int",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_utils_db_py_int"
     },
     {
       "relation": "references",
@@ -15750,9 +15826,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L151",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_rationale_151",
-      "target": "utils_db_sqlitemanager_get_chapter_id",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_get_chapter_id"
     },
     {
       "relation": "rationale_for",
@@ -15780,9 +15856,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L160",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_rationale_160",
-      "target": "utils_db_sqlitemanager_set_chapter_status",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_set_chapter_status"
     },
     {
       "relation": "rationale_for",
@@ -15810,9 +15886,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L179",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_rationale_179",
-      "target": "utils_db_sqlitemanager_get_pending_chapters",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_get_pending_chapters"
     },
     {
       "relation": "rationale_for",
@@ -15840,9 +15916,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L192",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_rationale_192",
-      "target": "utils_db_sqlitemanager_get_all_chapters",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_get_all_chapters"
     },
     {
       "relation": "rationale_for",
@@ -15870,9 +15946,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L203",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_rationale_203",
-      "target": "utils_db_sqlitemanager_upsert_chapter_profile",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_upsert_chapter_profile"
     },
     {
       "relation": "rationale_for",
@@ -15880,9 +15956,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L219",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_rationale_219",
-      "target": "utils_db_sqlitemanager_get_chapter_profile",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_get_chapter_profile"
     },
     {
       "relation": "rationale_for",
@@ -15890,9 +15966,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L240",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_rationale_240",
-      "target": "utils_db_sqlitemanager_init_stage_runs",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_init_stage_runs"
     },
     {
       "relation": "rationale_for",
@@ -15920,9 +15996,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L258",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_rationale_258",
-      "target": "utils_db_sqlitemanager_get_stage_status",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_get_stage_status"
     },
     {
       "relation": "rationale_for",
@@ -15950,9 +16026,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L279",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_rationale_279",
-      "target": "utils_db_sqlitemanager_set_stage_status",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_set_stage_status"
     },
     {
       "relation": "rationale_for",
@@ -15980,9 +16056,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L321",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_rationale_321",
-      "target": "utils_db_sqlitemanager_set_validation_status",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_set_validation_status"
     },
     {
       "relation": "rationale_for",
@@ -16054,9 +16130,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L340",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_rationale_340",
-      "target": "utils_db_sqlitemanager_stage_completed_unsafe",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_stage_completed_unsafe"
     },
     {
       "relation": "rationale_for",
@@ -16095,9 +16171,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L355",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_rationale_355",
-      "target": "utils_db_sqlitemanager_stage_completed",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_stage_completed"
     },
     {
       "relation": "rationale_for",
@@ -16125,9 +16201,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L361",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_rationale_361",
-      "target": "utils_db_sqlitemanager_increment_retry",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_increment_retry"
     },
     {
       "relation": "rationale_for",
@@ -16155,9 +16231,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L386",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_rationale_386",
-      "target": "utils_db_sqlitemanager_get_actionable_stages",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_get_actionable_stages"
     },
     {
       "relation": "rationale_for",
@@ -16207,9 +16283,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L482",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_rationale_482",
-      "target": "utils_db_sqlitemanager_update_cost_ledger",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_update_cost_ledger"
     },
     {
       "relation": "rationale_for",
@@ -16237,9 +16313,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L508",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_rationale_508",
-      "target": "utils_db_sqlitemanager_get_chapter_cost_summary",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_get_chapter_cost_summary"
     },
     {
       "relation": "rationale_for",
@@ -16267,9 +16343,9 @@
       "source_file": "active_recall_pipeline/utils/db.py",
       "source_location": "L534",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_db_rationale_534",
-      "target": "utils_db_sqlitemanager_get_pipeline_summary",
-      "confidence_score": 1.0
+      "target": "utils_db_sqlitemanager_get_pipeline_summary"
     },
     {
       "relation": "rationale_for",
@@ -16318,9 +16394,9 @@
       "source_file": "active_recall_pipeline/utils/validation.py",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_validation_stagevalidator_validate_scout",
-      "target": "utils_validation_validationresult",
-      "confidence_score": 1.0
+      "target": "utils_validation_validationresult"
     },
     {
       "relation": "calls",
@@ -16414,9 +16490,9 @@
       "source_file": "active_recall_pipeline/utils/validation.py",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_validation_stagevalidator",
-      "target": "utils_validation_stagevalidator_validate_scout",
-      "confidence_score": 1.0
+      "target": "utils_validation_stagevalidator_validate_scout"
     },
     {
       "relation": "method",
@@ -16527,9 +16603,9 @@
       "source_file": "active_recall_pipeline/utils/validation.py",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_validation_stagevalidator_validate_scout",
-      "target": "active_recall_pipeline_utils_validation_py_str",
-      "confidence_score": 1.0
+      "target": "active_recall_pipeline_utils_validation_py_str"
     },
     {
       "relation": "calls",
@@ -16667,9 +16743,9 @@
       "source_file": "active_recall_pipeline/utils/validation.py",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_validation_rationale_43",
-      "target": "utils_validation_stagevalidator_validate_scout",
-      "confidence_score": 1.0
+      "target": "utils_validation_stagevalidator_validate_scout"
     },
     {
       "relation": "rationale_for",
@@ -16677,9 +16753,9 @@
       "source_file": "active_recall_pipeline/utils/validation.py",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_validation_rationale_99",
-      "target": "utils_validation_stagevalidator_validate_survey",
-      "confidence_score": 1.0
+      "target": "utils_validation_stagevalidator_validate_survey"
     },
     {
       "relation": "rationale_for",
@@ -16717,9 +16793,9 @@
       "source_file": "active_recall_pipeline/utils/validation.py",
       "source_location": "L136",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_validation_rationale_136",
-      "target": "utils_validation_stagevalidator_validate_consolidate",
-      "confidence_score": 1.0
+      "target": "utils_validation_stagevalidator_validate_consolidate"
     },
     {
       "relation": "rationale_for",
@@ -16757,9 +16833,9 @@
       "source_file": "active_recall_pipeline/utils/validation.py",
       "source_location": "L223",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_validation_rationale_223",
-      "target": "utils_validation_stagevalidator_validate_tier",
-      "confidence_score": 1.0
+      "target": "utils_validation_stagevalidator_validate_tier"
     },
     {
       "relation": "rationale_for",
@@ -16807,9 +16883,9 @@
       "source_file": "active_recall_pipeline/utils/validation.py",
       "source_location": "L270",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_validation_rationale_270",
-      "target": "utils_validation_stagevalidator_validate_excavate",
-      "confidence_score": 1.0
+      "target": "utils_validation_stagevalidator_validate_excavate"
     },
     {
       "relation": "rationale_for",
@@ -16857,9 +16933,9 @@
       "source_file": "active_recall_pipeline/utils/validation.py",
       "source_location": "L310",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_validation_rationale_310",
-      "target": "utils_validation_stagevalidator_validate_forge",
-      "confidence_score": 1.0
+      "target": "utils_validation_stagevalidator_validate_forge"
     },
     {
       "relation": "rationale_for",
@@ -16907,9 +16983,9 @@
       "source_file": "active_recall_pipeline/utils/validation.py",
       "source_location": "L377",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_validation_rationale_377",
-      "target": "utils_validation_stagevalidator_validate_patch",
-      "confidence_score": 1.0
+      "target": "utils_validation_stagevalidator_validate_patch"
     },
     {
       "relation": "rationale_for",
@@ -17721,5 +17797,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "c82a87f7c00b7e88e82e75115725759145b4b60c"
+  "built_at_commit": "4a6e106291d213b57ab3094c3448c4045a1545bc"
 }

@@ -4,7 +4,7 @@ import json
 import logging
 
 from active_recall_pipeline.config import DEFAULT_CONFIG, PipelineConfig
-from active_recall_pipeline.utils.api import build_batches, call_sonnet
+from active_recall_pipeline.utils.api import build_batches, call_sonnet, call_haiku
 
 
 logger = logging.getLogger(__name__)
@@ -40,7 +40,11 @@ def run(cfg: PipelineConfig) -> None:
         excavated_concepts = [c.copy() for c in section["concepts"]]
         next_id = max((c["id"] for c in excavated_concepts), default=0) + 1
 
-        # Separate concepts by tier (skip SIMPLE and CLUSTER)
+        # Separate concepts by tier (CLUSTER skipped — tested as unit, not decomposed)
+        simple_concepts = [
+            c for c in section["concepts"]
+            if c["tier"] == "SIMPLE" and c["type"] != "CLUSTER"
+        ]
         medium_concepts = [
             c for c in section["concepts"]
             if c["tier"] == "MEDIUM" and c["type"] != "CLUSTER"
@@ -55,6 +59,50 @@ def run(cfg: PipelineConfig) -> None:
             f"{c['id']}. {c['text']}"
             for c in excavated_concepts
         )
+
+
+        # Process SIMPLE concepts (lightweight — 1-2 prereqs only)
+        if simple_concepts:
+            user_prompt_template = (
+                f"SUBJECT: {section['subject']} | BOOK: {section['book']} | "
+                f"CHAPTER: {section['chapter_title']}\n\n"
+                f"EXISTING INVENTORY (do not add these):\n"
+                f"{existing_inventory_text}\n\n"
+                f"CONCEPTS TO DECOMPOSE:\n{{{{CONCEPT_BATCH}}}}\n\n"
+                f"For every concept identify 1-2 direct prerequisites only. "
+                f"Do not recurse deep. Every concept_id must appear in output."
+            )
+            batches = build_batches(
+                concepts=simple_concepts,
+                system_prompt=system_prompt,
+                user_prompt_template=user_prompt_template,
+                placeholder="{{CONCEPT_BATCH}}",
+                model=DEFAULT_CONFIG.model_sonnet,
+            )
+            for batch_num, batch in enumerate(batches):
+                response = None
+                try:
+                    batch_json = json.dumps(batch, indent=2)
+                    user_prompt = user_prompt_template.replace("{{CONCEPT_BATCH}}", batch_json)
+                    response = call_haiku(system_prompt, user_prompt, stage="EXCAVATE", cfg=cfg, db_logger=cfg.db_logger, chapter_id=cfg.chapter_id)
+                    responses_array = _parse_batch_response(response)
+                    for concept_response in responses_array:
+                        for prereq in concept_response.get("prerequisites", []):
+                            if not _is_in_inventory(prereq["text"], excavated_concepts):
+                                excavated_concepts.append({
+                                    "id": next_id,
+                                    "text": prereq["text"],
+                                    "type": "STANDALONE",
+                                    "tier": "SIMPLE",
+                                    "children": [],
+                                    "source": "decomposition",
+                                    "parent_concept_id": concept_response.get("concept_id"),
+                                    "depth": prereq["depth"],
+                                    "reason": prereq["reason"],
+                                })
+                                next_id += 1
+                except Exception as e:
+                    logger.warning(f"Error processing SIMPLE batch {batch_num}: {e}", exc_info=True)
 
         # Process MEDIUM concepts
         if medium_concepts:
@@ -84,7 +132,7 @@ def run(cfg: PipelineConfig) -> None:
                         "{{CONCEPT_BATCH}}", batch_json
                     )
 
-                    response = call_sonnet(system_prompt, user_prompt, thinking_budget=2000, stage="EXCAVATE", cfg=cfg, db_logger=cfg.db_logger, chapter_id=cfg.chapter_id)
+                    response = call_haiku(system_prompt, user_prompt, stage="EXCAVATE", cfg=cfg, db_logger=cfg.db_logger, chapter_id=cfg.chapter_id)
                     responses_array = _parse_batch_response(response)
 
                     # Validate all concept_ids appear in response
@@ -168,7 +216,7 @@ def run(cfg: PipelineConfig) -> None:
                         "{{CONCEPT_BATCH}}", batch_json
                     )
 
-                    response = call_sonnet(system_prompt, user_prompt, thinking_budget=4000, stage="EXCAVATE", cfg=cfg, db_logger=cfg.db_logger, chapter_id=cfg.chapter_id)
+                    response = call_haiku(system_prompt, user_prompt, stage="EXCAVATE", cfg=cfg, db_logger=cfg.db_logger, chapter_id=cfg.chapter_id)
                     responses_array = _parse_batch_response(response)
 
                     # Validate all concept_ids appear in response

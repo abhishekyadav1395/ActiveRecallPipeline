@@ -227,7 +227,7 @@ def _parse_forge_response(response: str) -> list[dict]:
         data = [data] if isinstance(data, dict) else []
 
     required_keys = {"q_id", "inventory_id", "layer", "format",
-                     "difficulty", "question", "answer", "tags"}
+                     "difficulty", "question", "answer"}
     questions = []
 
     for item in data:
@@ -237,6 +237,16 @@ def _parse_forge_response(response: str) -> list[dict]:
             missing = required_keys - set(item.keys())
             logger.warning(f"Skipping question missing keys: {missing}")
             continue
+        # Auto-coerce missing tags rather than discard
+        if not item.get("tags"):
+            inv_id = item.get("inventory_id", "?")
+            layer = item.get("layer", "Surface")
+            diff = item.get("difficulty", "Medium")
+            fmt = item.get("format", "Direct")
+            item["tags"] = (
+                f"Inventory::{inv_id} Layer::{layer} "
+                f"Difficulty::{diff} Format::{fmt}"
+            )
         questions.append(item)
 
     return questions

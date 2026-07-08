@@ -46,8 +46,9 @@ class Provider(str, Enum):
     ANTHROPIC_SONNET = "anthropic_sonnet"
     GEMINI_FLASH     = "gemini_flash"
     GEMINI_PRO       = "gemini_pro"
-    DEEPSEEK_V4      = "deepseek_v4"
-    DEEPSEEK_R1      = "deepseek_r1"
+    DEEPSEEK_V4      = "deepseek_v4"      # flash — Tier 1
+    DEEPSEEK_V4_PRO  = "deepseek_v4_pro"  # pro — Tier 2
+    DEEPSEEK_R1      = "deepseek_r1"      # reasoner only
 
 
 # Tier waterfall — ordered cheapest to most expensive
@@ -58,7 +59,7 @@ TIER_1_WATERFALL: list[Provider] = [
 ]
 
 TIER_2_WATERFALL: list[Provider] = [
-    Provider.DEEPSEEK_R1,
+    Provider.DEEPSEEK_V4_PRO,
     Provider.GEMINI_PRO,
     Provider.ANTHROPIC_SONNET,
 ]
@@ -72,9 +73,9 @@ STAGE_TIERS: dict[str, int] = {
     "CONSOLIDATE": 1,
     "TIER":        1,
     "EXCAVATE":    2,
-    "FORGE":       1,
+    "FORGE":       2,
     "AUDIT":       0,
-    "PATCH":       1,
+    "PATCH":       2,
     "MINT":        0,
     "DELIVER":     0,
 }
@@ -86,6 +87,7 @@ PROVIDER_PRICING: dict[str, dict[str, float]] = {
     "gemini_flash":     {"input": 0.15,  "output": 0.60},
     "gemini_pro":       {"input": 1.25,  "output": 10.00},
     "deepseek_v4":      {"input": 0.27,  "output": 1.10},
+    "deepseek_v4_pro":  {"input": 0.55,  "output": 2.19},
     "deepseek_r1":      {"input": 0.55,  "output": 2.19},
 }
 
@@ -344,7 +346,7 @@ class PipelineConfig:
             elif self.active_provider == "gemini":
                 active = Provider("gemini_flash" if tier == 1 else "gemini_pro")
             elif self.active_provider == "deepseek":
-                active = Provider("deepseek_v4" if tier == 1 else "deepseek_r1")
+                active = Provider("deepseek_v4" if tier == 1 else "deepseek_v4_pro")
                 return [active]  # DeepSeek only — no fallback to other providers
             else:
                 active = Provider(self.active_provider + ("_v4" if tier == 1 else "_r1"))

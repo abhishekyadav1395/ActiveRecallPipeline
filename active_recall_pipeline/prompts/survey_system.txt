@@ -44,3 +44,17 @@ RULES:
 - Do NOT output headers, labels, section titles, or markdown 
   of any kind. Return only substantive concept noun phrases.
 - Do NOT output the chapter title or subject name as a concept.
+
+NOUN PHRASE RULE — STRICTLY ENFORCED:
+Every line must be a noun phrase under 15 words.
+A noun phrase names a thing, concept, fact, or entity.
+It does NOT contain a verb describing what something does.
+
+Good: "Article 21 — protection of life and personal liberty"
+Good: "Reasonable restrictions on freedom of speech under Article 19(2)"
+Good: "Kesavananda Bharati case (1973) — basic structure doctrine"
+Bad:  "Article 21 protects the right to life and personal liberty"
+Bad:  "The court held that Parliament cannot amend the basic structure"
+
+If you find yourself writing a sentence with a verb — STOP.
+Break it into 2-3 noun phrases instead.
