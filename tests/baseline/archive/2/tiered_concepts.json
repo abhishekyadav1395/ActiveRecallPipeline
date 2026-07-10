@@ -1,0 +1,253 @@
+[
+  {
+    "section_id": 1,
+    "chapter_num": 2,
+    "chapter_title": "Making Of The Consitution",
+    "exam": "uppsc",
+    "subject": "Polity",
+    "book": "Laxmikant",
+    "concepts": [
+      {
+        "id": 1,
+        "text": "Demand for Constituent Assembly (1934-1946)",
+        "type": "CLUSTER",
+        "children": [
+          "First proposal for a Constituent Assembly in 1934 by M.N. Roy",
+          "Official demand by Indian National Congress in 1935",
+          "Jawaharlal Nehru's declaration in 1938 that the Constitution of free India be framed by a Constituent Assembly elected on adult franchise",
+          "British acceptance of demand in principle through the August Offer of 1940",
+          "Cripps Proposals of 1942: British draft for framing independent Constitution after World War II",
+          "Muslim League's rejection of Cripps Proposals and demand for two separate Constituent Assemblies",
+          "Cabinet Mission (members: Lord Pethick-Lawrence, Sir Stafford Cripps, A.V. Alexander; arrived March 24, 1946; published plan May 16, 1946)",
+          "Cabinet Mission's rejection of the idea of two Constituent Assemblies",
+          "Cabinet Mission's scheme for a Constituent Assembly (partly elected, partly nominated)",
+          "Satisfaction of Muslim League with the Cabinet Mission scheme"
+        ],
+        "tier": "COMPLEX"
+      },
+      {
+        "id": 2,
+        "text": "Composition and Election of Constituent Assembly",
+        "type": "CLUSTER",
+        "children": [
+          "Total strength: 389 (296 from British Indian provinces, 93 from princely states, 4 from Chief Commissioners' provinces)",
+          "Allocation of seats in proportion to population, roughly one seat per million, divided among Muslims, Sikhs, and General",
+          "Members elected indirectly by provincial legislative assembly members using proportional representation by single transferable vote; princely state representatives nominated by their heads",
+          "Limited franchise for provincial elections under Government of India Act 1935 (based on tax, property, education)",
+          "Elections held in July-August 1946: Congress won 208 seats, Muslim League 73, others 15",
+          "Community-wise representation in the Assembly: Hindus 163, Muslims 80, Scheduled Castes 31, Indian Christians 6, Backward Tribes 6, Sikhs 4, Anglo-Indians 3, Parsees 3",
+          "Princely states initially stayed away; six states (Baroda, Bikaner, Jaipur, Patiala, Rewa, Udaipur) joined on April 28, 1947",
+          "After partition: Muslim League members from Pakistan areas withdrew; total strength reduced to 299 (provinces 229, states 70)"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 3,
+        "text": "First Meeting and Officers of Constituent Assembly",
+        "type": "CLUSTER",
+        "children": [
+          "First meeting held on December 9, 1946; Muslim League boycotted; 211 members attended",
+          "Dr. Sachchidananda Sinha served as temporary President following French practice of electing the oldest member",
+          "Dr. Rajendra Prasad elected as President of the Assembly",
+          "H.C. Mukherjee and V.T. Krishnamachari elected as Vice-Presidents"
+        ],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 4,
+        "text": "Objectives Resolution",
+        "type": "CLUSTER",
+        "children": [
+          "Moved by Jawaharlal Nehru on December 13, 1946",
+          "Unanimously adopted on January 22, 1947",
+          "Proclaimed India as an Independent Sovereign Republic",
+          "Declared India as a Union of territories comprising British India, Indian States, and other willing parts",
+          "Provided for autonomous units with residuary powers",
+          "Stated that all power and authority are derived from the people",
+          "Guaranteed justice \u2013 social, economic and political",
+          "Guaranteed equality of status, opportunity and before the law",
+          "Guaranteed freedom of thought, expression, belief, faith, worship, vocation, association and action subject to law and public morality",
+          "Provided safeguards for minorities, backward and tribal areas, depressed and other backward classes",
+          "Affirmed integrity of territory and sovereign rights on land, sea and air",
+          "Declared India's rightful and honoured place in the world and contribution to world peace and welfare of mankind",
+          "Influenced the entire Constitution; its modified version forms the Preamble"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 5,
+        "text": "Post-Partition Changes and Finalization",
+        "type": "CLUSTER",
+        "children": [
+          "Mountbatten Plan of June 3, 1947 led to partition",
+          "After the Plan, representatives of most princely states joined the Assembly",
+          "Members of Muslim League from areas within Indian Dominion entered the Assembly",
+          "Indian Independence Act of 1947 made three changes: (i) Assembly became fully sovereign, (ii) empowered to abrogate or alter any British law, (iii) became a legislative body with separate functions",
+          "Assembly performed two functions: Constituent body chaired by Dr. Rajendra Prasad, Legislative body chaired by G.V. Mavlankar",
+          "Muslim League members from areas included in Pakistan withdrew; total strength reduced to 299",
+          "India's membership of the Commonwealth ratified in May 1949",
+          "National flag adopted on July 22, 1947; national anthem and national song adopted on January 24, 1950",
+          "Dr. Rajendra Prasad elected as first President of India on January 24, 1950",
+          "Constituent Assembly continued as Provisional Parliament from January 26, 1950 to April 17, 1952",
+          "First elected Parliament with two Houses came in May 1952; first general elections held in 1951-52"
+        ],
+        "tier": "COMPLEX"
+      },
+      {
+        "id": 6,
+        "text": "Drafting Committee",
+        "type": "CLUSTER",
+        "children": [
+          "Set up on August 29, 1947",
+          "Most important committee of the Constituent Assembly",
+          "Task: to prepare a draft of the new Constitution",
+          "Seven members: Dr. B.R. Ambedkar (Chairman), N. Gopalaswamy Ayyangar, Alladi Krishnaswamy Ayyar, K.M. Munshi, Syed Mohammad Saadullah, N. Madhava Rau (replaced B.L. Mitter), T.T. Krishnamachari (replaced D.P. Khaitan)",
+          "First draft published in February 1948; eight months given for public discussion",
+          "Second draft published in October 1948",
+          "Final draft introduced by Dr. Ambedkar on November 4, 1948 (first reading)",
+          "Three readings: general discussion (Nov 4-9, 1948), clause-by-clause consideration (Nov 15, 1948 to Oct 17, 1949), final reading (Nov 14-26, 1949)",
+          "7,653 amendments proposed; 2,473 discussed",
+          "Motion to pass Constitution moved by Dr. Ambedkar on November 14, 1949; passed on November 26, 1949",
+          "Dr. B.R. Ambedkar piloted the Draft Constitution as Law Minister; known as Father of the Constitution"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 7,
+        "text": "Criticism of Constituent Assembly",
+        "type": "CLUSTER",
+        "children": [
+          "Assembly not truly representative: members were not directly elected on universal adult franchise",
+          "Assembly not sovereign: created and sessions held with permission of British Government",
+          "Process time-consuming: American Constitution framed in 4 months; Naziruddin Ahmed called Drafting Committee 'Drifting Committee'",
+          "Assembly dominated by Congress party: Granville Austin remarked 'The Assembly was the Congress and the Congress was India'",
+          "Assembly dominated by lawyers and politicians: other sections not sufficiently represented; resulting in bulky and complicated language",
+          "Assembly dominated by Hindus: Lord Viscount Simon called it 'a body of Hindus'; Winston Churchill said it represented 'only one major community'"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 8,
+        "text": "Major Committees of Constituent Assembly",
+        "type": "CLUSTER",
+        "children": [
+          "Union Powers Committee \u2013 Chairman Jawaharlal Nehru",
+          "Union Constitution Committee \u2013 Chairman Jawaharlal Nehru",
+          "Provincial Constitution Committee \u2013 Chairman Sardar Patel",
+          "Advisory Committee on Fundamental Rights, Minorities and Tribal and Excluded Areas \u2013 Chairman Sardar Patel",
+          "Rules of Procedure Committee \u2013 Chairman Dr. Rajendra Prasad",
+          "States Committee (Committee for Negotiating with States) \u2013 Chairman Jawaharlal Nehru",
+          "Steering Committee \u2013 Chairman Dr. Rajendra Prasad",
+          "Finance and Staff Committee \u2013 Chairman Dr. Rajendra Prasad"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 9,
+        "text": "Experts Committee (July 1946)",
+        "type": "CLUSTER",
+        "children": [
+          "Appointed on July 8, 1946 to prepare material for the Constituent Assembly",
+          "Members: Jawaharlal Nehru (Chairman), M. Asaf Ali, K.M. Munshi, N. Gopalaswami Ayyangar, K.T. Shah, D.R. Gadgil, Humayun Kabir, K. Santhanam; Krishna Kripalani co-opted as member and convener",
+          "First sitting in New Delhi (July 20-22, 1946); second sitting in Bombay (Aug 15-17, 1946)",
+          "Discussed procedure, appointment of committees, and drafted a resolution on objectives (later Objectives Resolution)",
+          "Granville Austin noted its role in setting India on the road to the present Constitution"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 10,
+        "text": "Functionaries and Artistic Aspects of the Constitution",
+        "type": "CLUSTER",
+        "children": [
+          "Sir B.N. Rau appointed as Constitutional Advisor (legal advisor) to the Constituent Assembly",
+          "H.V.R. Iyengar as Secretary to the Constituent Assembly",
+          "S.N. Mukerjee as Chief Draftsman",
+          "Prem Behari Narain Raizada as calligrapher who handwrote the original Constitution in flowing italic style",
+          "Artists from Shantiniketan (Nand Lal Bose, Beohar Rammanohar Sinha) beautified and decorated the original version",
+          "Hindi version calligraphy by Vasant Krishan Vaidya and decoration by Nand Lal Bose",
+          "Originally no authoritative text in Hindi; 58th Constitutional Amendment Act (1987) inserted Article 394-A providing for an authoritative Hindi text",
+          "Article 394-A: President to cause publication of Hindi translation, modifications for conformity, inclusion of amendments, same meaning as English, and provision for revision if difficulty arises"
+        ],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 11,
+        "text": "Commencement of Constitution and Republic Day",
+        "type": "CLUSTER",
+        "children": [
+          "Some provisions (specified articles like 5,6,7,8,9,60,324, etc.) came into force on November 26, 1949",
+          "Remaining provisions came into force on January 26, 1950 \u2013 the date of commencement",
+          "January 26 chosen due to historical significance: Purna Swaraj day celebrated on January 26, 1930 following Lahore Session of INC (December 1929)",
+          "Indian Independence Act 1947 and Government of India Act 1935, along with all amending enactments, were repealed",
+          "Abolition of Privy Council Jurisdiction Act (1949) was continued",
+          "Part XXII originally contained Articles 393 (Short title), 394 (Commencement), 395 (Repeals); Article 394A added by 58th Amendment"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 12,
+        "text": "Elephant adopted as symbol (seal) of the Constituent Assembly",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 13,
+        "text": "Total duration taken to frame the Constitution: 2 years, 11 months and 18 days",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 14,
+        "text": "Total expenditure on framing the Constitution: \u20b964 lakh",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 15,
+        "text": "Constitution-makers studied the constitutions of about 60 countries",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 16,
+        "text": "Draft Constitution considered by the Assembly for 114 days",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 17,
+        "text": "The Constituent Assembly held 11 sessions from December 1946 to November 1949, with a final meeting for signatures on January 24, 1950",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 18,
+        "text": "Original Constitution adopted contained a Preamble, 395 Articles and 8 Schedules",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 19,
+        "text": "284 out of 299 members signed the Constitution on November 26, 1949",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 20,
+        "text": "The Preamble was enacted after the entire Constitution was enacted",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      }
+    ]
+  }
+]

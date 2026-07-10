@@ -1,0 +1,227 @@
+[
+  {
+    "section_id": 1,
+    "chapter_num": 7,
+    "chapter_title": "Fundamental Rights2",
+    "exam": "uppsc",
+    "subject": "Polity",
+    "book": "Laxmikant",
+    "concepts": [
+      {
+        "id": 1,
+        "text": "Features of Fundamental Rights",
+        "type": "CLUSTER",
+        "children": [
+          "Fundamental Rights are justiciable and enforceable by courts; the Supreme Court can be approached directly under Article 32 for their enforcement.",
+          "Fundamental Rights are available to citizens only (Articles 15, 16, 19, 21, 30) and to all persons (citizens and foreigners except enemy aliens) under other articles.",
+          "Fundamental Rights are not absolute; they are subject to reasonable restrictions imposed by the State in the interest of public order, morality, etc., and the courts decide the reasonableness of such restrictions.",
+          "Fundamental Rights strike a balance between individual liberty and social control, and between individual rights and society's interests.",
+          "Fundamental Rights are available against arbitrary actions of the State and also against private individuals in some cases (e.g., Articles 17, 23, 24).",
+          "Fundamental Rights are both negative (prohibiting State from doing certain things) and positive (permitting individuals to do certain things).",
+          "Fundamental Rights are not sacrosanct or permanent; Parliament can curtail or repeal them by amending the Constitution, but such amendments are subject to the basic structure doctrine.",
+          "Fundamental Rights can be suspended during a National Emergency: Article 19 rights are suspended only during an external emergency (war or external aggression), while Articles 20 and 21 are never suspended.",
+          "The scope of Fundamental Rights is limited by Articles 31A, 31B, and 31C, and acts placed in the Ninth Schedule are protected from challenge.",
+          "Parliament can restrict the application of Fundamental Rights to members of armed forces, para-military, police, and intelligence agencies under Article 33 to ensure discipline and proper discharge of duties.",
+          "Fundamental Rights can be restricted during martial law (Article 34), and Parliament can indemnify persons for acts done to restore order.",
+          "Fundamental Rights are directly enforceable and self-executory; they can be enforced on the basis of laws made by Parliament under Article 35.",
+          "Fundamental Rights ensure uniformity throughout the country, and only Parliament can make laws to give effect to certain specified rights (Article 35)."
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Definition of State (Article 12)",
+        "type": "CLUSTER",
+        "children": [
+          "The State includes the Government and Parliament of India (executive and legislative organs of the Union).",
+          "The State includes the Government and Legislature of each State (executive and legislative organs of State governments).",
+          "The State includes all local authorities, such as municipalities, panchayats, district boards, and improvement trusts.",
+          "The State includes all other authorities, both statutory and non-statutory, like LIC, ONGC, SAIL, and other instrumentalities of the State.",
+          "The definition of 'State' is given a wide interpretation to include all agencies through which the State acts, ensuring that actions of such agencies can be challenged in courts for violating Fundamental Rights.",
+          "A private body or agency can be considered an 'instrument of the State' if it is under the control of the government and performs public functions, as held by the Supreme Court."
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Laws inconsistent with Fundamental Rights (Article 13)",
+        "type": "CLUSTER",
+        "children": [
+          "Article 13 declares that all laws inconsistent with or in derogation of Fundamental Rights are void to the extent of inconsistency.",
+          "The doctrine of judicial review empowers the Supreme Court (under Article 32) and High Courts (under Article 226) to declare a law unconstitutional and invalid if it violates Fundamental Rights.",
+          "The term 'law' under Article 13 has a wide connotation: it includes permanent laws made by Parliament/State legislatures, temporary laws like ordinances, statutory instruments (delegated legislation), and custom or usage having the force of law.",
+          "A constitutional amendment is not considered a 'law' under Article 13, but it can be challenged if it violates the basic structure of the Constitution, as established in the Kesavananda Bharati case (1973).",
+          "Laws made before the commencement of the Constitution that are inconsistent with Fundamental Rights become void from the date of commencement, unless otherwise provided."
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Right to Equality (Articles 14\u201318)",
+        "type": "CLUSTER",
+        "children": [
+          "Article 14: Equality before law and equal protection of laws \u2013 includes negative concept of absence of special privileges and equal subjection to ordinary law, and positive concept of equal treatment under similar circumstances; forbids class legislation but permits reasonable classification based on intelligible differentia; includes the Rule of Law concept (A.V. Dicey's three elements, though the third element is not fully applicable in India); exceptions include immunities for President and Governor (Article 361), publication of parliamentary proceedings (Article 361-A), proceedings against MPs/MLAs (Articles 105, 194), Article 31-C, and diplomatic immunities.",
+          "Article 15: Prohibition of discrimination on grounds of religion, race, caste, sex, or place of birth \u2013 applies to both State and private individuals; allows special provisions for women, children, SC/ST/OBC, and economically weaker sections (EWS) up to 10% reservation; includes reservation quotas for OBCs in educational institutions via 93rd Amendment and Central Educational Institutions Act, 2006, with creamy layer exclusion criteria and income/asset thresholds.",
+          "Article 16: Equality of opportunity in public employment \u2013 prohibits discrimination on specified grounds; allows Parliament to prescribe residence for certain employment, reservation for backward classes (Mandal Commission recommended 27% for OBCs, upheld in Indra Sawhney case with conditions like creamy layer exclusion, no reservation in promotions initially, 50% ceiling); includes reservation for EWS up to 10%; covers amendments like 77th (reservation in promotions), 85th (consequential seniority), 81st (backlog vacancies), and 76th (Tamil Nadu Reservations Act in Ninth Schedule).",
+          "Article 17: Abolition of untouchability \u2013 forbids its practice in any form; enforcement of disability from untouchability is an offence; covered by Untouchability (Offences) Act, 1955 (renamed Protection of Civil Rights Act, 1955); right is available against private individuals; the term 'untouchability' is not defined but refers to historically developed social disabilities.",
+          "Article 18: Abolition of titles \u2013 State cannot confer titles except military or academic distinctions; citizens cannot accept titles from foreign states; foreigners holding office under State need President's consent to accept titles; hereditary titles banned; National Awards (Bharat Ratna, Padma awards) are not titles under Article 18 as per Supreme Court."
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Right to Freedom (Articles 19\u201322)",
+        "type": "CLUSTER",
+        "children": [
+          "Article 19: Protection of six rights \u2013 freedom of speech and expression (includes press freedom, right to know, right to demonstration, but not right to strike; restrictions on grounds of sovereignty, security, public order, etc.), freedom of assembly (peaceful and unarmed, subject to public order, Section 144 CrPC), freedom of association (right to form unions, etc., but no right to effective bargaining or strike; restrictions on grounds of sovereignty, public order, morality), freedom of movement (throughout India, subject to general public interest and protection of scheduled tribes), freedom of residence (throughout India, similar restrictions), freedom of profession/occupation/trade/business (subject to public interest, professional qualifications, and State monopoly).",
+          "Article 20: Protection in respect of conviction for offences \u2013 includes protection against ex-post-facto laws (no conviction for an act that was not an offence at the time, and no greater penalty than prescribed at the time), double jeopardy (no person shall be prosecuted and punished for the same offence more than once), and self-incrimination (no person accused of an offence shall be compelled to be a witness against himself). These protections apply only to criminal proceedings; the ex-post-facto protection does not apply to civil or tax laws; double jeopardy applies only to court proceedings, not departmental actions; self-incrimination does not extend to material objects, thumb impressions, etc.",
+          "Article 21: Protection of life and personal liberty \u2013 no person shall be deprived of life or personal liberty except according to procedure established by law; originally interpreted narrowly in Gopalan case (1950) but expanded in Menaka case (1978) to include due process of law; covers a wide range of rights including right to live with dignity, right to livelihood, right to privacy, right to health, right to education up to 14 years, right to free legal aid, right to speedy trial, and many others as enumerated by the Supreme Court.",
+          "Article 21A: Right to education \u2013 free and compulsory education for all children aged 6 to 14 years; added by 86th Constitutional Amendment Act, 2002; implemented through the Right of Children to Free and Compulsory Education (RTE) Act, 2009.",
+          "Article 22: Protection against arrest and detention \u2013 first part provides safeguards for persons arrested under ordinary law: right to be informed of grounds, right to consult and be defended by lawyer, right to be produced before magistrate within 24 hours, right to be released after 24 hours unless magistrate authorises further detention; these safeguards are not available to enemy aliens and persons detained under preventive detention laws. Second part provides safeguards for preventive detention: detention cannot exceed three months unless advisory board of High Court judges reports sufficient cause; grounds of detention must be communicated; detenu must have opportunity to make representation; Parliament can prescribe circumstances for longer detention and procedure. Preventive detention laws include COFEPOSA, NSA, etc."
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Right against Exploitation (Articles 23\u201324)",
+        "type": "CLUSTER",
+        "children": [
+          "Article 23: Prohibition of traffic in human beings and forced labour \u2013 prohibits traffic in human beings (including selling/buying, immoral traffic, devadasis, slavery), begar (forced labour without remuneration), and similar forms of forced labour; available to citizens and non-citizens and against State and private individuals; exceptions allow State to impose compulsory service for public purposes without discrimination; related laws include Immoral Traffic (Prevention) Act, 1956, Bonded Labour System (Abolition) Act, 1976, Minimum Wages Act, etc.",
+          "Article 24: Prohibition of employment of children in factories, etc. \u2013 prohibits employment of children below the age of 14 in factories, mines, or hazardous activities; does not prohibit harmless work; enforced through Child Labour (Prohibition and Regulation) Act, 1986 (renamed Child and Adolescent Labour Act, 2016); Supreme Court directed Child Labour Rehabilitation Welfare Fund; Commissions for Protection of Child Rights Act, 2005."
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Right to Freedom of Religion (Articles 25\u201328)",
+        "type": "CLUSTER",
+        "children": [
+          "Article 25: Freedom of conscience and free profession, practice and propagation of religion \u2013 all persons equally entitled to freedom of conscience and right to profess (declare openly), practice (worship, rituals), and propagate (transmit beliefs, but not to convert); subject to public order, morality, health, and other fundamental rights; State can regulate secular activities and provide for social welfare and reform; explanation includes wearing and carrying of kirpans for Sikhs and includes Hindus, Sikhs, Jains, Buddhists within Hindu reference.",
+          "Article 26: Freedom to manage religious affairs \u2013 every religious denomination has the right to establish and maintain religious institutions, manage its own affairs in matters of religion, own and acquire property, and administer property in accordance with law; subject to public order, morality, and health; Supreme Court defined religious denomination as a collection of individuals with a system of beliefs, common organisation, and distinctive name; examples: Ramakrishna Mission (yes), Ananda Marga (yes), Aurobindo Society (no).",
+          "Article 27: Freedom from taxation for promotion of any religion \u2013 no person shall be compelled to pay taxes for the promotion or maintenance of any particular religion; prohibits tax but not fee; fee can be levied for secular administration (e.g., pilgrims for safety).",
+          "Article 28: Freedom from attending religious instruction in certain educational institutions \u2013 no religious instruction in educational institutions wholly maintained out of State funds; exception if institution is administered by State but established under a trust requiring religious instruction; in recognized or aided institutions, no person can be required to attend religious instruction without consent of the person or guardian."
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Cultural and Educational Rights (Articles 29\u201330)",
+        "type": "CLUSTER",
+        "children": [
+          "Article 29: Protection of interests of minorities \u2013 any section of citizens with a distinct language, script, or culture has the right to conserve it; no citizen shall be denied admission into any educational institution maintained by or receiving aid from the State on grounds of religion, race, caste, or language; first provision protects group rights of minorities; second protects individual rights; protection extends to both religious and linguistic minorities.",
+          "Article 30: Right of minorities to establish and administer educational institutions \u2013 all minorities (religious or linguistic) have the right to establish and administer educational institutions of their choice; compensation for compulsory acquisition shall not restrict this right; State shall not discriminate in granting aid; institutions seeking recognition and/or aid are subject to regulatory power of the State on educational standards, but unaided institutions have more autonomy; rights include choosing governing body, staff, admitting students, setting fees; subject to general laws and regulations to ensure standards."
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Right to Constitutional Remedies (Article 32) and Writs",
+        "type": "CLUSTER",
+        "children": [
+          "Article 32: Right to move the Supreme Court for enforcement of Fundamental Rights is itself a fundamental right; Dr. Ambedkar called it the 'very soul of the Constitution'; it is a basic feature and cannot be abridged by amendment; the Supreme Court has the power to issue directions, orders, and writs for enforcement; this right can be suspended only during a national emergency under Article 359; the jurisdiction is original but concurrent with High Courts under Article 226; aggrieved parties may first approach the High Court; the remedy is summary and inexpensive.",
+          "Writs: Habeas Corpus (order to produce a detained person and examine the legality of detention; available against public and private authorities; not issued if detention is lawful or for contempt of court, etc.); Mandamus (command to public official to perform a duty; not available against private individuals or discretionary duties or against President/Governor); Prohibition (issued by a higher court to a lower court or tribunal to prevent exceeding jurisdiction; directed against judicial and quasi-judicial authorities); Certiorari (higher court to lower court to quash an order for excess or lack of jurisdiction or error of law; can be issued against administrative authorities affecting rights); Quo-Warranto (enquiry into legality of claim to public office; can be sought by any interested person for substantive public office of permanent character)."
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Armed Forces and Fundamental Rights (Article 33)",
+        "type": "CLUSTER",
+        "children": [
+          "Parliament has the power to restrict or abrogate the Fundamental Rights of members of armed forces, para-military forces, police, intelligence agencies, and analogous forces to ensure proper discharge of duties and maintain discipline.",
+          "Such laws (e.g., Army Act, Navy Act, Air Force Act, Police Forces Act) cannot be challenged in court for contravention of Fundamental Rights.",
+          "Restrictions may include limiting freedom of speech, association, membership in trade unions, communication with press, attending public meetings.",
+          "Parliament can also exclude court martial proceedings from the writ jurisdiction of Supreme Court and High Courts for enforcement of Fundamental Rights."
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Martial Law and Fundamental Rights (Article 34)",
+        "type": "CLUSTER",
+        "children": [
+          "Article 34 empowers Parliament to indemnify any person for acts done to maintain or restore order where martial law was in force, and to validate sentences, punishments, and forfeitures incurred under martial law.",
+          "An Act of Indemnity cannot be challenged for contravention of Fundamental Rights.",
+          "Martial law is not defined in the Constitution; it means military rule under extraordinary circumstances (war, invasion, insurrection, rebellion) when civil administration is suspended and ordinary law is replaced by military tribunals.",
+          "Martial law is different from national emergency (Article 352); it affects only Fundamental Rights and suspends ordinary courts, while national emergency affects centre-state relations and does not suspend courts.",
+          "Martial law can be imposed in a specific area, while national emergency can be for whole or part of country.",
+          "Declaration of martial law does not automatically suspend the writ of habeas corpus."
+        ]
+      },
+      {
+        "id": 12,
+        "text": "Effecting Certain Fundamental Rights (Article 35)",
+        "type": "CLUSTER",
+        "children": [
+          "Parliament alone has the power to make laws to give effect to specified Fundamental Rights to ensure uniformity throughout India.",
+          "Matters covered include prescribing residence conditions for employment (Article 16), empowering courts other than Supreme Court and High Courts to issue writs (Article 32), restricting Fundamental Rights for armed forces (Article 33), and indemnifying acts during martial law (Article 34).",
+          "Parliament must also prescribe punishments for offences under Fundamental Rights (e.g., untouchability under Article 17, trafficking under Article 23).",
+          "Existing laws in force at the commencement of the Constitution continue until altered by Parliament.",
+          "Article 35 extends Parliament's competence even if the matter falls in the State List."
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Present Position of Right to Property",
+        "type": "CLUSTER",
+        "children": [
+          "Originally, the right to property was a Fundamental Right under Article 19(1)(f) (right to acquire, hold, and dispose of property) and Article 31 (right against deprivation except by authority of law, and acquisition for public purpose with compensation).",
+          "It was the most controversial Fundamental Right, leading to several constitutional amendments (1st, 4th, 7th, 25th, 39th, 40th, 42nd) and the addition of Articles 31A, 31B, and 31C to nullify court judgments.",
+          "The 44th Amendment Act, 1978 abolished the right to property as a Fundamental Right by repealing Article 19(1)(f) and Article 31, and inserted Article 300A in Part XII.",
+          "Article 300A provides that no person shall be deprived of property except by authority of law; it is a legal/constitutional right, not a Fundamental Right.",
+          "Consequences: Right to property can be regulated by ordinary law; it protects only against executive action, not legislative; violation can be challenged in High Court under Article 226, not Supreme Court under Article 32; no guaranteed compensation.",
+          "Compensation is still guaranteed for minority educational institution property under Article 30 and for land under personal cultivation within ceiling limits under Article 31A.",
+          "Articles 31A, 31B, and 31C remain as exceptions to Fundamental Rights."
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Exceptions to Fundamental Rights (Articles 31A, 31B, 31C)",
+        "type": "CLUSTER",
+        "children": [
+          "Article 31A: Saves laws relating to acquisition of estates, taking over management of properties, amalgamation of corporations, etc., from challenges under Articles 14 and 19; requires President's consideration and assent; provides compensation at market value for land under personal cultivation within ceiling limits.",
+          "Article 31B: Validates acts and regulations placed in the Ninth Schedule from challenge under any Fundamental Right; originally 13 acts, now 282 (as of 2016); after I.R. Coelho case (2007), laws placed in Ninth Schedule after April 24, 1973 (date of Kesavananda Bharati) are open to challenge if they violate Fundamental Rights or basic structure.",
+          "Article 31C: Saves laws implementing Directive Principles under Article 39(b) or (c) from being void for contravening Articles 14 or 19; the second provision (declaration that law gives effect to such policy, making it non-justiciable) was struck down in Kesavananda Bharati; the 42nd Amendment extended it to all Directive Principles, but that was declared invalid in Minerva Mills case."
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Criticism of Fundamental Rights",
+        "type": "CLUSTER",
+        "children": [
+          "Excessive limitations: Fundamental Rights are subject to numerous exceptions, restrictions, and qualifications, leading to suggestions to rename the chapter as 'Limitations on Fundamental Rights'.",
+          "No social and economic rights: The Constitution does not include rights to social security, work, employment, rest, leisure, which are found in advanced democracies and socialist constitutions.",
+          "Lack of clarity: Vague and ambiguous phrases like 'public order', 'reasonable restriction', 'minorities' create confusion and lead to litigation; the Constitution has been called a 'paradise for lawyers' by Sir Ivor Jennings.",
+          "No permanency: Parliament can curtail or abolish Fundamental Rights by amendment, as seen with the right to property in 1978; the only limitation is the basic structure doctrine.",
+          "Suspension during Emergency: Enforcement of Fundamental Rights (except Articles 20 and 21) can be suspended during a national emergency, which is seen as cutting at the roots of democracy.",
+          "Expensive remedy: The judiciary is too expensive for the common man, making Fundamental Rights benefit the rich.",
+          "Preventive detention under Article 22 confers arbitrary powers and takes away the spirit of Fundamental Rights.",
+          "No consistent philosophy: The Fundamental Rights are not the product of a single philosophical principle, creating difficulties for courts."
+        ]
+      },
+      {
+        "id": 16,
+        "text": "Significance of Fundamental Rights",
+        "type": "CLUSTER",
+        "children": [
+          "Fundamental Rights are the bedrock of the democratic system.",
+          "They provide necessary conditions for the material and moral protection of individuals.",
+          "They form a formidable bulwark of individual liberty.",
+          "They facilitate the establishment of the rule of law.",
+          "They protect the interests of minorities and weaker sections.",
+          "They strengthen the secular fabric of the nation.",
+          "They check the absoluteness of government authority.",
+          "They lay the foundation of social equality and social justice.",
+          "They ensure dignity and respect of individuals.",
+          "They facilitate participation in the political and administrative process."
+        ]
+      },
+      {
+        "id": 17,
+        "text": "Rights Outside Part III",
+        "type": "CLUSTER",
+        "children": [
+          "Constitutional rights (or legal rights) are those that are not Fundamental Rights but are protected by other provisions of the Constitution.",
+          "Examples include: No tax without authority of law (Article 265), no deprivation of property except by authority of law (Article 300A), free trade and commerce throughout India (Article 301).",
+          "These rights cannot be enforced directly in the Supreme Court under Article 32; they can be enforced through a suit or by moving the High Court under Article 226."
+        ]
+      },
+      {
+        "id": 18,
+        "text": "Original seven Fundamental Rights",
+        "type": "STANDALONE",
+        "children": []
+      }
+    ]
+  }
+]

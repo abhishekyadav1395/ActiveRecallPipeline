@@ -1,0 +1,11 @@
+[
+  {
+    "exam": "uppsc",
+    "book": "Laxmikant",
+    "subject": "Polity",
+    "chapter_num": 7,
+    "chapter_title": "Fundamental Rights3",
+    "input_mode": "manual_chapter",
+    "pdf_path": "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\data\\raw\\Polity_Laxmikant\\Ch07_FundamentalRights3.pdf"
+  }
+]

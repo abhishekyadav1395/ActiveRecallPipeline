@@ -1,0 +1,11 @@
+[
+  {
+    "exam": "uppsc",
+    "book": "Laxmikant",
+    "subject": "Polity",
+    "chapter_num": 4,
+    "chapter_title": "Preamble4",
+    "input_mode": "manual_chapter",
+    "pdf_path": "C:\\Users\\Abhishek Yadav\\Documents\\ActiveRecall\\active_recall_pipeline\\data\\raw\\Polity_Laxmikant\\Ch04_Preamble4.pdf"
+  }
+]

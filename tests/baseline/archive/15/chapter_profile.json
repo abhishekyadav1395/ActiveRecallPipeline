@@ -1,0 +1,179 @@
+{
+  "chapter_title": "Fundamental Rights",
+  "primary_domain": "Indian Constitutional Law",
+  "structural_type": "enumerated_provisions",
+  "core_entities": [
+    "Article 12",
+    "Article 13",
+    "Article 14",
+    "Article 15",
+    "Article 16",
+    "Article 17",
+    "Article 18",
+    "Article 19",
+    "Article 20",
+    "Article 21",
+    "Article 21A",
+    "Article 22",
+    "Article 23",
+    "Article 24",
+    "Article 25",
+    "Article 26",
+    "Article 27",
+    "Article 28",
+    "Article 29",
+    "Article 30",
+    "Article 31A",
+    "Article 31B",
+    "Article 31C",
+    "Article 32",
+    "Article 33",
+    "Article 34",
+    "Article 35",
+    "Article 300A",
+    "44th Amendment Act 1978",
+    "86th Amendment Act 2002",
+    "93rd Amendment Act 2005",
+    "103rd Amendment Act 2019",
+    "Kesavananda Bharati case",
+    "Menaka case",
+    "Gopalan case",
+    "Mandal Commission",
+    "National Commission for Backward Classes",
+    "Supreme Court",
+    "High Court",
+    "Habeas Corpus",
+    "Mandamus",
+    "Prohibition",
+    "Certiorari",
+    "Quo-Warranto",
+    "Rule of Law",
+    "Preventive detention",
+    "Right to Education Act 2009"
+  ],
+  "dominant_themes": [
+    "Equality before law and equal protection of laws",
+    "Protection of individual liberties and freedoms",
+    "Social justice and affirmative action",
+    "Judicial review and constitutional remedies",
+    "Secularism and freedom of religion",
+    "Limitations on state power",
+    "Protection of minorities and weaker sections"
+  ],
+  "concept_density": "high",
+  "scope_boundary": "This chapter covers the Fundamental Rights enshrined in Part III of the Indian Constitution (Articles 12\u201335), including the definition of State, features of fundamental rights, detailed explanation of each right (equality, freedom, against exploitation, religion, cultural/educational, constitutional remedies), exceptions (Articles 31A, 31B, 31C), armed forces, martial law, and the historical abolition of the right to property. It does not cover Directive Principles of State Policy or Fundamental Duties in detail, nor does it provide a comprehensive treatment of foreign constitutions beyond comparative references. Amendments up to the 103rd Amendment Act (2019) are within scope.",
+  "natural_clusters": [
+    {
+      "label": "General Framework",
+      "members": [
+        "Article 12",
+        "Article 13",
+        "Features of Fundamental Rights",
+        "Definition of State",
+        "Laws inconsistent with Fundamental Rights"
+      ]
+    },
+    {
+      "label": "Right to Equality",
+      "members": [
+        "Article 14",
+        "Article 15",
+        "Article 16",
+        "Article 17",
+        "Article 18",
+        "Equality before law",
+        "Prohibition of discrimination",
+        "Equality of opportunity in public employment",
+        "Abolition of untouchability",
+        "Abolition of titles",
+        "Creamy layer",
+        "Mandal Commission",
+        "Reservation for OBCs",
+        "Reservation for EWSs"
+      ]
+    },
+    {
+      "label": "Right to Freedom",
+      "members": [
+        "Article 19",
+        "Article 20",
+        "Article 21",
+        "Article 21A",
+        "Article 22",
+        "Freedom of speech and expression",
+        "Freedom of assembly",
+        "Freedom of association",
+        "Freedom of movement",
+        "Freedom of residence",
+        "Freedom of profession",
+        "Protection against ex-post-facto law",
+        "Protection against double jeopardy",
+        "Protection against self-incrimination",
+        "Right to life and personal liberty",
+        "Right to education",
+        "Protection against arrest and detention",
+        "Preventive detention"
+      ]
+    },
+    {
+      "label": "Right against Exploitation",
+      "members": [
+        "Article 23",
+        "Article 24",
+        "Prohibition of traffic in human beings",
+        "Prohibition of forced labour",
+        "Prohibition of child labour"
+      ]
+    },
+    {
+      "label": "Right to Freedom of Religion",
+      "members": [
+        "Article 25",
+        "Article 26",
+        "Article 27",
+        "Article 28",
+        "Freedom of conscience",
+        "Freedom to profess, practice and propagate religion",
+        "Freedom to manage religious affairs",
+        "Freedom from taxation for religious promotion",
+        "Freedom from religious instruction in certain institutions"
+      ]
+    },
+    {
+      "label": "Cultural and Educational Rights",
+      "members": [
+        "Article 29",
+        "Article 30",
+        "Protection of interests of minorities",
+        "Right of minorities to establish and administer educational institutions"
+      ]
+    },
+    {
+      "label": "Right to Constitutional Remedies",
+      "members": [
+        "Article 32",
+        "Writs",
+        "Habeas Corpus",
+        "Mandamus",
+        "Prohibition",
+        "Certiorari",
+        "Quo-Warranto"
+      ]
+    },
+    {
+      "label": "Special Provisions and Exceptions",
+      "members": [
+        "Article 31A",
+        "Article 31B",
+        "Article 31C",
+        "Ninth Schedule",
+        "Article 33",
+        "Article 34",
+        "Article 35",
+        "Armed Forces and Fundamental Rights",
+        "Martial Law",
+        "Right to Property (Article 300A)"
+      ]
+    }
+  ]
+}

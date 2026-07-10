@@ -1,0 +1,427 @@
+[
+  {
+    "section_id": 1,
+    "chapter_num": 1,
+    "chapter_title": "Historical Background Polity",
+    "exam": "uppsc",
+    "subject": "Polity",
+    "book": "Laxmikant",
+    "concepts": [
+      {
+        "id": 1,
+        "text": "East India Company",
+        "type": "CLUSTER",
+        "children": [
+          "British arrived in India as traders in 1600",
+          "East India Company granted exclusive trading rights by charter from Queen Elizabeth I",
+          "Court of Directors was the governing body of the Company"
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Company obtained Diwani of Bengal, Bihar and Orissa (1765)",
+        "type": "CLUSTER",
+        "children": [
+          "Diwani gave Company rights over revenue and civil justice",
+          "Company's career as a territorial power began from 1765",
+          "Mughal Emperor Shah Alam granted Diwani after Company's victory in Battle of Buxar (1764)",
+          "Battle of Buxar (1764) led to the grant of Diwani"
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Regulating Act of 1773",
+        "type": "CLUSTER",
+        "children": [
+          "First step by British Government to control and regulate affairs of East India Company",
+          "First recognition of political and administrative functions of the Company",
+          "Laid foundations of central administration in India",
+          "Designated Governor of Bengal as Governor-General of Bengal",
+          "Created an Executive Council of four members to assist the Governor-General",
+          "First Governor-General of Bengal: Lord Warren Hastings",
+          "Made governors of Bombay and Madras presidencies subordinate to Governor-General of Bengal (earlier independent)",
+          "Establishment of a Supreme Court at Calcutta in 1774 comprising one chief justice and three other judges",
+          "Prohibited servants of Company from engaging in private trade and from accepting presents or bribes from natives",
+          "Strengthened control of British Government by requiring Court of Directors to report on revenue, civil, and military affairs"
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Amending Act of 1781 (Act of Settlement)",
+        "type": "CLUSTER",
+        "children": [
+          "Purpose: rectify defects of Regulating Act of 1773",
+          "Exempted Governor-General and Council from Supreme Court jurisdiction for official acts",
+          "Exempted servants of Company from Supreme Court jurisdiction for official actions",
+          "Excluded revenue matters from Supreme Court jurisdiction",
+          "Supreme Court had jurisdiction over all inhabitants of Calcutta",
+          "Supreme Court required to administer personal law of defendants (Hindus by Hindu law, Muslims by Mohammedan law)",
+          "Appeals from Provincial Courts could go to Governor-General-in-Council, not Supreme Court",
+          "Empowered Governor-General-in-Council to frame regulations for Provincial Courts and Councils"
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Pitt's India Act of 1784",
+        "type": "CLUSTER",
+        "children": [
+          "Introduced by British Prime Minister William Pitt",
+          "Distinguished between commercial and political functions of the Company",
+          "Court of Directors allowed to manage commercial affairs",
+          "Created Board of Control to manage political affairs",
+          "Established system of double government",
+          "Board of Control empowered to supervise all civil, military and government operations in British possessions in India",
+          "Company's territories called 'British possessions in India' for first time",
+          "British Government given supreme control over Company's affairs and administration in India"
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Act of 1786",
+        "type": "CLUSTER",
+        "children": [
+          "Lord Cornwallis appointed Governor-General of Bengal in 1786",
+          "Empowered to override his council in special cases",
+          "Allowed Lord Cornwallis to also serve as Commander-in-Chief"
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Charter Act of 1793",
+        "type": "CLUSTER",
+        "children": [
+          "Extended overriding power to all future Governor-Generals and Governors of Presidencies",
+          "Gave Governor-General more powers over subordinate Presidencies of Bombay and Madras",
+          "Extended Company's trade monopoly in India for another twenty years",
+          "Commander-in-Chief not to be a member of Governor-General's council unless appointed",
+          "Members of Board of Control and staff to be paid out of Indian revenues"
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Charter Act of 1813",
+        "type": "CLUSTER",
+        "children": [
+          "Abolished Company's trade monopoly in India except for tea and trade with China",
+          "Asserted sovereignty of British Crown over Company's territories in India",
+          "Allowed Christian missionaries to come to India for enlightening the people",
+          "Provided for spread of western education among inhabitants of British territories in India",
+          "Authorised Local Governments in India to impose taxes on persons and punish for non-payment"
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Charter Act of 1833",
+        "type": "CLUSTER",
+        "children": [
+          "Final step towards centralisation in British India",
+          "Made Governor-General of Bengal as Governor-General of India",
+          "Vested in Governor-General of India all civil and military powers",
+          "Created Government of India for the first time having authority over entire British Indian territory",
+          "First Governor-General of India: Lord William Bentick",
+          "Deprived Governors of Bombay and Madras of their legislative powers",
+          "Governor-General given exclusive legislative powers for entire British India",
+          "Laws made previously called Regulations; under this Act called Acts",
+          "Ended East India Company as a commercial body; became purely administrative",
+          "Company's territories held 'in trust for His Majesty, His heirs and successors'",
+          "Attempted to introduce open competition for selection of civil servants",
+          "Stated Indians should not be debarred from holding any office under the Company (provision later negated)"
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Charter Act of 1853",
+        "type": "CLUSTER",
+        "children": [
+          "Last of the series of Charter Acts between 1793 and 1853",
+          "Significant constitutional landmark",
+          "Separated legislative and executive functions of Governor-General's council for the first time",
+          "Added six new members called legislative councillors",
+          "Established a separate Governor-General's legislative council known as Indian (Central) Legislative Council",
+          "Legislative wing functioned as a mini-Parliament adopting same procedures as British Parliament",
+          "Introduced open competition system for selection and recruitment of civil servants",
+          "Covenanted civil service thrown open to Indians",
+          "Macaulay Committee on Indian Civil Service appointed in 1854",
+          "Extended Company's rule but could be terminated anytime by Parliament",
+          "Introduced local representation: four of six new legislative members appointed by provincial governments of Madras, Bombay, Bengal and Agra"
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Sepoy Mutiny (1857)",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 12,
+        "text": "Government of India Act of 1858",
+        "type": "CLUSTER",
+        "children": [
+          "Enacted in wake of the Revolt of 1857 (First War of Independence / Sepoy Mutiny)",
+          "Known as the Act for the Good Government of India",
+          "Abolished East India Company",
+          "Transferred powers of government, territories and revenues to British Crown",
+          "India to be governed by and in the name of Her Majesty",
+          "Changed designation of Governor-General of India to Viceroy of India",
+          "Viceroy as direct representative of British Crown in India",
+          "Lord Canning became first Viceroy of India",
+          "Ended system of double government by abolishing Board of Control and Court of Directors",
+          "Created new office: Secretary of State for India (member of British Cabinet)",
+          "Established a 15-member Council of India (advisory body) to assist Secretary of State",
+          "Secretary of State made Chairman of the Council",
+          "Constituted Secretary of State-in-Council as a body corporate capable of suing and being sued",
+          "Act largely confined to improvement of administrative machinery in England; did not alter Indian government substantially"
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Indian Councils Act of 1861",
+        "type": "CLUSTER",
+        "children": [
+          "Policy of association after 1857 revolt: sought cooperation of Indians in administration",
+          "Important landmark: began representative institutions by associating Indians with law-making",
+          "Viceroy to nominate some Indians as non-official members of his expanded council",
+          "In 1862, Lord Canning nominated three Indians (Raja of Benaras, Maharaja of Patiala, Sir Dinkar Rao)",
+          "Initiated process of decentralisation by restoring legislative powers to Bombay and Madras Presidencies",
+          "Reversed centralising tendency that started with Regulating Act of 1773 and climaxed under Charter Act of 1833",
+          "Policy of legislative devolution led to grant of almost complete internal autonomy to provinces in 1937",
+          "Provided for establishment of new legislative councils for Bengal (1862), North-Western Provinces (1886), and Punjab (1897)",
+          "Empowered Viceroy to make rules for convenient transaction of business in council",
+          "Gave recognition to portfolio system introduced by Lord Canning in 1859 (member in-charge of one or more departments)",
+          "Empowered Viceroy to issue ordinances without legislative council concurrence during emergency (life: six months)"
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Indian Councils Act of 1892",
+        "type": "CLUSTER",
+        "children": [
+          "Increased number of additional (non-official) members in Central and provincial legislative councils",
+          "Maintained official majority in legislative councils",
+          "Increased functions: power to discuss budget and address questions to executive",
+          "Provided for nomination of some non-official members of Central Legislative Council on recommendation of provincial councils and Bengal Chamber of Commerce",
+          "Provided for nomination of non-official members of provincial councils on recommendation of district boards, municipalities, universities, trade associations, zamindars and chambers",
+          "Limited and indirect provision for use of election in filling some non-official seats (word 'election' not used)"
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Indian Councils Act of 1909 (Morley-Minto Reforms)",
+        "type": "CLUSTER",
+        "children": [
+          "Lord Morley (Secretary of State) and Lord Minto (Viceroy)",
+          "Considerably increased size of Central legislative council from 16 to 60",
+          "Retained official majority in Central legislative council",
+          "Allowed provincial legislative councils to have non-official majority",
+          "Enlarged deliberative functions: members allowed to ask supplementary questions, move resolutions on budget",
+          "Provided for association of Indians with executive councils of Viceroy and Governors for the first time",
+          "Satyendra Prasad Sinha became first Indian to join Viceroy's executive council as Law Member",
+          "Introduced system of communal representation for Muslims by accepting concept of 'separate electorate' (Muslims elected only by Muslim voters)",
+          "Act 'legalised communalism'; Lord Minto known as Father of Communal Electorate",
+          "Provided for separate representation of presidency corporations, chambers of commerce, universities and zamindars"
+        ]
+      },
+      {
+        "id": 16,
+        "text": "Government of India Act of 1919 (Montagu-Chelmsford Reforms)",
+        "type": "CLUSTER",
+        "children": [
+          "Based on British Government declaration of August 20, 1917 promising gradual introduction of responsible government",
+          "Montagu (Secretary of State) and Lord Chelmsford (Viceroy)",
+          "Act came into force in 1921",
+          "Relaxed central control by demarcating and separating central and provincial subjects",
+          "Central and provincial legislatures authorised to make laws on respective lists",
+          "Structure of government continued to be centralised and unitary",
+          "Further divided provincial subjects into transferred and reserved",
+          "Transferred subjects administered by Governor with ministers responsible to legislative council",
+          "Reserved subjects administered by Governor and executive council without being responsible to legislature",
+          "Dual scheme known as 'dyarchy' (from Greek di-arche meaning double rule); largely unsuccessful",
+          "Introduced bicameralism at Centre for the first time (Council of State - Upper House, Legislative Assembly - Lower House)",
+          "Introduced direct elections for the first time; majority of members chosen by direct election",
+          "Required three of six members of Viceroy's executive Council (other than Commander-in-Chief) to be Indian",
+          "Extended principle of communal representation with separate electorates for Sikhs, Indian Christians, Anglo-Indians and Europeans",
+          "Granted franchise to limited number on basis of property, tax or education",
+          "Created new office of High Commissioner for India in London; transferred some functions from Secretary of State",
+          "Provided for establishment of a public service commission; Central Public Service Commission set up in 1926",
+          "Lee Commission (1923-24) recommended formation of the Public Service Commission",
+          "Separated provincial budgets from Central budget for the first time; provinces authorised to enact their budgets",
+          "Provided for appointment of a statutory commission after ten years (led to Simon Commission)"
+        ]
+      },
+      {
+        "id": 17,
+        "text": "Simon Commission",
+        "type": "CLUSTER",
+        "children": [
+          "Announced November 1927: seven-member statutory commission under chairmanship of Sir John Simon",
+          "All members were British; all parties boycotted the commission",
+          "Submitted its report in 1930",
+          "Recommended abolition of dyarchy",
+          "Recommended extension of responsible government in provinces",
+          "Recommended establishment of a federation of British India and princely states",
+          "Recommended continuation of communal electorate"
+        ]
+      },
+      {
+        "id": 18,
+        "text": "Round Table Conferences",
+        "type": "CLUSTER",
+        "children": [
+          "Three round table conferences convened by British Government to consider constitutional proposals",
+          "Representatives of British Government, British India and Indian princely states attended",
+          "A 'White Paper on Constitutional Reforms' prepared on basis of discussions",
+          "White Paper submitted to Joint Select Committee of British Parliament",
+          "Recommendations of Joint Select Committee incorporated (with changes) in Government of India Act of 1935"
+        ]
+      },
+      {
+        "id": 19,
+        "text": "Communal Award and Poona Pact",
+        "type": "CLUSTER",
+        "children": [
+          "August 1932: British Prime Minister Ramsay MacDonald announced scheme of representation of minorities (Communal Award)",
+          "Continued separate electorates for Muslims, Sikhs, Indian Christians, Anglo-Indians and Europeans",
+          "Extended separate electorates to depressed classes (Scheduled Castes)",
+          "Gandhiji distressed over extension to depressed classes; fasted unto death in Yerawada Jail",
+          "Agreement between Congress leaders and depressed classes: Poona Pact",
+          "Poona Pact retained Hindu joint electorate but gave reserved seats to depressed classes"
+        ]
+      },
+      {
+        "id": 20,
+        "text": "Government of India Act of 1935",
+        "type": "CLUSTER",
+        "children": [
+          "Second milestone towards completely responsible government in India",
+          "Lengthy and detailed document with 321 Sections and 10 Schedules",
+          "Provided for establishment of an All-India Federation consisting of provinces and princely states (never implemented because princely states did not join)",
+          "Divided powers between Centre and units in three lists: Federal List (59 items), Provincial List (54 items), Concurrent List (36 items); residuary powers to Viceroy",
+          "Abolished dyarchy in provinces; introduced provincial autonomy",
+          "Provinces allowed to act as autonomous units in defined spheres; Governor required to act on advice of ministers responsible to provincial legislature",
+          "Provincial autonomy came into effect in 1937 but discontinued in 1939",
+          "Provided for adoption of dyarchy at Centre (federal subjects divided into reserved and transferred) but never came into operation",
+          "Introduced bicameralism in six out of eleven provinces: Bengal, Bombay, Madras, Bihar, Assam, United Provinces (legislative council and legislative assembly)",
+          "Many restrictions placed on provincial legislatures",
+          "Further extended principle of communal representation with separate electorates for depressed classes, women and labour (workers)",
+          "Abolished Council of India established by Act of 1858; Secretary of State provided with a team of advisors",
+          "Extended franchise to about 10% of total population",
+          "Provided for establishment of Reserve Bank of India, Federal Public Service Commission, Provincial Public Service Commissions, Joint Public Service Commissions",
+          "Provided for establishment of a Federal Court (set up in 1937)"
+        ]
+      },
+      {
+        "id": 21,
+        "text": "Indian Independence Act of 1947",
+        "type": "CLUSTER",
+        "children": [
+          "February 20, 1947: British PM Clement Atlee declared British rule would end by June 30, 1948",
+          "Agitation by Muslim League demanding partition of the country",
+          "June 3, 1947: British Government made clear any Constitution framed by Constituent Assembly (1946) cannot apply to parts unwilling to accept",
+          "Same day: Lord Mountbatten (Viceroy) put forth partition plan known as Mountbatten Plan; accepted by Congress and Muslim League",
+          "Act gave immediate effect: ended British rule; India declared independent and sovereign from August 15, 1947",
+          "Provided for partition of India into two independent dominions: India and Pakistan",
+          "Right of dominions to secede from British Commonwealth",
+          "Abolished office of Viceroy; each dominion to have a Governor-General appointed by British King on advice of dominion cabinet",
+          "His Majesty's Government in Britain no responsibility for India or Pakistan",
+          "Empowered Constituent Assemblies to frame constitutions, legislate for their territories, and repeal any British Act including this Act",
+          "No Act of British Parliament after August 15, 1947 to extend to either dominion unless adopted by dominion legislature",
+          "Abolished office of Secretary of State for India; functions transferred to Secretary of State for Commonwealth Affairs",
+          "Proclaimed lapse of British paramountcy over Indian princely states and treaty relations with tribal areas from August 15, 1947",
+          "Princely states granted freedom to join India, Pakistan, or remain independent",
+          "Government of India Act of 1935 to govern each dominion and provinces till new constitutions framed; dominions could make modifications",
+          "Deprived British Monarch of right to veto bills; Governor-General reserved right to veto or ask for reservation",
+          "Governor-General and provincial governors designated constitutional (nominal) heads acting on advice of council of ministers",
+          "Dropped title of Emperor of India from royal titles of King of England",
+          "Discontinued appointment to civil services by Secretary of State; existing members retained benefits",
+          "Boundaries determined by Boundary Commission under Radcliff; Pakistan included West Punjab, Sind, Baluchistan, East Bengal, NWFP and Sylhet",
+          "At midnight August 14-15, 1947, power transferred to two dominions; Lord Mountbatten became first Governor-General of India",
+          "Lord Mountbatten swore in Jawaharlal Nehru as first Prime Minister of independent India",
+          "Constituent Assembly of India (formed 1946) became Parliament of Indian Dominion"
+        ]
+      },
+      {
+        "id": 22,
+        "text": "Interim Government (1946)",
+        "type": "CLUSTER",
+        "children": [
+          "Members of interim government were members of Viceroy's Executive Council; Viceroy continued as head; Jawaharlal Nehru designated Vice-President",
+          "Jawaharlal Nehru: Vice-President of Council; External Affairs & Commonwealth Relations",
+          "Sardar Vallabhbhai Patel: Home, Information & Broadcasting",
+          "Dr. Rajendra Prasad: Food & Agriculture",
+          "Dr. John Mathai: Industries & Supplies",
+          "Jagjivan Ram: Labour",
+          "Sardar Baldev Singh: Defence",
+          "C.H. Bhabha: Works, Mines & Power",
+          "Liaquat Ali Khan: Finance",
+          "Abdur Rab Nishtar: Posts & Air",
+          "Asaf Ali: Railways & Transport",
+          "C. Rajagopalachari: Education & Arts",
+          "I.I. Chundrigar: Commerce",
+          "Ghaznafar Ali Khan: Health",
+          "Joginder Nath Mandal: Law"
+        ]
+      },
+      {
+        "id": 23,
+        "text": "First Cabinet of Free India (1947)",
+        "type": "CLUSTER",
+        "children": [
+          "Jawaharlal Nehru: Prime Minister; External Affairs & Commonwealth Relations; Scientific Research",
+          "Sardar Vallabhbhai Patel: Home, Information & Broadcasting; States",
+          "Dr. Rajendra Prasad: Food & Agriculture",
+          "Maulana Abul Kalam Azad: Education",
+          "Dr. John Mathai: Railways & Transport",
+          "R.K. Shanmugham Chetty: Finance",
+          "Dr. B.R. Ambedkar: Law",
+          "Jagjivan Ram: Labour",
+          "Sardar Baldev Singh: Defence",
+          "Raj Kumari Amrit Kaur: Health",
+          "C.H. Bhabha: Commerce",
+          "Rafi Ahmed Kidwai: Communication",
+          "Dr. Shayama Prasad Mukherji: Industries & Supplies",
+          "V.N. Gadgil: Works, Mines & Power"
+        ]
+      },
+      {
+        "id": 24,
+        "text": "Need for a Constitution after independence",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 25,
+        "text": "Constituent Assembly formed in 1946",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 26,
+        "text": "Constitution came into being on January 26, 1950",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 27,
+        "text": "Features of Indian Constitution and polity rooted in British rule",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 28,
+        "text": "System of Budget introduced in British India in 1860",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 29,
+        "text": "Classification of Civil Services",
+        "type": "CLUSTER",
+        "children": [
+          "Civil Services of Company classified into covenanted civil services (higher) and uncovenanted civil services (lower)",
+          "Covenanted civil services created by a law of the Company",
+          "Uncovenanted civil services created otherwise"
+        ]
+      }
+    ]
+  }
+]

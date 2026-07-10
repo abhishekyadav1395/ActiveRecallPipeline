@@ -1,0 +1,41 @@
+{
+  "total_concepts": 36,
+  "covered_concepts": 34,
+  "gap_count": 2,
+  "gap_ids": [
+    28,
+    29
+  ],
+  "gaps": [
+    {
+      "id": 28,
+      "text": "System of Budget introduced in British India in 1860",
+      "type": "STANDALONE",
+      "tier": "SIMPLE",
+      "children": [],
+      "section_id": 1,
+      "chapter_num": 1,
+      "chapter_title": "Historical Background Polity",
+      "subject": "Polity",
+      "book": "Laxmikant",
+      "exam": "uppsc"
+    },
+    {
+      "id": 29,
+      "text": "Classification of Civil Services",
+      "type": "CLUSTER",
+      "tier": "MEDIUM",
+      "children": [
+        "Civil Services of Company classified into covenanted civil services (higher) and uncovenanted civil services (lower)",
+        "Covenanted civil services created by a law of the Company",
+        "Uncovenanted civil services created otherwise"
+      ],
+      "section_id": 1,
+      "chapter_num": 1,
+      "chapter_title": "Historical Background Polity",
+      "subject": "Polity",
+      "book": "Laxmikant",
+      "exam": "uppsc"
+    }
+  ]
+}

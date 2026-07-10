@@ -1,0 +1,362 @@
+[
+  {
+    "section_id": 1,
+    "chapter_num": 4,
+    "chapter_title": "Preamble3",
+    "exam": "uppsc",
+    "subject": "Polity",
+    "book": "Laxmikant",
+    "concepts": [
+      {
+        "id": 1,
+        "text": "Preamble of the Constitution: introduction/preface containing summary or essence",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 2,
+        "text": "American Constitution as the first to begin with a Preamble",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 3,
+        "text": "India following the practice of having a Preamble",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 4,
+        "text": "N.A. Palkhivala: Preamble is the identity card of the Constitution",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 5,
+        "text": "Objectives Resolution",
+        "type": "CLUSTER",
+        "children": [
+          "Drafted and moved by Pandit Nehru on December 13, 1946",
+          "Adopted by the Constituent Assembly on January 22, 1947",
+          "Formed the basis of the Preamble"
+        ],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 6,
+        "text": "42nd Constitutional Amendment Act (1976) added three words: Socialist, Secular and Integrity",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 7,
+        "text": "Full text of the Preamble",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 8,
+        "text": "Source of authority: derives from the people of India",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 9,
+        "text": "Nature of Indian State: Sovereign Socialist Secular Democratic Republic",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 10,
+        "text": "Objectives of the Constitution: Justice, Liberty, Equality and Fraternity",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 11,
+        "text": "Date of adoption: November 26, 1949",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 12,
+        "text": "Sovereign: meaning and implications",
+        "type": "CLUSTER",
+        "children": [
+          "India is not a dependency or dominion of any other nation",
+          "India is an independent state with no authority above it",
+          "India is free to conduct its own affairs (both internal and external)",
+          "Full membership of the Commonwealth of Nations does not affect India's sovereignty",
+          "Acceptance of British Crown as head of the Commonwealth is an extra-constitutional declaration that does not affect sovereignty",
+          "Membership of the United Nations Organisation (UNO) does not limit sovereignty",
+          "India can acquire a foreign territory or cede a part of its territory",
+          "Historical background: dependency until Indian Independence Act 1947, dominion until January 26, 1950",
+          "Nehru's 1949 statement: Commonwealth is a free association by free will, alliance does not mean loss of independence, member-nation can freely leave"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 13,
+        "text": "Socialist: meaning and features",
+        "type": "CLUSTER",
+        "children": [
+          "Term added by 42nd Amendment (1976)",
+          "Socialist content was already implicit in Directive Principles of State Policy before the amendment",
+          "Congress party's Avadi session (1955) resolution to establish a 'socialistic pattern of society'",
+          "Indian brand is democratic socialism (mixed economy with co-existence of public and private sectors)",
+          "Contrasted with communistic socialism (state socialism) which involves nationalisation and abolition of private property",
+          "Supreme Court: democratic socialism aims to end poverty, ignorance, disease and inequality of opportunity",
+          "Indian socialism is a blend of Marxism and Gandhism, leaning heavily towards Gandhian socialism",
+          "New Economic Policy (1991) of liberalisation, privatisation and globalisation diluted socialist credentials",
+          "Indira Gandhi: own brand of socialism, not mere nationalisation"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 14,
+        "text": "Secular: meaning and features",
+        "type": "CLUSTER",
+        "children": [
+          "Term added by 42nd Amendment (1976)",
+          "Supreme Court (1974): Constitution-makers intended to establish a secular state even though not expressly mentioned",
+          "Articles 25 to 28 guarantee the fundamental right to freedom of religion",
+          "Indian Constitution embodies the positive concept of secularism (all religions have same status and support from state)",
+          "Three types of states based on attitude towards religion: atheistic (anti-religion), theocratic (state religion), secular (neutral)",
+          "Examples of secular states: USA and India",
+          "Definition of secularism by H.R. Gokhale (then Union Law Minister)",
+          "Definition of secularism by P.B. Gajendragadkar (former Chief Justice of India)"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 15,
+        "text": "Democratic: meaning and features",
+        "type": "CLUSTER",
+        "children": [
+          "Based on the doctrine of popular sovereignty",
+          "Types: direct democracy (people exercise supreme power directly, e.g., Switzerland) and indirect (representative democracy)",
+          "Devices of direct democracy: Referendum, Initiative, Recall, Plebiscite",
+          "India follows representative parliamentary democracy (executive responsible to legislature)",
+          "Manifestations: universal adult franchise, periodic elections, rule of law, independence of judiciary, absence of discrimination",
+          "'Democratic' used in broader sense embracing political, social and economic democracy",
+          "Dr. Ambedkar's concluding speech (Nov 25, 1949): political democracy cannot last without social democracy; liberty, equality and fraternity form a trinity",
+          "Without equality, liberty would produce supremacy of the few over the many; without liberty, equality would kill individual initiative",
+          "Supreme Court (1997): Constitution envisions to establish an egalitarian social order rendering social, economic and political justice"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 16,
+        "text": "Republic: meaning and features",
+        "type": "CLUSTER",
+        "children": [
+          "Head of state is elected (President)",
+          "President elected indirectly for a fixed period of five years",
+          "Political sovereignty vested in the people, not in a single individual like a king",
+          "No privileged class; all public offices open to every citizen without discrimination",
+          "Contrasted with monarchy (hereditary head of state, e.g., Britain)"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 17,
+        "text": "Justice: meaning and forms",
+        "type": "CLUSTER",
+        "children": [
+          "Embraces three distinct forms: social, economic and political",
+          "Secured through Fundamental Rights and Directive Principles of State Policy",
+          "Social justice: equal treatment without distinctions of caste, colour, race, religion, sex; absence of privileges; improvement of backward classes (SCs, STs, OBCs) and women",
+          "Economic justice: non-discrimination based on economic factors; elimination of glaring inequalities in wealth, income and property",
+          "Combination of social and economic justice denotes 'distributive justice'",
+          "Political justice: equal political rights, equal access to political offices, equal voice in government",
+          "Ideal of justice taken from the Russian Revolution (1917)"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 18,
+        "text": "Liberty: meaning and features",
+        "type": "CLUSTER",
+        "children": [
+          "Absence of restraints on activities of individuals; providing opportunities for development of individual personalities",
+          "Preamble secures liberty of thought, expression, belief, faith and worship through Fundamental Rights",
+          "Liberty is enforceable in a court of law in case of violation",
+          "Liberty is essential for the successful functioning of the Indian democratic system",
+          "Liberty does not mean 'license' to do what one likes; enjoyed within limitations mentioned in the Constitution",
+          "Liberty as conceived by the Preamble and Fundamental Rights is qualified, not absolute"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 19,
+        "text": "Equality: meaning and three dimensions",
+        "type": "CLUSTER",
+        "children": [
+          "Absence of special privileges to any section of society; provision of adequate opportunities for all without discrimination",
+          "Preamble secures equality of status and opportunity",
+          "Civic equality: equality before law (Article 14), prohibition of discrimination (Article 15), equality of opportunity in public employment (Article 16), abolition of untouchability (Article 17), abolition of titles (Article 18)",
+          "Political equality: no person ineligible for electoral rolls on grounds of religion, race, caste, sex (Article 325); elections to Lok Sabha and state assemblies on basis of adult suffrage (Article 326)",
+          "Economic equality: Directive Principles (Article 39) - equal right to adequate means of livelihood, equal pay for equal work"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 20,
+        "text": "Fraternity: meaning and features",
+        "type": "CLUSTER",
+        "children": [
+          "Sense of brotherhood",
+          "Constitution promotes fraternity through system of single citizenship",
+          "Fundamental Duties (Article 51-A): duty to promote harmony and spirit of common brotherhood transcending religious, linguistic, regional or sectional diversities; duty to protect dignity of women; duty to uphold sovereignty, unity and integrity of India",
+          "Fraternity assures dignity of the individual and unity and integrity of the nation",
+          "'Integrity' added by 42nd Amendment (1976)",
+          "K.M. Munshi on dignity of individual: Constitution ensures material betterment and democratic set-up, recognises personality as sacred",
+          "Unity and integrity embraces psychological and territorial dimensions of national integration",
+          "India as a Union of States (Article 1) - states have no right to secede; indestructible nature of the Indian Union",
+          "Hindrances to national integration: communalism, regionalism, casteism, linguism, secessionism"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 21,
+        "text": "K.M. Munshi: Preamble is the horoscope of our sovereign democratic republic",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 22,
+        "text": "Sir Alladi Krishnaswami Iyer: Preamble expresses what we had thought or dreamt so long",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 23,
+        "text": "Pandit Thakur Das Bhargava's descriptions of the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Preamble is the most precious part of the Constitution",
+          "Preamble is the soul of the Constitution",
+          "Preamble is a key to the Constitution",
+          "Preamble is a jewel set in the Constitution",
+          "Preamble is a proper yardstick to measure the worth of the Constitution"
+        ],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 24,
+        "text": "Sir Ernest Barker: Preamble is the key-note to the Constitution; proud that India subscribes to a political tradition",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 25,
+        "text": "M. Hidayatullah's statements on the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Preamble resembles the Declaration of Independence of the United States of America",
+          "Preamble is more than a declaration; it is the soul of the Constitution",
+          "Preamble lays down the pattern of political society",
+          "Preamble contains a solemn resolve which nothing but a revolution can alter"
+        ],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 26,
+        "text": "Berubari Union case (1960)",
+        "type": "CLUSTER",
+        "children": [
+          "Arose from a reference by the President under Article 143 regarding implementation of Indo-Pakistan agreement",
+          "Supreme Court held Preamble shows general purposes behind provisions and can be used to resolve ambiguity",
+          "Supreme Court opined that Preamble is not a part of the Constitution"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 27,
+        "text": "Kesavananda Bharati case (1973)",
+        "type": "CLUSTER",
+        "children": [
+          "Supreme Court rejected the earlier opinion of Berubari Union",
+          "Held that the Preamble is a part of the Constitution",
+          "Constitution should be read in light of the grand vision expressed in the Preamble",
+          "Edifice of Constitution is based on basic elements in Preamble; amending power cannot take away fundamental characteristics",
+          "Preamble is amendable under Article 368 but basic features cannot be altered"
+        ],
+        "tier": "COMPLEX"
+      },
+      {
+        "id": 28,
+        "text": "LIC of India case (1995)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 29,
+        "text": "Preamble was enacted after the rest of the Constitution to ensure conformity with the adopted Constitution",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 30,
+        "text": "President of the Constituent Assembly's motion: 'The question is that Preamble stands part of the Constitution' \u2013 motion adopted",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 31,
+        "text": "Preamble is non-justiciable (not enforceable in courts of law)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 32,
+        "text": "Preamble is neither a source of power to legislature nor a prohibition upon the powers of legislature",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 33,
+        "text": "Amendability of the Preamble under Article 368",
+        "type": "CLUSTER",
+        "children": [
+          "Preamble can be amended, subject to the condition that no amendment is done to the 'basic features'",
+          "Preamble has been amended only once so far (42nd Constitutional Amendment Act, 1976)",
+          "The 42nd Amendment adding Socialist, Secular and Integrity was held valid"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 34,
+        "text": "Ideals of liberty, equality and fraternity taken from the French Revolution (1789-1799)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 35,
+        "text": "Ideal of justice taken from the Russian Revolution (1917)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      }
+    ]
+  }
+]

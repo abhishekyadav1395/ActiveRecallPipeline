@@ -1,0 +1,645 @@
+[
+  {
+    "section_id": 1,
+    "chapter_num": 4,
+    "chapter_title": "Preamble5",
+    "exam": "uppsc",
+    "subject": "Polity",
+    "book": "Laxmikant",
+    "concepts": [
+      {
+        "id": 1,
+        "text": "Text of the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Opening phrase: 'We, THE PEOPLE OF INDIA'",
+          "India declared as a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC",
+          "Justice in three forms: social, economic and political",
+          "Liberty of thought, expression, belief, faith and worship",
+          "Equality of status and opportunity",
+          "Fraternity assuring dignity of the individual and unity and integrity of the Nation",
+          "Date of adoption: November 26, 1949"
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Four ingredients of the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Source of authority: the people of India",
+          "Nature of Indian State: sovereign, socialist, secular, democratic, republican polity",
+          "Objectives of the Constitution: justice, liberty, equality and fraternity",
+          "Date of adoption: November 26, 1949"
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Meaning of 'Sovereign' in the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "India is not a dependency or dominion of any other nation",
+          "India is an independent state with no authority above it",
+          "India is free to conduct its internal and external affairs",
+          "Sovereignty includes the right to acquire foreign territory",
+          "Sovereignty includes the right to cede part of its territory to a foreign state"
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Meaning of 'Socialist' in the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Added by the 42nd Constitutional Amendment Act, 1976",
+          "Indian brand is 'democratic socialism'",
+          "Mixed economy with co-existence of public and private sectors",
+          "Aims to end poverty, ignorance, disease and inequality of opportunity",
+          "Blend of Marxism and Gandhism, leaning towards Gandhian socialism",
+          "Directive Principles already contained socialist content before 1976",
+          "Congress party resolution in 1955 (Avadi session) for socialistic pattern of society"
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Meaning of 'Secular' in the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Added by the 42nd Constitutional Amendment Act, 1976",
+          "Positive concept: all religions have equal status and support from state",
+          "State is neutral in matters of religion, not anti-religious",
+          "Articles 25 to 28 guarantee fundamental right to freedom of religion",
+          "Secular state contrasted with atheistic state (anti-religion) and theocratic state (state religion)"
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Meaning of 'Democratic' in the Preamble (core meaning)",
+        "type": "CLUSTER",
+        "children": [
+          "Based on the doctrine of popular sovereignty",
+          "Supreme power is possessed by the people",
+          "India has a representative parliamentary democracy",
+          "Executive is responsible to the legislature for all policies and actions",
+          "Manifested through universal adult franchise, periodic elections, rule of law, independence of judiciary, and absence of discrimination",
+          "Embracing political, social and economic democracy in a broader sense"
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Types of Democracy",
+        "type": "CLUSTER",
+        "children": [
+          "Direct democracy (practiced in Switzerland)",
+          "Indirect or representative democracy (parliamentary and presidential types)",
+          "India follows representative parliamentary democracy"
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Devices of Direct Democracy",
+        "type": "CLUSTER",
+        "children": [
+          "Referendum: procedure referring legislation to the electorate for direct vote",
+          "Initiative: method for people to propose a bill to the legislature for enactment",
+          "Recall: method for voters to remove a representative before the term expires",
+          "Plebiscite: method of obtaining people's opinion on issues of public importance, often used for territorial disputes"
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Dr. Ambedkar on Social Democracy",
+        "type": "CLUSTER",
+        "children": [
+          "Political democracy cannot last without social democracy",
+          "Social democracy is a way of life recognising liberty, equality and fraternity",
+          "Liberty, equality and fraternity form a union of trinity \u2013 liberty cannot be divorced from equality",
+          "Without equality, liberty produces supremacy of the few over the many",
+          "Without liberty, equality kills individual initiative"
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Meaning of 'Republic' in the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Elected head of state (President) for a fixed period of five years",
+          "Political sovereignty is vested in the people, not in a single individual",
+          "Absence of any privileged class",
+          "All public offices are open to every citizen without discrimination",
+          "Contrasted with monarchy (e.g., Britain) where head of state is hereditary"
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Meaning of 'Justice' in the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Three forms: social, economic and political",
+          "Justice is secured through Fundamental Rights and Directive Principles",
+          "Social justice: equal treatment without social distinctions; improvement of backward classes and women; absence of privileges",
+          "Economic justice: non-discrimination based on economic factors; elimination of glaring inequalities in wealth, income and property",
+          "Political justice: equal political rights, access to offices, and voice in government"
+        ]
+      },
+      {
+        "id": 12,
+        "text": "Meaning of 'Liberty' in the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Absence of restraints on activities of individuals",
+          "Provides opportunities for development of individual personalities",
+          "Secured through Fundamental Rights which are enforceable in courts of law",
+          "Essential for successful functioning of the democratic system",
+          "Does not mean 'license' \u2013 limited by Constitution",
+          "Liberty is not absolute but qualified"
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Meaning of 'Equality' in the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Absence of special privileges to any section of society",
+          "Provision of adequate opportunities for all without discrimination",
+          "Three dimensions: civic, political and economic"
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Meaning of 'Fraternity' in the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Sense of brotherhood",
+          "Promoted through single citizenship",
+          "Fundamental Duties (Article 51-A) to promote harmony and common brotherhood",
+          "Transcending religious, linguistic, regional or sectional diversities",
+          "Assures dignity of the individual",
+          "Assures unity and integrity of the nation",
+          "Word 'integrity' added by 42nd Amendment 1976"
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Significance of the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "N.A. Palkhivala: 'identity card of the Constitution'",
+          "K.M. Munshi: 'horoscope of our sovereign democratic republic'",
+          "Pandit Thakur Das Bhargava: 'most precious part, soul, key, jewel, yardstick'",
+          "Sir Ernest Barker: 'key-note to the Constitution'",
+          "M. Hidayatullah: 'resembles Declaration of Independence, more than a declaration, contains a solemn resolve'",
+          "Embodies the basic philosophy and fundamental values of the Constitution",
+          "Represents the grand and noble vision of the Constituent Assembly",
+          "Expresses the dreams and aspirations of the founding fathers"
+        ]
+      },
+      {
+        "id": 16,
+        "text": "Preamble as Part of the Constitution",
+        "type": "CLUSTER",
+        "children": [
+          "Berubari Union case (1960): Preamble is not a part of the Constitution",
+          "Kesavananda Bharati case (1973): Preamble is a part of the Constitution",
+          "LIC of India case (1995): Preamble is an integral part of the Constitution",
+          "Preamble is non-justiciable (not enforceable in court)",
+          "Preamble is neither a source of power nor a prohibition on the legislature"
+        ]
+      },
+      {
+        "id": 17,
+        "text": "Amendability of the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Kesavananda Bharati case: Preamble can be amended under Article 368, but the basic features cannot be altered",
+          "42nd Constitutional Amendment Act (1976) added three words: Socialist, Secular, Integrity",
+          "The amendment to the Preamble was held valid"
+        ]
+      },
+      {
+        "id": 18,
+        "text": "American Constitution was the first to begin with a Preamble",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 19,
+        "text": "India's practice of beginning its Constitution with a Preamble",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 20,
+        "text": "Term 'Preamble' as introduction or preface to the Constitution",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 21,
+        "text": "Preamble as summary or essence of the Constitution",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 22,
+        "text": "Objectives Resolution as basis of the Preamble",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 23,
+        "text": "Objectives Resolution drafted and moved by Pandit Nehru",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 24,
+        "text": "Objectives Resolution adopted by the Constituent Assembly",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 25,
+        "text": "Objectives Resolution moved on December 13, 1946",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 26,
+        "text": "Objectives Resolution adopted on January 22, 1947",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 27,
+        "text": "India continued full membership of the Commonwealth in 1949",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 28,
+        "text": "British Crown as the head of the Commonwealth",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 29,
+        "text": "India became a member of the United Nations Organisation in 1945",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 30,
+        "text": "Commonwealth membership does not affect India's sovereignty",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 31,
+        "text": "UNO membership does not limit India's sovereignty",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 32,
+        "text": "A sovereign state can acquire foreign territory",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 33,
+        "text": "A sovereign state can cede part of its territory to a foreign state",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 34,
+        "text": "G.B. Pant University of Agriculture and Technology v. State of Uttar Pradesh (2000) \u2013 socialist case",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 35,
+        "text": "Nakara v. Union of India (1983) \u2013 socialist case",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 36,
+        "text": "New Economic Policy of 1991: liberalisation, privatisation and globalisation",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 37,
+        "text": "New Economic Policy diluted the socialist credentials of the Indian State",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 38,
+        "text": "Supreme Court observation in 1974 on the secular state in the Constitution",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 39,
+        "text": "G.S. Pande's definition of a secular state",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 40,
+        "text": "H.R. Gokhale's definition of secularism",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 41,
+        "text": "P.B. Gajendragadkar's definition of secularism",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 42,
+        "text": "Atheistic state as anti-religion, condemning all religions",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 43,
+        "text": "Theocratic state declaring one particular religion as state religion",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 44,
+        "text": "Bangladesh, Burma, Sri Lanka, Pakistan as theocratic states",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 45,
+        "text": "Secular state as neutral in matters of religion",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 46,
+        "text": "USA and India as examples of secular states",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 47,
+        "text": "Direct democracy exists in Switzerland",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 48,
+        "text": "Supreme Court observation in 1997 on an egalitarian social order",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 49,
+        "text": "USA as an example of a republic",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 50,
+        "text": "Britain as an example of a monarchy",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 51,
+        "text": "Ideal of justice taken from the Russian Revolution of 1917",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 52,
+        "text": "Ideals of liberty, equality and fraternity taken from the French Revolution (1789\u20131799)",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 53,
+        "text": "Article 14 \u2013 equality before the law",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 54,
+        "text": "Article 15 \u2013 prohibition of discrimination on grounds of religion, race, caste, sex or place of birth",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 55,
+        "text": "Article 16 \u2013 equality of opportunity in public employment",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 56,
+        "text": "Article 17 \u2013 abolition of untouchability",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 57,
+        "text": "Article 18 \u2013 abolition of titles",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 58,
+        "text": "Article 39 \u2013 equal right to adequate means of livelihood and equal pay for equal work",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 59,
+        "text": "Article 325 \u2013 no person ineligible for electoral rolls on grounds of religion, race, caste or sex",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 60,
+        "text": "Article 326 \u2013 elections to Lok Sabha and state assemblies on basis of adult suffrage",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 61,
+        "text": "K.M. Munshi called the Preamble 'horoscope of our sovereign democratic republic'",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 62,
+        "text": "Article 1 describes India as 'Union of States'",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 63,
+        "text": "States have no right to secede from the Union",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 64,
+        "text": "Indestructible nature of the Indian Union",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 65,
+        "text": "Hindrances to national integration: communalism, regionalism, casteism, linguism, secessionism",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 66,
+        "text": "Preamble embodies the basic philosophy and fundamental values of the Constitution",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 67,
+        "text": "Grand and noble vision of the Constituent Assembly reflected in the Preamble",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 68,
+        "text": "Dreams and aspirations of the founding fathers in the Preamble",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 69,
+        "text": "Sir Alladi Krishnaswami Iyer: Preamble expresses what we thought or dreamt so long",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 70,
+        "text": "Pandit Thakur Das Bhargava: Preamble as most precious part, soul, key, jewel, yardstick",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 71,
+        "text": "Sir Ernest Barker: Preamble as 'key-note' to the Constitution",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 72,
+        "text": "M. Hidayatullah: Preamble resembles Declaration of Independence, more than a declaration, contains a solemn resolve",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 73,
+        "text": "Preamble enacted after the rest of the Constitution was adopted",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 74,
+        "text": "Motion that Preamble stands part of Constitution was adopted",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 75,
+        "text": "Article 368 \u2013 amending power of the Constitution",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 76,
+        "text": "Basic elements of the Preamble are the foundation of the Constitution's edifice",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 77,
+        "text": "Pandit Nehru's 1949 statement on Commonwealth and India's sovereignty",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 78,
+        "text": "Pledge to achieve Purna Swaraj (complete self-rule)",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 79,
+        "text": "Commonwealth of Nations is a free association of sovereign states, terminable by free will",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 80,
+        "text": "India's political status: dependency of British Empire until Indian Independence Act, 1947; then dominion until January 26, 1950",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 81,
+        "text": "India ceased to be a British dominion on January 26, 1950",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 82,
+        "text": "India declared herself a sovereign republic on January 26, 1950",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 83,
+        "text": "Pakistan continued as a British dominion until 1956",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 84,
+        "text": "Congress Resolution in 1955 (Avadi session) for a 'socialistic pattern of society'",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 85,
+        "text": "Means of production under social ownership or control (socialistic pattern)",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 86,
+        "text": "Equitable distribution of national wealth (socialistic pattern)",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 87,
+        "text": "Indira Gandhi's statement on Indian brand of socialism: nationalisation only where necessary",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 88,
+        "text": "Berubari Union case (1960) involved Article 143 reference regarding Indo-Pakistan agreement on Berubari union and enclaves",
+        "type": "STANDALONE",
+        "children": []
+      }
+    ]
+  }
+]

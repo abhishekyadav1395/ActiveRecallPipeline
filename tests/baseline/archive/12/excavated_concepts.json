@@ -1,0 +1,1395 @@
+[
+  {
+    "section_id": 1,
+    "chapter_num": 4,
+    "chapter_title": "Preamble4",
+    "exam": "uppsc",
+    "subject": "Polity",
+    "book": "Laxmikant",
+    "concepts": [
+      {
+        "id": 1,
+        "text": "Preamble of the Constitution",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 2,
+        "text": "Term 'Preamble': introduction or preface to the Constitution",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 3,
+        "text": "Summary or essence of the Constitution",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 4,
+        "text": "N.A. Palkhivala: eminent jurist and constitutional expert",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 5,
+        "text": "'Identity card of the Constitution': phrase used by Palkhivala for the Preamble",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 6,
+        "text": "Preamble based on 'Objectives Resolution'",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 7,
+        "text": "Objectives Resolution drafted and moved by Pandit Nehru",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 8,
+        "text": "Objectives Resolution adopted by the Constituent Assembly",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 9,
+        "text": "42nd Constitutional Amendment Act (1976)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 10,
+        "text": "Three words added by 42nd Amendment: Socialist, Secular, Integrity",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 11,
+        "text": "\"We, THE PEOPLE OF INDIA\" \u2013 opening phrase of Preamble",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 12,
+        "text": "\"SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC\" \u2013 description of Indian State",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 13,
+        "text": "\"JUSTICE, Social, Economic and Political\" \u2013 objective of Preamble",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 14,
+        "text": "\"LIBERTY of thought, expression, belief, faith and worship\" \u2013 objective of Preamble",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 15,
+        "text": "\"EQUALITY of status and of opportunity\" \u2013 objective of Preamble",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 16,
+        "text": "\"FRATERNITY assuring the dignity of the individual and the unity and integrity of the Nation\" \u2013 objective of Preamble",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 17,
+        "text": "Date of adoption: November 26, 1949",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 18,
+        "text": "\"do HEREBY ADOPT, ENACT AND GIVE TO OURSELVES THIS CONSTITUTION\" \u2013 concluding words of Preamble",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 19,
+        "text": "Ingredients of the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Source of authority: derives authority from the people of India",
+          "Nature of Indian State: sovereign, socialist, secular, democratic and republican polity",
+          "Objectives of the Constitution: justice, liberty, equality and fraternity",
+          "Date of adoption: November 26, 1949"
+        ],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 20,
+        "text": "Key words in the Preamble: Sovereign, Socialist, Secular, Democratic, Republic, Justice, Liberty, Equality, Fraternity",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 21,
+        "text": "Sovereign: implies India is neither a dependency nor a dominion of any other nation",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 22,
+        "text": "Sovereign: India is an independent state",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 23,
+        "text": "Sovereign: no authority above India",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 24,
+        "text": "Sovereign: free to conduct own affairs (internal and external)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 25,
+        "text": "1949: India declared continuation of full membership of the Commonwealth of Nations",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 26,
+        "text": "India accepted British Crown as head of the Commonwealth",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 27,
+        "text": "Extra-constitutional declaration of Commonwealth membership does not affect India's sovereignty",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 28,
+        "text": "India's membership of the United Nations Organisation (UNO)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 29,
+        "text": "India became member of UNO in 1945",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 30,
+        "text": "UN membership does not constitute limitation on India's sovereignty",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 31,
+        "text": "Sovereign state can acquire foreign territory or cede part of its territory in favour of a foreign state",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 32,
+        "text": "Socialist: term added by 42nd Amendment in 1976",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 33,
+        "text": "Constitution had socialist content even before 42nd Amendment through Directive Principles of State Policy",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 34,
+        "text": "Implicit socialist content made explicit by 42nd Amendment",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 35,
+        "text": "Congress party adopted resolution for 'socialistic pattern of society' at Avadi session in 1955",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 36,
+        "text": "Avadi session of Congress party (1955)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 37,
+        "text": "Indian brand of socialism is 'democratic socialism'",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 38,
+        "text": "'Communistic socialism' (also known as 'state socialism')",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 39,
+        "text": "Democratic socialism holds faith in 'mixed economy' \u2013 both public and private sectors co-exist",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 40,
+        "text": "Nationalisation of all means of production and distribution \u2013 feature of communistic socialism",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 41,
+        "text": "Abolition of private property \u2013 feature of communistic socialism",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 42,
+        "text": "Supreme Court on democratic socialism: aims to end poverty, ignorance, disease and inequality of opportunity",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 43,
+        "text": "Indian socialism is a blend of Marxism and Gandhism",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 44,
+        "text": "Gandhian socialism",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 45,
+        "text": "Marxism",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 46,
+        "text": "New Economic Policy (1991) of liberalisation, privatisation and globalisation",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 47,
+        "text": "New Economic Policy diluted socialist credentials of Indian State",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 48,
+        "text": "Secular: term added by 42nd Constitutional Amendment Act of 1976",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 49,
+        "text": "Supreme Court in 1974 said Constitution-makers wanted secular state even though word not expressed",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 50,
+        "text": "Articles 25 to 28 guarantee fundamental right to freedom of religion",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 51,
+        "text": "Indian Constitution embodies positive concept of secularism",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 52,
+        "text": "All religions have same status and support from state under Indian secularism",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 53,
+        "text": "Three types of states based on attitude to religion: Atheistic State, Theocratic State, Secular State",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 54,
+        "text": "Atheistic State: anti-religion, condemns all religions",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 55,
+        "text": "Theocratic State: pro-religion, declares one particular religion as state religion (e.g., Bangladesh, Burma, Sri Lanka, Pakistan)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 56,
+        "text": "Secular State: neutral in matter of religion, does not uphold any particular religion (e.g., USA, India)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 57,
+        "text": "Democratic: polity based on doctrine of popular sovereignty",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 58,
+        "text": "Doctrine of popular sovereignty: possession of supreme power by the people",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 59,
+        "text": "Two types of democracy: direct and indirect",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 60,
+        "text": "Direct democracy: people exercise supreme power directly (e.g., Switzerland)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 61,
+        "text": "Four devices of direct democracy: Referendum, Initiative, Recall, Plebiscite",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 62,
+        "text": "Referendum: proposed legislation referred to electorate for direct vote",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 63,
+        "text": "Initiative: people can propose a bill to legislature for enactment",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 64,
+        "text": "Recall: voters can remove a representative or officer before expiry of term for failure to discharge duties",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 65,
+        "text": "Plebiscite: method of obtaining opinion of people on any public issue, generally used for territorial disputes",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 66,
+        "text": "Indirect democracy: representatives elected by people exercise supreme power",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 67,
+        "text": "Indirect democracy also known as representative democracy",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 68,
+        "text": "Two kinds of indirect democracy: parliamentary and presidential",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 69,
+        "text": "Indian Constitution provides for representative parliamentary democracy",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 70,
+        "text": "Executive responsible to legislature for all policies and actions",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 71,
+        "text": "Universal adult franchise",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 72,
+        "text": "Periodic elections",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 73,
+        "text": "Rule of law",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 74,
+        "text": "Independence of judiciary",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 75,
+        "text": "Absence of discrimination on certain grounds \u2013 manifestations of democratic character",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 76,
+        "text": "Term 'democratic' in broader sense: embracing not only political democracy but also social and economic democracy",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 77,
+        "text": "Dr. Ambedkar's concluding speech in Constituent Assembly on November 25, 1949",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 78,
+        "text": "Ambedkar: \"Political democracy cannot last unless there lies at the base of it social democracy\"",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 79,
+        "text": "Social democracy: way of life recognising liberty, equality and fraternity",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 80,
+        "text": "Union of trinity: liberty, equality, fraternity not separate items",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 81,
+        "text": "Liberty cannot be divorced from equality; equality cannot be divorced from liberty; nor from fraternity",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 82,
+        "text": "Supreme Court in 1997: Constitution envisages egalitarian social order rendering social, economic and political justice",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 83,
+        "text": "Egalitarian social order",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 84,
+        "text": "Democratic polity can be classified into monarchy and republic",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 85,
+        "text": "Monarchy: head of state (king/queen) enjoys hereditary position (e.g., Britain)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 86,
+        "text": "Republic: head of state always elected directly or indirectly for fixed period (e.g., USA)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 87,
+        "text": "India has an elected head called President",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 88,
+        "text": "President elected indirectly for fixed period of five years",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 89,
+        "text": "Republic also means vesting of political sovereignty in people, not in a single individual",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 90,
+        "text": "Absence of any privileged class; all public offices open to every citizen without discrimination",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 91,
+        "text": "Justice: three distinct forms: social, economic and political",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 92,
+        "text": "Justice secured through Fundamental Rights and Directive Principles",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 93,
+        "text": "Social justice: equal treatment of all citizens without social distinction (caste, colour, race, religion, sex)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 94,
+        "text": "Absence of privileges being extended to any particular section",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 95,
+        "text": "Improvement in conditions of backward classes (SCs, STs and OBCs) and women",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 96,
+        "text": "Economic justice: non-discrimination based on economic factors; elimination of glaring inequalities in wealth, income and property",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 97,
+        "text": "Distributive justice: combination of social justice and economic justice",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 98,
+        "text": "Political justice: equal political rights, equal access to political offices, equal voice in government",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 99,
+        "text": "Ideal of justice taken from Russian Revolution (1917)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 100,
+        "text": "Russian Revolution (1917)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 101,
+        "text": "Liberty: absence of restraints on activities of individuals, providing opportunities for development of individual personalities",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 102,
+        "text": "Preamble secures liberty of thought, expression, belief, faith and worship through Fundamental Rights",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 103,
+        "text": "Liberty enforceable in court of law in case of violation",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 104,
+        "text": "Liberty essential for successful functioning of Indian democratic system",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 105,
+        "text": "Liberty does not mean 'license' to do what one likes",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 106,
+        "text": "Liberty has to be enjoyed within limitations mentioned in Constitution",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 107,
+        "text": "Liberty conceived by Preamble or Fundamental Rights is not absolute but qualified",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 108,
+        "text": "Ideals of liberty, equality and fraternity taken from French Revolution (1789\u20131799)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 109,
+        "text": "French Revolution (1789\u20131799)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 110,
+        "text": "Equality: absence of special privileges to any section of society; adequate opportunities for all without discrimination",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 111,
+        "text": "Preamble secures equality of status and opportunity",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 112,
+        "text": "Three dimensions of equality: civic, political, economic",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 113,
+        "text": "Article 14: Equality before the law",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 114,
+        "text": "Article 15: Prohibition of discrimination on grounds of religion, race, caste, sex or place of birth",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 115,
+        "text": "Article 16: Equality of opportunity in matters of public employment",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 116,
+        "text": "Article 17: Abolition of untouchability",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 117,
+        "text": "Article 18: Abolition of titles",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 118,
+        "text": "Article 325: No person declared ineligible for inclusion in electoral rolls on grounds of religion, race, caste or sex",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 119,
+        "text": "Article 326: Elections to Lok Sabha and state assemblies on basis of adult suffrage",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 120,
+        "text": "Directive Principles of State Policy (Article 39): equal right to adequate means of livelihood and equal pay for equal work",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 121,
+        "text": "Fraternity: sense of brotherhood",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 122,
+        "text": "Constitution promotes fraternity by system of single citizenship",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 123,
+        "text": "Fundamental Duties (Article 51-A): duty of every citizen to promote harmony and common brotherhood transcending religious, linguistic, regional or sectional diversities",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 124,
+        "text": "Fraternity assures dignity of the individual and the unity and integrity of the nation",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 125,
+        "text": "Word 'integrity' added by 42nd Constitutional Amendment (1976)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 126,
+        "text": "K.M. Munshi: member of Drafting Committee of Constituent Assembly",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 127,
+        "text": "Phrase 'dignity of the individual': Constitution ensures material betterment, maintains democratic set-up, recognises sacredness of individual's personality",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 128,
+        "text": "Provisions of Fundamental Rights and Directive Principles ensure dignity of individuals",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 129,
+        "text": "Fundamental Duties protect dignity of women: duty to renounce practices derogatory to dignity of women",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 130,
+        "text": "Duty of every citizen to uphold and protect sovereignty, unity and integrity of India",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 131,
+        "text": "Phrase 'unity and integrity of the nation' embraces psychological and territorial dimensions of national integration",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 132,
+        "text": "Article 1: describes India as 'Union of States'",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 133,
+        "text": "States have no right to secede from Union: indestructible nature of Indian Union",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 134,
+        "text": "Hindrances to national integration",
+        "type": "CLUSTER",
+        "children": [
+          "communalism",
+          "regionalism",
+          "casteism",
+          "linguism",
+          "secessionism"
+        ],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 135,
+        "text": "Significance of Preamble: embodies basic philosophy and fundamental values (political, moral, religious)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 136,
+        "text": "Preamble contains grand and noble vision of Constituent Assembly",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 137,
+        "text": "Preamble reflects dreams and aspirations of founding fathers",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 138,
+        "text": "Sir Alladi Krishnaswami Iyer: member of Constituent Assembly",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 139,
+        "text": "Quote: \"The Preamble to our Constitution expresses what we had thought or dreamt so long\" \u2013 Sir Alladi Krishnaswami Iyer",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 140,
+        "text": "K.M. Munshi: Preamble is 'horoscope of our sovereign democratic republic'",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 141,
+        "text": "Pandit Thakur Das Bhargava: member of Constituent Assembly",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 142,
+        "text": "Bhargava: \"The Preamble is the most precious part of the Constitution. It is the soul of the Constitution. It is a key to the Constitution. It is a jewel set in the Constitution. It is a proper yardstick with which one can measure the worth of the Constitution\"",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 143,
+        "text": "Sir Ernest Barker: distinguished English political scientist",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 144,
+        "text": "Barker described Preamble as 'key-note' to the Constitution",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 145,
+        "text": "Barker quoted Preamble in his book Principles of Social and Political Theory (1951)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 146,
+        "text": "M. Hidayatullah: former Chief Justice of India",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 147,
+        "text": "Hidayatullah: \"Preamble resembles the Declaration of Independence of the United States of America, but is more than a declaration. It is the soul of our Constitution\"",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 148,
+        "text": "Preamble as part of Constitution: controversy",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 149,
+        "text": "Berubari Union case (1960)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 150,
+        "text": "In Berubari Union case, Supreme Court said Preamble shows general purposes behind provisions, key to minds of makers",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 151,
+        "text": "Preamble can assist interpretation of ambiguous articles",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 152,
+        "text": "In Berubari Union case, Supreme Court opined Preamble is not a part of the Constitution",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 153,
+        "text": "Kesavananda Bharati case (1973)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 154,
+        "text": "In Kesavananda Bharati case, Supreme Court rejected earlier opinion; held Preamble is a part of the Constitution",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 155,
+        "text": "Constitution should be read and interpreted in light of grand and noble vision expressed in Preamble",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 156,
+        "text": "LIC of India case (1995)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 157,
+        "text": "In LIC of India case, Supreme Court held Preamble is integral part of Constitution",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 158,
+        "text": "Preamble was enacted by Constituent Assembly after rest of Constitution was already enacted",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 159,
+        "text": "Reason for inserting Preamble at the end: ensure conformity with Constitution as adopted",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 160,
+        "text": "President of Constituent Assembly motion: \"The question is that Preamble stands part of the Constitution\"",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 161,
+        "text": "Motion adopted",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 162,
+        "text": "Current opinion held by Supreme Court that Preamble is part of Constitution is in consonance with founding fathers",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 163,
+        "text": "Preamble is neither a source of power to legislature nor a prohibition upon powers of legislature",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 164,
+        "text": "Preamble is non-justiciable: provisions not enforceable in courts of law",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 165,
+        "text": "Amenability of Preamble under Article 368 of Constitution",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 166,
+        "text": "Question of amenability first arose in Kesavananda Bharati case (1973)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 167,
+        "text": "Petitioner argued Preamble cannot be amended as not part of Constitution",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 168,
+        "text": "Petitioner argued amending power under Article 368 cannot destroy or damage basic elements/fundamental features enshrined in Preamble",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 169,
+        "text": "Supreme Court held Preamble is a part of Constitution; Berubari opinion wrong",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 170,
+        "text": "Preamble can be amended subject to condition that no amendment done to 'basic features'",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 171,
+        "text": "Basic elements/fundamental features as contained in Preamble cannot be altered by amendment under Article 368",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 172,
+        "text": "Preamble amended only once (1976) by 42nd Constitutional Amendment Act",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 173,
+        "text": "42nd Amendment added three words: Socialist, Secular, Integrity \u2013 held valid",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 174,
+        "text": "Objectives Resolution moved by Nehru on December 13, 1946",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 175,
+        "text": "Objectives Resolution adopted by Constituent Assembly on January 22, 1947",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 176,
+        "text": "Till passage of Indian Independence Act, 1947: India was dependency (colony) of British Empire",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 177,
+        "text": "August 15, 1947 to January 26, 1950: India's political status was dominion in British Commonwealth of Nations",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 178,
+        "text": "India ceased to be British dominion on January 26, 1950 by declaring herself a sovereign republic",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 179,
+        "text": "Pakistan continued to be British Dominion until 1956",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 180,
+        "text": "Pandit Nehru's 1949 statement: Commonwealth membership is by free will, can be terminated by free will",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 181,
+        "text": "Purna Swaraj: achievement of full independence",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 182,
+        "text": "Term 'democracy' derived from Greek words Demos and Kratia meaning 'People' and 'rule'",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 183,
+        "text": "Supreme Court observation: \"The edifice of our Constitution is based upon the basic elements mentioned in the Preamble. If any of these elements are removed, the structure will not survive and it will not be the same Constitution or it cannot maintain its identity.\"",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 184,
+        "text": "G.B. Pant University of Agriculture and Technology v. State of Uttar Pradesh (2000)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 185,
+        "text": "Nakara v. Union of India (1983)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 186,
+        "text": "Commonwealth of Nations: a voluntary association of sovereign states, mostly former territories of the British Empire, with the British monarch as symbolic head.",
+        "type": "STANDALONE",
+        "tier": "MEDIUM",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 27,
+        "depth": 2,
+        "reason": "Provides context for India's continued membership post-independence and why it was a declaratory rather than constitutional decision."
+      },
+      {
+        "id": 187,
+        "text": "Extra-constitutional: an act or declaration that is not within the framework of the Constitution; not based on any constitutional provision.",
+        "type": "STANDALONE",
+        "tier": "MEDIUM",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 27,
+        "depth": 1,
+        "reason": "Explains why the membership declaration was made outside the Constitution and thus did not alter the constitutional sovereignty."
+      },
+      {
+        "id": 188,
+        "text": "Economic democracy: a system where there is equitable distribution of wealth and resources, and democratic participation in economic decision-making.",
+        "type": "STANDALONE",
+        "tier": "MEDIUM",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 76,
+        "depth": 1,
+        "reason": "Without understanding economic democracy, the broader socialist dimension of the term 'democratic' in the Indian context remains unclear."
+      },
+      {
+        "id": 189,
+        "text": "Article 368 of the Indian Constitution: the provision that empowers Parliament to amend the Constitution, including the Preamble, with special majorities.",
+        "type": "STANDALONE",
+        "tier": "MEDIUM",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 165,
+        "depth": 1,
+        "reason": "The amenability of the Preamble depends on Article 368 as the amending power; without knowing it, one cannot understand how and under what authority the Preamble may be changed."
+      },
+      {
+        "id": 190,
+        "text": "Article 368 of the Indian Constitution: the provision that empowers Parliament to amend the Constitution.",
+        "type": "STANDALONE",
+        "tier": "MEDIUM",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 170,
+        "depth": 2,
+        "reason": "Amendment process is governed by Article 368; it is the fundamental provision enabling any constitutional amendment."
+      },
+      {
+        "id": 191,
+        "text": "Basic structure doctrine: the principle laid down by the Supreme Court in Kesavananda Bharati case that certain fundamental features of the Constitution cannot be altered through amendments.",
+        "type": "STANDALONE",
+        "tier": "MEDIUM",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 170,
+        "depth": 1,
+        "reason": "The condition that 'basic features' cannot be amended is derived from this doctrine, which restricts the amending power under Article 368."
+      },
+      {
+        "id": 192,
+        "text": "Basic structure doctrine: the principle that the Constitution has an inviolable core which cannot be destroyed by any amendment.",
+        "type": "STANDALONE",
+        "tier": "MEDIUM",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 171,
+        "depth": 1,
+        "reason": "Explains why the fundamental features of the Preamble are beyond the reach of the amending power, even under Article 368."
+      }
+    ]
+  }
+]

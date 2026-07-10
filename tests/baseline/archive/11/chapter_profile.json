@@ -1,0 +1,166 @@
+{
+  "chapter_title": "Fundamental Rights",
+  "primary_domain": "Indian Constitutional Law",
+  "structural_type": "enumerated_provisions",
+  "core_entities": [
+    "Article 12",
+    "Article 13",
+    "Article 14",
+    "Article 15",
+    "Article 16",
+    "Article 17",
+    "Article 18",
+    "Article 19",
+    "Article 20",
+    "Article 21",
+    "Article 21A",
+    "Article 22",
+    "Article 23",
+    "Article 24",
+    "Article 25",
+    "Article 26",
+    "Article 27",
+    "Article 28",
+    "Article 29",
+    "Article 30",
+    "Article 31",
+    "Article 31A",
+    "Article 31B",
+    "Article 31C",
+    "Article 32",
+    "Article 33",
+    "Article 34",
+    "Article 35",
+    "Article 300A",
+    "44th Amendment Act",
+    "86th Amendment Act",
+    "93rd Amendment Act",
+    "103rd Amendment Act",
+    "77th Amendment Act",
+    "85th Amendment Act",
+    "81st Amendment Act",
+    "76th Amendment Act",
+    "Kesavananda Bharati case",
+    "Menaka case",
+    "Gopalan case",
+    "Mandal case",
+    "I.R. Coelho case",
+    "Minerva Mills case",
+    "Supreme Court",
+    "High Court",
+    "Parliament",
+    "National Commission for Backward Classes",
+    "Mandal Commission",
+    "Right to Education Act",
+    "COFEPOSA",
+    "NASA",
+    "TADA",
+    "POTA",
+    "Preventive Detention Act",
+    "Rule of Law",
+    "Habeas Corpus",
+    "Mandamus",
+    "Prohibition",
+    "Certiorari",
+    "Quo-Warranto",
+    "Creamy Layer",
+    "Other Backward Classes",
+    "Economically Weaker Sections",
+    "Scheduled Castes",
+    "Scheduled Tribes"
+  ],
+  "dominant_themes": [
+    "Protection of individual liberties",
+    "Equality before law and non-discrimination",
+    "Social justice through reservations",
+    "Limitation of state power",
+    "Judicial review and basic structure doctrine",
+    "Secularism and freedom of religion",
+    "Rule of law",
+    "Rights of minorities"
+  ],
+  "concept_density": "high",
+  "scope_boundary": "This chapter covers the Fundamental Rights enshrined in Part III of the Indian Constitution (Articles 12 to 35). It includes definition of State, features, specific rights (equality, freedom, against exploitation, religion, cultural/educational, constitutional remedies), exceptions (Articles 31A-31C), martial law, and criticism. It does not cover Directive Principles of State Policy or other parts of the Constitution in depth, except where mentioned. The right to property (originally Article 31) is discussed as a repealed fundamental right, now under Article 300A.",
+  "natural_clusters": [
+    {
+      "label": "General Provisions and Definitions",
+      "members": [
+        "Definition of State (Article 12)",
+        "Laws inconsistent with fundamental rights (Article 13)",
+        "Features of Fundamental Rights",
+        "Criticism and significance"
+      ]
+    },
+    {
+      "label": "Right to Equality",
+      "members": [
+        "Equality before law (Article 14)",
+        "Prohibition of discrimination (Article 15)",
+        "Equality in public employment (Article 16)",
+        "Abolition of untouchability (Article 17)",
+        "Abolition of titles (Article 18)"
+      ]
+    },
+    {
+      "label": "Right to Freedom",
+      "members": [
+        "Protection of six rights (Article 19)",
+        "Protection in conviction (Article 20)",
+        "Protection of life and personal liberty (Article 21)",
+        "Right to education (Article 21A)",
+        "Protection against arrest and detention (Article 22)"
+      ]
+    },
+    {
+      "label": "Right against Exploitation",
+      "members": [
+        "Prohibition of trafficking and forced labour (Article 23)",
+        "Prohibition of child labour (Article 24)"
+      ]
+    },
+    {
+      "label": "Right to Freedom of Religion",
+      "members": [
+        "Freedom of conscience and practice (Article 25)",
+        "Freedom to manage religious affairs (Article 26)",
+        "Freedom from taxes for religion (Article 27)",
+        "Freedom from religious instruction (Article 28)"
+      ]
+    },
+    {
+      "label": "Cultural and Educational Rights",
+      "members": [
+        "Protection of minority interests (Article 29)",
+        "Right to establish educational institutions (Article 30)"
+      ]
+    },
+    {
+      "label": "Right to Constitutional Remedies",
+      "members": [
+        "Right to move Supreme Court (Article 32)",
+        "Writs: habeas corpus, mandamus, prohibition, certiorari, quo-warranto",
+        "Comparison with High Court writ jurisdiction"
+      ]
+    },
+    {
+      "label": "Exceptions and Saving Clauses",
+      "members": [
+        "Article 31A (acquisition of estates)",
+        "Article 31B (Ninth Schedule)",
+        "Article 31C (saving laws for directive principles)",
+        "Martial law (Article 34)",
+        "Armed forces (Article 33)",
+        "Power of Parliament (Article 35)"
+      ]
+    },
+    {
+      "label": "Historical and Contextual Topics",
+      "members": [
+        "Mandal Commission and OBC reservation",
+        "EWS reservation (103rd Amendment)",
+        "Abolition of right to property",
+        "Comparison with US Constitution"
+      ]
+    }
+  ]
+}

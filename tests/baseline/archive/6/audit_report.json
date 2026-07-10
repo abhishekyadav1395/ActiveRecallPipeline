@@ -1,0 +1,26 @@
+{
+  "total_concepts": 17,
+  "covered_concepts": 16,
+  "gap_count": 1,
+  "gap_ids": [
+    2
+  ],
+  "gaps": [
+    {
+      "id": 2,
+      "text": "Source of authority of the Constitution",
+      "type": "CLUSTER",
+      "tier": "SIMPLE",
+      "children": [
+        "We, THE PEOPLE OF INDIA \u2013 source of authority is the people",
+        "Doctrine of popular sovereignty"
+      ],
+      "section_id": 1,
+      "chapter_num": 4,
+      "chapter_title": "Preamble",
+      "subject": "Polity",
+      "book": "Laxmikant",
+      "exam": "uppsc"
+    }
+  ]
+}

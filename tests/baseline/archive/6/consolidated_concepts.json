@@ -1,0 +1,231 @@
+[
+  {
+    "section_id": 1,
+    "chapter_num": 4,
+    "chapter_title": "Preamble",
+    "exam": "uppsc",
+    "subject": "Polity",
+    "book": "Laxmikant",
+    "concepts": [
+      {
+        "id": 1,
+        "text": "Nature and significance of the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Introduction or preface to the Constitution",
+          "Summary or essence of the Constitution",
+          "Identity card of the Constitution",
+          "Key to the Constitution",
+          "Soul of the Constitution",
+          "Most precious part of the Constitution",
+          "Jewel set in the Constitution",
+          "Proper yardstick to measure worth of the Constitution",
+          "Key-note to the Constitution",
+          "Resembles the Declaration of Independence of the USA",
+          "Solemn resolve that nothing but a revolution can alter",
+          "Expresses the grand and noble vision of the Constituent Assembly"
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Source of authority of the Constitution",
+        "type": "CLUSTER",
+        "children": [
+          "We, THE PEOPLE OF INDIA \u2013 source of authority is the people",
+          "Doctrine of popular sovereignty"
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Date of adoption of the Constitution",
+        "type": "STANDALONE",
+        "children": []
+      },
+      {
+        "id": 4,
+        "text": "Four ingredients of the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Source of authority \u2013 people of India",
+          "Nature of Indian State \u2013 sovereign, socialist, secular, democratic, republican",
+          "Objectives of the Constitution \u2013 justice, liberty, equality, fraternity",
+          "Date of adoption \u2013 November 26, 1949"
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Sovereign",
+        "type": "CLUSTER",
+        "children": [
+          "India is neither a dependency nor a dominion of any other nation",
+          "Independent state; no authority above India",
+          "Freedom to conduct own affairs (internal and external)",
+          "Commonwealth membership does not affect sovereignty",
+          "UNO membership does not limit sovereignty",
+          "Power to acquire foreign territory",
+          "Power to cede territory in favour of a foreign state",
+          "India ceased to be a British dominion on January 26, 1950",
+          "India declared herself a sovereign republic on January 26, 1950"
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Socialist",
+        "type": "CLUSTER",
+        "children": [
+          "Implicit socialist content in Directive Principles made explicit by 42nd Amendment",
+          "Congress party resolution for 'socialistic pattern of society' (Avadi session 1955)",
+          "Democratic socialism (mixed economy, public and private sectors co-exist)",
+          "Supreme Court defined democratic socialism as ending poverty, ignorance, disease and inequality",
+          "Indian socialism as a blend of Marxism and Gandhism",
+          "New Economic Policy (1991) \u2013 liberalisation, privatisation, globalisation diluted socialist credentials",
+          "Principal means of production under social ownership, equitable distribution of national wealth"
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Secular",
+        "type": "CLUSTER",
+        "children": [
+          "Supreme Court (1974): secular state intended by Constitution-makers",
+          "Articles 25-28 guarantee fundamental right to freedom of religion",
+          "Positive concept of secularism: all religions have same status and support from state",
+          "State is neutral, does not uphold any particular religion",
+          "State treats every religion equally",
+          "State does not have any foundation of religion",
+          "India is a secular state (along with USA)"
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Types of states based on attitude towards religion",
+        "type": "CLUSTER",
+        "children": [
+          "Atheistic State \u2013 state is anti-religion, condemns all religions",
+          "Theocratic State \u2013 state is pro-religion, declares one religion as state religion (examples: Bangladesh, Burma, Sri Lanka, Pakistan)",
+          "Secular State \u2013 state neutral, does not uphold any religion (examples: USA, India)"
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Democratic",
+        "type": "CLUSTER",
+        "children": [
+          "Term democracy derived from Greek Demos (people) and Kratia (rule)",
+          "Doctrine of popular sovereignty",
+          "Direct democracy methods: Referendum, Initiative, Recall, Plebiscite",
+          "Indirect/Representative democracy: representatives elected by people",
+          "Parliamentary democracy: executive responsible to legislature",
+          "Universal adult franchise",
+          "Periodic elections",
+          "Rule of law",
+          "Independence of judiciary",
+          "Political democracy",
+          "Social democracy",
+          "Economic democracy",
+          "Dr. Ambedkar: social democracy as a way of life recognising liberty, equality and fraternity"
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Republic",
+        "type": "CLUSTER",
+        "children": [
+          "Head of state elected indirectly for fixed period of five years (President of India)",
+          "Vesting of political sovereignty in the people",
+          "Absence of any privileged class",
+          "All public offices open to every citizen without discrimination"
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Justice",
+        "type": "CLUSTER",
+        "children": [
+          "Social justice: equal treatment without social distinction, improvement of backward classes and women",
+          "Economic justice: non-discrimination, elimination of inequalities, distributive justice",
+          "Political justice: equal political rights, access to offices, voice in government",
+          "Ideal of justice taken from Russian Revolution (1917)"
+        ]
+      },
+      {
+        "id": 12,
+        "text": "Liberty",
+        "type": "CLUSTER",
+        "children": [
+          "Absence of restraints on activities of individuals",
+          "Providing opportunities for development of individual personalities",
+          "Liberty of thought, expression, belief, faith and worship secured through Fundamental Rights",
+          "Liberty is not absolute but qualified, enjoyed within limitations mentioned in the Constitution",
+          "Liberty does not mean license to do what one likes",
+          "Ideals of liberty taken from French Revolution (1789-1799)"
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Equality",
+        "type": "CLUSTER",
+        "children": [
+          "Absence of special privileges to any section of society",
+          "Provision of adequate opportunities for all individuals without discrimination",
+          "Three dimensions: civic, political, economic",
+          "Constitutional provisions: Articles 14, 15, 16, 17, 18, 325, 326, 39",
+          "Ideals of equality taken from French Revolution"
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Fraternity",
+        "type": "CLUSTER",
+        "children": [
+          "Sense of brotherhood",
+          "Single citizenship",
+          "Fundamental Duties (Article 51-A): promote harmony and common brotherhood",
+          "Dignity of the individual",
+          "Unity and integrity of the nation (Integrity added by 42nd Amendment)",
+          "Psychological and territorial dimensions of national integration",
+          "Article 1: India as 'Union of States' \u2013 states cannot secede",
+          "Hindrances to national integration: communalism, regionalism, casteism, linguism, secessionism"
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Interrelationship of Liberty, Equality and Fraternity (as per Dr. Ambedkar)",
+        "type": "CLUSTER",
+        "children": [
+          "Liberty, equality and fraternity as a union of trinity",
+          "Liberty cannot be divorced from equality",
+          "Equality cannot be divorced from liberty",
+          "Liberty and equality cannot be divorced from fraternity",
+          "Without equality, liberty produces supremacy of the few over the many",
+          "Equality without liberty kills individual initiative"
+        ]
+      },
+      {
+        "id": 16,
+        "text": "Preamble \u2013 constitutional status and amendability",
+        "type": "CLUSTER",
+        "children": [
+          "Berubari Union case (1960): Preamble is not a part of the Constitution",
+          "Kesavananda Bharati case (1973): Preamble is a part of the Constitution",
+          "LIC of India case (1995): Preamble is an integral part of the Constitution",
+          "Preamble is non-justiciable (not enforceable in courts)",
+          "Preamble is neither a source of power nor a prohibition upon legislature",
+          "Preamble can be amended under Article 368 but cannot alter the basic features",
+          "Basic elements enshrined in the Preamble cannot be destroyed (sovereign, socialist, secular, democratic, republic, justice, liberty, equality, fraternity)",
+          "Preamble amended only once (1976) by 42nd Amendment \u2013 added Socialist, Secular and Integrity",
+          "President of the Constituent Assembly stated the Preamble stands part of the Constitution"
+        ]
+      },
+      {
+        "id": 17,
+        "text": "Objectives Resolution",
+        "type": "CLUSTER",
+        "children": [
+          "Moved by Pandit Nehru on December 13, 1946",
+          "Adopted by Constituent Assembly on January 22, 1947"
+        ]
+      }
+    ]
+  }
+]

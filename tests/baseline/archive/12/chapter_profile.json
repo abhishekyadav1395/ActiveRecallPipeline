@@ -1,0 +1,103 @@
+{
+  "chapter_title": "Preamble of the Constitution",
+  "primary_domain": "Indian Constitutional Law",
+  "structural_type": "conceptual_hierarchy",
+  "core_entities": [
+    "Preamble",
+    "Objectives Resolution",
+    "42nd Constitutional Amendment Act (1976)",
+    "Constituent Assembly",
+    "Kesavananda Bharati case (1973)",
+    "Berubari Union case (1960)",
+    "LIC of India case (1995)",
+    "Article 368",
+    "Article 14",
+    "Article 15",
+    "Article 16",
+    "Article 17",
+    "Article 18",
+    "Article 325",
+    "Article 326",
+    "Article 39",
+    "Article 51-A",
+    "Article 1",
+    "N.A. Palkhivala",
+    "K.M. Munshi",
+    "Pandit Thakur Das Bhargava",
+    "Sir Alladi Krishnaswami Iyer",
+    "Sir Ernest Barker",
+    "M. Hidayatullah",
+    "Dr. Ambedkar",
+    "Pandit Nehru",
+    "Fundamental Rights",
+    "Directive Principles of State Policy"
+  ],
+  "dominant_themes": [
+    "sovereignty of India",
+    "democratic socialism",
+    "secularism",
+    "representative parliamentary democracy",
+    "republicanism",
+    "social, economic and political justice",
+    "liberty with limitations",
+    "civic, political and economic equality",
+    "fraternity and national unity (dignity of individual, unity and integrity)",
+    "basic structure doctrine",
+    "justiciability vs. non-justiciability",
+    "amendment of the Preamble"
+  ],
+  "concept_density": "high",
+  "scope_boundary": "This chapter focuses exclusively on the Preamble of the Indian Constitution: its text, ingredients, key words, significance, legal status, and amenability. It references related constitutional provisions (Fundamental Rights, Directive Principles) and judicial interpretations (Kesavananda Bharati, Berubari Union) only to elucidate the Preamble. Detailed analysis of other constitutional articles or foreign constitutions beyond comparative mentions is out of scope.",
+  "natural_clusters": [
+    {
+      "label": "Text and Ingredients",
+      "members": [
+        "Text of the Preamble",
+        "Source of authority (the people of India)",
+        "Nature of Indian State (sovereign socialist secular democratic republic)",
+        "Objectives of the Constitution (justice, liberty, equality, fraternity)",
+        "Date of adoption (November 26, 1949)"
+      ]
+    },
+    {
+      "label": "Key Words Explanation",
+      "members": [
+        "Sovereign",
+        "Socialist",
+        "Secular",
+        "Democratic",
+        "Republic",
+        "Justice",
+        "Liberty",
+        "Equality",
+        "Fraternity"
+      ]
+    },
+    {
+      "label": "Significance of the Preamble",
+      "members": [
+        "Identity card of the Constitution (Palkhivala)",
+        "Horoscope of our sovereign democratic republic (Munshi)",
+        "Soul of the Constitution (Bhargava)",
+        "Key-note to the Constitution (Barker)",
+        "Resembles Declaration of Independence (Hidayatullah)"
+      ]
+    },
+    {
+      "label": "Preamble as Part of the Constitution",
+      "members": [
+        "Berubari Union case (1960) \u2014 Preamble not part of Constitution",
+        "Kesavananda Bharati case (1973) \u2014 Preamble is part of Constitution",
+        "LIC of India case (1995) \u2014 Preamble is integral part"
+      ]
+    },
+    {
+      "label": "Amenability of the Preamble",
+      "members": [
+        "42nd Constitutional Amendment Act (1976) \u2014 added Socialist, Secular, Integrity",
+        "Article 368 \u2014 amending power",
+        "Basic structure doctrine \u2014 cannot alter fundamental features in Preamble"
+      ]
+    }
+  ]
+}

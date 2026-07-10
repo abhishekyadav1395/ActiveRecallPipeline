@@ -1,0 +1,95 @@
+{
+  "chapter_title": "Preamble of the Constitution",
+  "primary_domain": "Indian Constitutional Law",
+  "structural_type": "enumerated_provisions",
+  "core_entities": [
+    "Preamble",
+    "Objectives Resolution",
+    "42nd Constitutional Amendment Act (1976)",
+    "Sovereign",
+    "Socialist",
+    "Secular",
+    "Democratic",
+    "Republic",
+    "Justice",
+    "Liberty",
+    "Equality",
+    "Fraternity",
+    "Kesavananda Bharati case (1973)",
+    "Berubari Union case (1960)",
+    "LIC of India case (1995)",
+    "Constituent Assembly",
+    "N.A. Palkhivala",
+    "Pandit Nehru",
+    "Dr. Ambedkar",
+    "K.M. Munshi",
+    "M. Hidayatullah",
+    "Sir Ernest Barker",
+    "Article 368",
+    "Fundamental Rights",
+    "Directive Principles of State Policy"
+  ],
+  "dominant_themes": [
+    "sovereignty",
+    "secularism",
+    "democratic socialism",
+    "representative parliamentary democracy",
+    "republicanism",
+    "social, economic and political justice",
+    "qualified liberty",
+    "civic, political and economic equality",
+    "fraternity, dignity and national unity",
+    "basic structure doctrine",
+    "judicial interpretation of the Preamble"
+  ],
+  "concept_density": "high",
+  "scope_boundary": "This chapter covers the Preamble to the Indian Constitution, including its text, ingredients (source of authority, nature of state, objectives, date of adoption), detailed explanation of key words (Sovereign, Socialist, Secular, Democratic, Republic, Justice, Liberty, Equality, Fraternity), its significance as expressed by constitutional authorities, the judicial controversy over whether it is part of the Constitution (Berubari Union, Kesavananda Bharati, LIC of India), and its amendability under Article 368. The 42nd Amendment (1976) is addressed; other parts of the Constitution are discussed only insofar as they relate to the Preamble. Foreign constitutions are referenced only as comparative examples, not analysed in depth.",
+  "natural_clusters": [
+    {
+      "label": "Text and Ingredients of the Preamble",
+      "members": [
+        "Text of the Preamble",
+        "Source of authority",
+        "Nature of Indian State",
+        "Objectives of the Constitution",
+        "Date of adoption"
+      ]
+    },
+    {
+      "label": "Key Words in the Preamble",
+      "members": [
+        "Sovereign",
+        "Socialist",
+        "Secular",
+        "Democratic",
+        "Republic",
+        "Justice (social, economic, political)",
+        "Liberty",
+        "Equality (civic, political, economic)",
+        "Fraternity (dignity of individual, unity and integrity)"
+      ]
+    },
+    {
+      "label": "Significance and Quotes",
+      "members": [
+        "N.A. Palkhivala (identity card)",
+        "K.M. Munshi (horoscope)",
+        "Pandit Thakur Das Bhargava (soul, key, jewel)",
+        "Sir Ernest Barker (key-note)",
+        "M. Hidayatullah (solemn resolve)",
+        "Sir Alladi Krishnaswami Iyer (dreams and aspirations)"
+      ]
+    },
+    {
+      "label": "Preamble as Part of the Constitution and Amendability",
+      "members": [
+        "Berubari Union case (1960) - not part of Constitution",
+        "Kesavananda Bharati case (1973) - part of Constitution, amendable subject to basic features",
+        "LIC of India case (1995) - integral part",
+        "42nd Amendment (1976) - addition of Socialist, Secular, Integrity",
+        "Non-justiciable nature",
+        "Not a source or prohibition of legislative power"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "total_concepts": 35,
+  "covered_concepts": 30,
+  "gap_count": 5,
+  "gap_ids": [
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "gaps": [
+    {
+      "id": 31,
+      "text": "Preamble is non-justiciable (not enforceable in courts of law)",
+      "type": "STANDALONE",
+      "tier": "SIMPLE",
+      "children": [],
+      "section_id": 1,
+      "chapter_num": 4,
+      "chapter_title": "Preamble3",
+      "subject": "Polity",
+      "book": "Laxmikant",
+      "exam": "uppsc"
+    },
+    {
+      "id": 32,
+      "text": "Preamble is neither a source of power to legislature nor a prohibition upon the powers of legislature",
+      "type": "STANDALONE",
+      "tier": "SIMPLE",
+      "children": [],
+      "section_id": 1,
+      "chapter_num": 4,
+      "chapter_title": "Preamble3",
+      "subject": "Polity",
+      "book": "Laxmikant",
+      "exam": "uppsc"
+    },
+    {
+      "id": 33,
+      "text": "Amendability of the Preamble under Article 368",
+      "type": "CLUSTER",
+      "tier": "MEDIUM",
+      "children": [
+        "Preamble can be amended, subject to the condition that no amendment is done to the 'basic features'",
+        "Preamble has been amended only once so far (42nd Constitutional Amendment Act, 1976)",
+        "The 42nd Amendment adding Socialist, Secular and Integrity was held valid"
+      ],
+      "section_id": 1,
+      "chapter_num": 4,
+      "chapter_title": "Preamble3",
+      "subject": "Polity",
+      "book": "Laxmikant",
+      "exam": "uppsc"
+    },
+    {
+      "id": 34,
+      "text": "Ideals of liberty, equality and fraternity taken from the French Revolution (1789-1799)",
+      "type": "STANDALONE",
+      "tier": "SIMPLE",
+      "children": [],
+      "section_id": 1,
+      "chapter_num": 4,
+      "chapter_title": "Preamble3",
+      "subject": "Polity",
+      "book": "Laxmikant",
+      "exam": "uppsc"
+    },
+    {
+      "id": 35,
+      "text": "Ideal of justice taken from the Russian Revolution (1917)",
+      "type": "STANDALONE",
+      "tier": "SIMPLE",
+      "children": [],
+      "section_id": 1,
+      "chapter_num": 4,
+      "chapter_title": "Preamble3",
+      "subject": "Polity",
+      "book": "Laxmikant",
+      "exam": "uppsc"
+    }
+  ]
+}

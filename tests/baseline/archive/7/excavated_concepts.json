@@ -1,0 +1,363 @@
+[
+  {
+    "section_id": 1,
+    "chapter_num": 7,
+    "chapter_title": "Fundamental Rights",
+    "exam": "uppsc",
+    "subject": "Polity",
+    "book": "Laxmikant",
+    "concepts": [
+      {
+        "id": 1,
+        "text": "Fundamental Rights: General Nature and Features",
+        "type": "CLUSTER",
+        "children": [
+          "Guaranteed to all persons without discrimination",
+          "Aim at equality, dignity, individual liberty, and larger public interest",
+          "Protect against authoritarian and despotic rule",
+          "Establish government of laws and not of men",
+          "Promote political democracy and unity of the nation",
+          "Available only to citizens for some rights (e.g., Articles 15,16,19,30) and to all persons for others (e.g., 14,20,21)",
+          "Not absolute; subject to reasonable restrictions determined by courts",
+          "Balance individual rights with social control and public interest",
+          "Some FRs are negative (limitations on State), some positive (conferring privileges)",
+          "Justiciable; enforceable directly by Supreme Court under Article 32",
+          "Ordinary law cannot curtail FRs; they can be amended only by constitutional amendment subject to basic structure",
+          "Can be suspended during National Emergency, except Articles 20 and 21",
+          "Most FRs are self-executory; a few require parliamentary legislation",
+          "Uniformity throughout the country (Article 35)"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 2,
+        "text": "Significance of Fundamental Rights",
+        "type": "CLUSTER",
+        "children": [
+          "Bedrock of democratic system",
+          "Formidable bulwark of individual liberty",
+          "Establishment of rule of law",
+          "Protection of minorities and weaker sections",
+          "Strengthen secular fabric of Indian State",
+          "Check on absolutism of government authority",
+          "Foundation of social equality and social justice",
+          "Ensure dignity and respect of individuals",
+          "Facilitate participation in political and administrative process"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 3,
+        "text": "Criticism of Fundamental Rights",
+        "type": "CLUSTER",
+        "children": [
+          "Excessive limitations: numerous exceptions, restrictions, qualifications",
+          "No social and economic rights (right to work, social security, etc.)",
+          "Vague and ambiguous terms (public order, minority, reasonable restriction)",
+          "Expensive remedy; common man cannot afford",
+          "Rights benefit mainly rich section of society",
+          "Preventive detention (Article 22) negates individual liberty",
+          "Suspension during emergency cuts at roots of democracy",
+          "No consistent philosophy (Sir Ivor Jennings)"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 4,
+        "text": "Article 12: Definition of State",
+        "type": "CLUSTER",
+        "children": [
+          "Government and Parliament of India (executive and legislative of Union)",
+          "Government and legislatures of states (executive and legislative of state)",
+          "Local authorities (municipalities, panchayats, district boards, improvement trusts)",
+          "Other authorities (statutory or non-statutory like LIC, ONGC, SAIL)",
+          "Private body or agency acting as instrument of State (Supreme Court interpretation)"
+        ],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 5,
+        "text": "Article 13: Laws inconsistent with Fundamental Rights",
+        "type": "CLUSTER",
+        "children": [
+          "Doctrine of judicial review: power of Supreme Court (Article 32) and High Courts (Article 226) to declare laws void if inconsistent with FRs",
+          "Definition of law includes permanent laws, temporary laws (ordinances), statutory instruments (order, bye-law, rule, regulation, notification), and custom or usage having force of law",
+          "Constitutional amendments are not law under Article 13 (Kesavananda Bharati case)",
+          "Constitutional amendment can be challenged if it violates basic structure"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 6,
+        "text": "Article 14: Equality before Law and Equal Protection of Laws",
+        "type": "CLUSTER",
+        "children": [
+          "Equality before law (British concept): absence of special privileges, equal subjection to ordinary law, no person above law",
+          "Equal protection of laws (American concept): equality under equal circumstances, like treated alike",
+          "Equality before law is negative; equal protection is positive",
+          "Article 14 forbids class legislation but permits reasonable classification based on intelligible differentia and substantial distinction",
+          "Rule of Law as embodied in Article 14 is a basic feature of the Constitution",
+          "Exceptions to equality rule: immunities of President/Governor (Article 361), foreign sovereigns and diplomats, Article 31-C laws giving effect to Directive Principles",
+          "Applies to both citizens and foreigners"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 7,
+        "text": "Article 15: Prohibition of Discrimination",
+        "type": "CLUSTER",
+        "children": [
+          "Prohibits discrimination by State on grounds of religion, race, caste, sex, place of birth (first provision)",
+          "Also prohibits discrimination by private individuals in access to public places (shops, restaurants, wells, roads, etc.) (second provision)",
+          "Exceptions: special provisions for women and children (a)",
+          "Exceptions: special provisions for socially and educationally backward classes, SCs, STs (b)",
+          "Special provision for admission to educational institutions for backward classes (c) \u2013 added by 93rd Amendment (2005)",
+          "Special provision for economically weaker sections (EWS) \u2013 added by 103rd Amendment (2019), 10% reservation in educational institutions",
+          "Reservation for OBCs in central educational institutions: 27% quota upheld by Supreme Court subject to creamy layer exclusion",
+          "EWS eligibility criteria: family gross annual income below \u20b98 lakh and exclusion based on land/property holdings"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 8,
+        "text": "Article 16: Equality of Opportunity in Public Employment",
+        "type": "CLUSTER",
+        "children": [
+          "No discrimination on grounds of religion, race, caste, sex, descent, place of birth, residence",
+          "Parliament can prescribe residence condition for certain employment (expired 1974, except for Andhra and Telangana under Article 371D)",
+          "State can provide reservation for backward class not adequately represented (Article 16(4))",
+          "Law can require incumbent of religious office to belong to that religion",
+          "State can provide reservation up to 10% for economically weaker sections (103rd Amendment, 2019)",
+          "Mandal Commission (1979): identified 3743 castes as OBCs, recommended 27% reservation; implemented in 1990",
+          "Indra Sawhney case (1992): upheld 27% reservation with conditions: creamy layer exclusion, 50% ceiling, no reservation in promotions (later modified)",
+          "77th Amendment (1995) allowed reservation in promotions; 85th Amendment (2001) provided consequential seniority; 81st Amendment (2000) addressed backlog vacancies; 76th Amendment (1994) placed Tamil Nadu 69% reservation in Ninth Schedule",
+          "EWS reservation in public employment: 10% quota for persons not covered by existing reservations, eligibility based on family income and assets"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 9,
+        "text": "Article 17: Abolition of Untouchability",
+        "type": "CLUSTER",
+        "children": [
+          "Enforcement of disability arising out of untouchability is an offence punishable by law",
+          "Untouchability (Offences) Act 1955, renamed Protection of Civil Rights Act 1955 (1976)",
+          "Untouchability not defined; refers to social disabilities based on birth in certain castes",
+          "Right under Article 17 is available against private individuals; State has constitutional obligation to ensure compliance"
+        ],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 10,
+        "text": "Article 18: Abolition of Titles",
+        "type": "CLUSTER",
+        "children": [
+          "State cannot confer any title except military or academic distinction",
+          "Citizen cannot accept any title from foreign state",
+          "Foreigner holding office of profit under State cannot accept title from foreign state without President's consent",
+          "Hereditary titles (Maharaja, Raj Bahadur, etc.) banned",
+          "National Awards (Bharat Ratna, Padma awards) are not titles; cannot be used as suffixes or prefixes; instituted in 1954, discontinued 1977-1980, revived"
+        ],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 11,
+        "text": "Article 19: Protection of Six Rights",
+        "type": "CLUSTER",
+        "children": [
+          "Right to freedom of speech and expression",
+          "Right to assemble peaceably and without arms",
+          "Right to form associations or unions or co-operative societies",
+          "Right to move freely throughout the territory of India",
+          "Right to reside and settle in any part of the territory of India",
+          "Right to practice any profession or carry on any occupation, trade, or business",
+          "Originally seven rights; right to property deleted by 44th Amendment (1978)",
+          "These rights protected only against State action, not private individuals; available only to citizens (including shareholders of a company)",
+          "Reasonable restrictions on grounds mentioned: sovereignty and integrity of India, security of State, etc.",
+          "Freedom of speech includes press, advertisements, telecast, right to know, freedom of silence, etc.",
+          "Freedom of assembly: peaceful and unarmed; Section 144 CrPC and unlawful assembly (Section 141 IPC) restrict violent assemblies",
+          "Freedom of association: includes political parties, trade unions; no right to strike or effective bargaining guaranteed",
+          "Freedom of movement: covers internal movement only; external movement under Article 21",
+          "Freedom of residence: covers temporary stay and permanent domicile; restrictions for tribal areas and public health",
+          "Freedom of profession: State can prescribe qualifications; can carry on business exclusively or in competition; immoral or dangerous activities can be prohibited"
+        ],
+        "tier": "COMPLEX"
+      },
+      {
+        "id": 12,
+        "text": "Article 20: Protection in respect of Conviction for Offences",
+        "type": "CLUSTER",
+        "children": [
+          "No ex-post-facto law: no conviction for violation of law in force at time of commission; no penalty greater than that prescribed at time of commission",
+          "No double jeopardy: no person prosecuted and punished for same offence more than once",
+          "No self-incrimination: no accused compelled to be a witness against himself",
+          "Ex-post-facto protection only for criminal laws, not civil or tax laws; also does not prevent trial under a later procedure",
+          "Double jeopardy applies only to proceedings before court of law or judicial tribunal, not departmental or administrative proceedings",
+          "Self-incrimination extends to oral and documentary evidence, but not to compulsory production of material objects, thumb impression, specimen signature, blood samples, or exhibition of body"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 13,
+        "text": "Article 21: Protection of Life and Personal Liberty",
+        "type": "CLUSTER",
+        "children": [
+          "Available to both citizens and non-citizens",
+          "Gopalan case (1950): narrow interpretation \u2013 protection only against arbitrary executive action, not legislative; 'procedure established by law' unlike 'due process'",
+          "Menaka case (1978): overruled Gopalan \u2013 procedure must be reasonable, fair, and just; introduced due process; protects against arbitrary legislative action",
+          "Right to life includes right to live with human dignity, not mere animal existence",
+          "Personal liberty of widest amplitude; includes many rights declared post-Menaka: right to livelihood, privacy, shelter, health, free education up to 14 years, free legal aid, speedy trial, travel abroad, and many more",
+          "Right against solitary confinement, handcuffing, inhuman treatment, delayed execution, custodial harassment, bonded labour, public hanging, noise pollution, etc.",
+          "Enforcement through Article 32 or Article 226"
+        ],
+        "tier": "COMPLEX"
+      },
+      {
+        "id": 14,
+        "text": "Article 21A: Right to Education",
+        "type": "CLUSTER",
+        "children": [
+          "Free and compulsory education to children aged six to fourteen years",
+          "Added by 86th Constitutional Amendment Act, 2002",
+          "Earlier non-enforceable Directive Principle under Article 45; Article 45 now deals with early childhood care",
+          "Supreme Court (1993) recognised primary education as fundamental right under Article 21",
+          "Right of Children to Free and Compulsory Education (RTE) Act, 2009: full-time elementary education in formal school with norms and standards"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 15,
+        "text": "Article 22: Protection against Arrest and Detention",
+        "type": "CLUSTER",
+        "children": [
+          "First part (ordinary law): rights of arrested person \u2013 to be informed of grounds, to consult and be defended by legal practitioner, to be produced before magistrate within 24 hours, to be released after 24 hours unless magistrate authorises detention",
+          "These safeguards not available to enemy alien or persons detained under preventive detention law",
+          "Applies to criminal or quasi-criminal acts; does not cover civil arrest, arrest by court order, etc.",
+          "Second part (preventive detention): detention cannot exceed three months unless advisory board of High Court judges reports sufficient cause",
+          "Grounds of detention must be communicated to detenu; facts against public interest need not be disclosed; detenu has right to make representation",
+          "Parliament can prescribe classes of offences for detention beyond three months without advisory board",
+          "Legislative power: Parliament exclusive for defence, foreign affairs, security of India; concurrent for security of state, public order, supplies",
+          "Various preventive detention laws: Preventive Detention Act 1950 (expired), MISA, COFEPOSA, NASA, TADA, POTA, UAPA, etc.",
+          "No democratic country except India has made preventive detention an integral part of its Constitution"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 16,
+        "text": "Right against Exploitation (Articles 23-24)",
+        "type": "CLUSTER",
+        "children": [
+          "Article 23: Prohibition of traffic in human beings and forced labour \u2013 includes selling/buying of persons, immoral traffic, beggar (forced labour without remuneration), bonded labour; exception for State compulsory service for public purposes without pay, but without discrimination on religion, race, caste, class",
+          "Article 24: Prohibition of employment of children below 14 years in factories, mines, and hazardous activities; harmless or innocent work not prohibited; Child Labour (Prohibition and Regulation) Act 1986 and related laws; Supreme Court directed Child Labour Rehabilitation Welfare Fund"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 17,
+        "text": "Right to Freedom of Religion (Articles 25-28)",
+        "type": "CLUSTER",
+        "children": [
+          "Article 25: Freedom of conscience and free profession, practice, and propagation of religion \u2013 subject to public order, morality, health; State can regulate secular activities and provide for social reform; wearing of kirpans included; Hindus include Sikhs, Jains, Buddhists",
+          "Article 26: Freedom to manage religious affairs \u2013 rights of religious denominations to establish institutions, manage own affairs, own property, administer property subject to law; conditions for denomination: system of beliefs, common organisation, distinctive name",
+          "Article 27: Freedom from taxation for promotion of any particular religion \u2013 State cannot compel taxes for support of any religion; fee for pilgrims or regulation of endowments is permissible",
+          "Article 28: Freedom from attending religious instruction or worship in certain institutions \u2013 no religious instruction in wholly State-funded institutions (exception for endowments requiring it); in recognised/aided institutions, voluntary with consent; four types of educational institutions distinguished"
+        ],
+        "tier": "COMPLEX"
+      },
+      {
+        "id": 18,
+        "text": "Cultural and Educational Rights (Articles 29-30)",
+        "type": "CLUSTER",
+        "children": [
+          "Article 29: Protection of interests of minorities \u2013 right of any section with distinct language, script, culture to conserve it; no denial of admission to State-maintained or aided institutions on grounds of religion, race, caste, language",
+          "Article 30: Right of minorities to establish and administer educational institutions \u2013 applies to religious and linguistic minorities; includes right to choose governing body, appoint staff, admit students, set fee structure; three types: seeking aid+recognition, only recognition, neither; subject to regulatory measures for standards but not maladministration; aid does not dilute right; compensation for compulsory acquisition"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 19,
+        "text": "Right to Constitutional Remedies (Article 32)",
+        "type": "CLUSTER",
+        "children": [
+          "Dr. Ambedkar called it the very soul and heart of the Constitution; a basic feature",
+          "Right to move Supreme Court for enforcement of Fundamental Rights",
+          "Supreme Court can issue directions, orders, and writs: habeas corpus, mandamus, prohibition, certiorari, quo-warranto",
+          "Concurrent jurisdiction with High Courts under Article 226",
+          "Alternative remedy is not a bar to relief under Article 32",
+          "Right cannot be suspended except during National Emergency under Article 359"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 20,
+        "text": "Writs for Enforcement of Fundamental Rights",
+        "type": "CLUSTER",
+        "children": [
+          "Habeas corpus: order to produce detainee before court to examine legality; bulwark of individual liberty; issuable against public authorities and private individuals; not issued if detention lawful",
+          "Mandamus: command to public official to perform mandatory duty; not against private individuals or President/Governor; not for discretionary duties",
+          "Prohibition: to forbid lower court/tribunal from exceeding jurisdiction; only against judicial and quasi-judicial authorities; preventive",
+          "Certiorari: to quash order of lower court/tribunal or administrative authority affecting rights; both preventive and curative; not against legislative bodies",
+          "Quo-warranto: to inquire into legality of claim to a public office; prevents illegal usurpation; can be sought by any interested person"
+        ],
+        "tier": "COMPLEX"
+      },
+      {
+        "id": 21,
+        "text": "Restrictions on Fundamental Rights: Articles 31A, 31B, 31C",
+        "type": "CLUSTER",
+        "children": [
+          "Article 31A: Saving of laws providing for acquisition of estates, etc. \u2013 five categories of laws saved from challenge under Articles 14 and 19; requires President's assent; compensation at market value for land under personal cultivation",
+          "Article 31B: Validation of acts and regulations in Ninth Schedule \u2013 originally blanket immunity from FR challenge; I.R. Coelho case (2007) limited immunity to laws before April 24, 1973 (Kesavananda date); later laws open to challenge if they violate Articles 14,15,19,21 or basic structure",
+          "Article 31C: Saving of laws giving effect to Directive Principles under Article 39(b) or (c) \u2013 inserted by 25th Amendment; provision allowing declaration as conclusive struck down in Kesavananda; 42nd Amendment extended to all DPs but struck down in Minerva Mills (1980)"
+        ],
+        "tier": "COMPLEX"
+      },
+      {
+        "id": 22,
+        "text": "Restrictions for Armed Forces and Martial Law (Articles 33-34)",
+        "type": "CLUSTER",
+        "children": [
+          "Article 33: Parliament can restrict/abrogate FRs for members of armed forces, paramilitary, police, intelligence agencies to ensure proper discharge of duties and discipline; laws not challengeable; examples: Army Act, Navy Act, Air Force Act, Police Forces Act, etc.",
+          "Article 34: Restrictions during martial law \u2013 Parliament can indemnify acts done for restoration of order and validate sentences; martial law means military rule, implicit in Constitution; different from National Emergency; does not automatically suspend habeas corpus"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 23,
+        "text": "Right to Property: From Fundamental Right to Legal Right",
+        "type": "CLUSTER",
+        "children": [
+          "Originally a Fundamental Right under Article 19(1)(f) and Article 31",
+          "Most controversial FR; led to several constitutional amendments (1st, 4th, 7th, 25th, 39th, 40th, 42nd)",
+          "Abolished as Fundamental Right by 44th Amendment Act, 1978; became a legal right under Article 300A in Part XII",
+          "Now not part of basic structure; protected only against executive action, not legislative; cannot move Supreme Court directly under Article 32; no guaranteed compensation except for minority institutions (Article 30) and land under personal cultivation (Article 31A)"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 24,
+        "text": "Doctrine of Basic Structure",
+        "type": "CLUSTER",
+        "children": [
+          "Established in Kesavananda Bharati case (1973)",
+          "Constitutional amendments can be challenged if they violate the basic structure of the Constitution",
+          "Basic structure includes judicial review, rule of law, federalism, secularism, democracy, etc.",
+          "Limits Parliament's power to amend the Constitution"
+        ],
+        "tier": "COMPLEX"
+      },
+      {
+        "id": 25,
+        "text": "Suspension of Fundamental Rights during National Emergency",
+        "type": "CLUSTER",
+        "children": [
+          "President can suspend enforcement of FRs (except Articles 20 and 21) under Article 359 during National Emergency",
+          "Article 19 can be suspended only on grounds of war or external aggression, not internal armed rebellion",
+          "Suspension is by order; duration during emergency",
+          "Articles 20 and 21 are never suspendable"
+        ],
+        "tier": "MEDIUM"
+      }
+    ]
+  }
+]

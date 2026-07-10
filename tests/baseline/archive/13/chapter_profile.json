@@ -1,0 +1,232 @@
+{
+  "chapter_title": "Fundamental Rights",
+  "primary_domain": "Indian Constitutional Law",
+  "structural_type": "enumerated_provisions",
+  "core_entities": [
+    "Part III",
+    "Articles 12 to 35",
+    "Article 12",
+    "Article 13",
+    "Article 14",
+    "Article 15",
+    "Article 16",
+    "Article 17",
+    "Article 18",
+    "Article 19",
+    "Article 20",
+    "Article 21",
+    "Article 21A",
+    "Article 22",
+    "Article 23",
+    "Article 24",
+    "Article 25",
+    "Article 26",
+    "Article 27",
+    "Article 28",
+    "Article 29",
+    "Article 30",
+    "Article 31",
+    "Article 31A",
+    "Article 31B",
+    "Article 31C",
+    "Article 32",
+    "Article 33",
+    "Article 34",
+    "Article 35",
+    "Article 300A",
+    "44th Amendment Act, 1978",
+    "86th Constitutional Amendment Act, 2002",
+    "93rd Amendment Act, 2005",
+    "103rd Amendment Act, 2019",
+    "Kesavananda Bharati case (1973)",
+    "Menaka case (1978)",
+    "Gopalan case (1950)",
+    "Mandal case (1992)",
+    "I.R. Coelho case (2007)",
+    "Minerva Mills case (1980)",
+    "Supreme Court",
+    "High Courts",
+    "President of India",
+    "Governor of States",
+    "Parliament",
+    "State Legislatures",
+    "Mandal Commission",
+    "B.P. Mandal",
+    "Ram Nandan Committee",
+    "National Commission for Backward Classes",
+    "Protection of Civil Rights Act, 1955",
+    "Bonded Labour System (Abolition) Act, 1976",
+    "Child Labour (Prohibition and Regulation) Act, 1986",
+    "Right of Children to Free and Compulsory Education (RTE) Act, 2009",
+    "National Security Act (NASA), 1980",
+    "Preventive Detention Act, 1950",
+    "Maintenance of Internal Security Act (MISA), 1971",
+    "Conservation of Foreign Exchange and Prevention of Smuggling Activities Act (COFEPOSA), 1974",
+    "Terrorist and Disruptive Activities (Prevention) Act (TADA), 1985",
+    "Prevention of Terrorism Act (POTA), 2002",
+    "Unlawful Activities (Prevention) Act (UAPA), 1967",
+    "Ninth Schedule",
+    "A.V. Dicey",
+    "Rule of Law"
+  ],
+  "dominant_themes": [
+    "Equality before law",
+    "Prohibition of discrimination",
+    "Freedom of speech and expression",
+    "Freedom of assembly",
+    "Freedom of association",
+    "Freedom of movement",
+    "Freedom of residence",
+    "Freedom of profession",
+    "Protection against arbitrary arrest and detention",
+    "Right to life and personal liberty",
+    "Right to education",
+    "Prohibition of exploitation",
+    "Freedom of religion",
+    "Minority rights",
+    "Right to constitutional remedies",
+    "Judicial review",
+    "Basic structure doctrine",
+    "Reservation for backward classes",
+    "Economically weaker sections",
+    "Preventive detention"
+  ],
+  "concept_density": "high",
+  "scope_boundary": "This chapter covers Part III of the Constitution of India (Articles 12 to 35) including all fundamental rights, their features, definitions, exceptions, judicial interpretations, and related amendments up to the 103rd Amendment Act of 2019. Constitutional amendments enacted after 2019, detailed provisions of other parts of the Constitution (except Article 300A and Part XIII mentioned briefly), and comparative constitutional law of other countries (beyond limited references to USA and UK) are out of scope.",
+  "natural_clusters": [
+    {
+      "label": "Definition of State and Laws Inconsistent with Fundamental Rights",
+      "members": [
+        "Definition of State (Article 12)",
+        "Laws inconsistent with Fundamental Rights (Article 13)"
+      ]
+    },
+    {
+      "label": "Right to Equality (Articles 14\u201318)",
+      "members": [
+        "Equality before law and equal protection of laws (Article 14)",
+        "Rule of Law",
+        "Exceptions to equality (President, Governor, etc.)",
+        "Prohibition of discrimination on grounds of religion, race, caste, sex or place of birth (Article 15)",
+        "Exceptions for women, children, SCs, STs, backward classes, EWS (Article 15)",
+        "Reservation for OBCs in educational institutions",
+        "Reservation for EWSs in educational institutions",
+        "Equality of opportunity in public employment (Article 16)",
+        "Exceptions to Article 16 (residence, backward classes, religious office, EWS)",
+        "Mandal Commission and aftermath",
+        "Reservation for EWSs in public employment",
+        "Abolition of untouchability (Article 17)",
+        "Protection of Civil Rights Act, 1955",
+        "Abolition of titles (Article 18)"
+      ]
+    },
+    {
+      "label": "Right to Freedom (Articles 19\u201322)",
+      "members": [
+        "Protection of six rights (Article 19)",
+        "Freedom of speech and expression",
+        "Freedom of assembly",
+        "Freedom of association",
+        "Freedom of movement",
+        "Freedom of residence",
+        "Freedom of profession",
+        "Reasonable restrictions under Article 19",
+        "Protection in respect of conviction for offences (Article 20)",
+        "Ex-post-facto law",
+        "Double jeopardy",
+        "Self-incrimination",
+        "Protection of life and personal liberty (Article 21)",
+        "Gopalan case and Menaka case",
+        "Rights included in Article 21 (list of 35 rights)",
+        "Right to education (Article 21A)",
+        "Right of Children to Free and Compulsory Education Act, 2009",
+        "Protection against arrest and detention (Article 22)",
+        "Rights under ordinary law",
+        "Rights under preventive detention law",
+        "Preventive detention laws (list)"
+      ]
+    },
+    {
+      "label": "Right against Exploitation (Articles 23\u201324)",
+      "members": [
+        "Prohibition of traffic in human beings and forced labour (Article 23)",
+        "Begar and bonded labour",
+        "Exception: compulsory service for public purposes",
+        "Prohibition of employment of children in factories, etc. (Article 24)",
+        "Child Labour Acts"
+      ]
+    },
+    {
+      "label": "Right to Freedom of Religion (Articles 25\u201328)",
+      "members": [
+        "Freedom of conscience and free profession, practice and propagation of religion (Article 25)",
+        "Regulation of secular activities",
+        "Freedom to manage religious affairs (Article 26)",
+        "Freedom from taxation for promotion of religion (Article 27)",
+        "Freedom from attending religious instruction (Article 28)",
+        "Types of educational institutions under Article 28"
+      ]
+    },
+    {
+      "label": "Cultural and Educational Rights (Articles 29\u201330)",
+      "members": [
+        "Protection of interests of minorities (Article 29)",
+        "Right to conserve language, script or culture",
+        "Right of minorities to establish and administer educational institutions (Article 30)",
+        "Types of minority educational institutions",
+        "Supreme Court principles (Malankara case, 2007)"
+      ]
+    },
+    {
+      "label": "Right to Constitutional Remedies (Article 32)",
+      "members": [
+        "Right to move Supreme Court for enforcement of FRs",
+        "Writs: habeas corpus, mandamus, prohibition, certiorari, quo-warranto",
+        "Writ jurisdiction of Supreme Court vs High Courts",
+        "Comparison of writs"
+      ]
+    },
+    {
+      "label": "Armed Forces, Martial Law, and Effecting Certain Fundamental Rights",
+      "members": [
+        "Power of Parliament to modify FRs for armed forces (Article 33)",
+        "Martial law and FRs (Article 34)",
+        "Martial law vs National emergency",
+        "Power of Parliament to make laws for effecting certain FRs (Article 35)"
+      ]
+    },
+    {
+      "label": "Exceptions to Fundamental Rights (Articles 31A, 31B, 31C)",
+      "members": [
+        "Saving of laws providing for acquisition of estates (Article 31A)",
+        "Validation of certain acts and regulations in Ninth Schedule (Article 31B)",
+        "I.R. Coelho case (2007)",
+        "Saving of laws giving effect to directive principles (Article 31C)",
+        "Kesavananda Bharati and Minerva Mills cases"
+      ]
+    },
+    {
+      "label": "Present Position of Right to Property",
+      "members": [
+        "Original right to property (Article 19(1)(f) and Article 31)",
+        "44th Amendment and Article 300A",
+        "Implications of right to property as legal right"
+      ]
+    },
+    {
+      "label": "Criticism and Significance of Fundamental Rights",
+      "members": [
+        "Excessive limitations",
+        "No social and economic rights",
+        "No clarity",
+        "No permanency",
+        "Suspension during emergency",
+        "Expensive remedy",
+        "Preventive detention",
+        "No consistent philosophy",
+        "Significance of FRs",
+        "Rights outside Part III"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1481 @@
+[
+  {
+    "section_id": 1,
+    "chapter_num": 4,
+    "chapter_title": "Preamble5",
+    "exam": "uppsc",
+    "subject": "Polity",
+    "book": "Laxmikant",
+    "concepts": [
+      {
+        "id": 1,
+        "text": "Text of the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Opening phrase: 'We, THE PEOPLE OF INDIA'",
+          "India declared as a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC",
+          "Justice in three forms: social, economic and political",
+          "Liberty of thought, expression, belief, faith and worship",
+          "Equality of status and opportunity",
+          "Fraternity assuring dignity of the individual and unity and integrity of the Nation",
+          "Date of adoption: November 26, 1949"
+        ],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 2,
+        "text": "Four ingredients of the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Source of authority: the people of India",
+          "Nature of Indian State: sovereign, socialist, secular, democratic, republican polity",
+          "Objectives of the Constitution: justice, liberty, equality and fraternity",
+          "Date of adoption: November 26, 1949"
+        ],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 3,
+        "text": "Meaning of 'Sovereign' in the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "India is not a dependency or dominion of any other nation",
+          "India is an independent state with no authority above it",
+          "India is free to conduct its internal and external affairs",
+          "Sovereignty includes the right to acquire foreign territory",
+          "Sovereignty includes the right to cede part of its territory to a foreign state"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 4,
+        "text": "Meaning of 'Socialist' in the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Added by the 42nd Constitutional Amendment Act, 1976",
+          "Indian brand is 'democratic socialism'",
+          "Mixed economy with co-existence of public and private sectors",
+          "Aims to end poverty, ignorance, disease and inequality of opportunity",
+          "Blend of Marxism and Gandhism, leaning towards Gandhian socialism",
+          "Directive Principles already contained socialist content before 1976",
+          "Congress party resolution in 1955 (Avadi session) for socialistic pattern of society"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 5,
+        "text": "Meaning of 'Secular' in the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Added by the 42nd Constitutional Amendment Act, 1976",
+          "Positive concept: all religions have equal status and support from state",
+          "State is neutral in matters of religion, not anti-religious",
+          "Articles 25 to 28 guarantee fundamental right to freedom of religion",
+          "Secular state contrasted with atheistic state (anti-religion) and theocratic state (state religion)"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 6,
+        "text": "Meaning of 'Democratic' in the Preamble (core meaning)",
+        "type": "CLUSTER",
+        "children": [
+          "Based on the doctrine of popular sovereignty",
+          "Supreme power is possessed by the people",
+          "India has a representative parliamentary democracy",
+          "Executive is responsible to the legislature for all policies and actions",
+          "Manifested through universal adult franchise, periodic elections, rule of law, independence of judiciary, and absence of discrimination",
+          "Embracing political, social and economic democracy in a broader sense"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 7,
+        "text": "Types of Democracy",
+        "type": "CLUSTER",
+        "children": [
+          "Direct democracy (practiced in Switzerland)",
+          "Indirect or representative democracy (parliamentary and presidential types)",
+          "India follows representative parliamentary democracy"
+        ],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 8,
+        "text": "Devices of Direct Democracy",
+        "type": "CLUSTER",
+        "children": [
+          "Referendum: procedure referring legislation to the electorate for direct vote",
+          "Initiative: method for people to propose a bill to the legislature for enactment",
+          "Recall: method for voters to remove a representative before the term expires",
+          "Plebiscite: method of obtaining people's opinion on issues of public importance, often used for territorial disputes"
+        ],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 9,
+        "text": "Dr. Ambedkar on Social Democracy",
+        "type": "CLUSTER",
+        "children": [
+          "Political democracy cannot last without social democracy",
+          "Social democracy is a way of life recognising liberty, equality and fraternity",
+          "Liberty, equality and fraternity form a union of trinity \u2013 liberty cannot be divorced from equality",
+          "Without equality, liberty produces supremacy of the few over the many",
+          "Without liberty, equality kills individual initiative"
+        ],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 10,
+        "text": "Meaning of 'Republic' in the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Elected head of state (President) for a fixed period of five years",
+          "Political sovereignty is vested in the people, not in a single individual",
+          "Absence of any privileged class",
+          "All public offices are open to every citizen without discrimination",
+          "Contrasted with monarchy (e.g., Britain) where head of state is hereditary"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 11,
+        "text": "Meaning of 'Justice' in the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Three forms: social, economic and political",
+          "Justice is secured through Fundamental Rights and Directive Principles",
+          "Social justice: equal treatment without social distinctions; improvement of backward classes and women; absence of privileges",
+          "Economic justice: non-discrimination based on economic factors; elimination of glaring inequalities in wealth, income and property",
+          "Political justice: equal political rights, access to offices, and voice in government"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 12,
+        "text": "Meaning of 'Liberty' in the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Absence of restraints on activities of individuals",
+          "Provides opportunities for development of individual personalities",
+          "Secured through Fundamental Rights which are enforceable in courts of law",
+          "Essential for successful functioning of the democratic system",
+          "Does not mean 'license' \u2013 limited by Constitution",
+          "Liberty is not absolute but qualified"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 13,
+        "text": "Meaning of 'Equality' in the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Absence of special privileges to any section of society",
+          "Provision of adequate opportunities for all without discrimination",
+          "Three dimensions: civic, political and economic"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 14,
+        "text": "Meaning of 'Fraternity' in the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Sense of brotherhood",
+          "Promoted through single citizenship",
+          "Fundamental Duties (Article 51-A) to promote harmony and common brotherhood",
+          "Transcending religious, linguistic, regional or sectional diversities",
+          "Assures dignity of the individual",
+          "Assures unity and integrity of the nation",
+          "Word 'integrity' added by 42nd Amendment 1976"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 15,
+        "text": "Significance of the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "N.A. Palkhivala: 'identity card of the Constitution'",
+          "K.M. Munshi: 'horoscope of our sovereign democratic republic'",
+          "Pandit Thakur Das Bhargava: 'most precious part, soul, key, jewel, yardstick'",
+          "Sir Ernest Barker: 'key-note to the Constitution'",
+          "M. Hidayatullah: 'resembles Declaration of Independence, more than a declaration, contains a solemn resolve'",
+          "Embodies the basic philosophy and fundamental values of the Constitution",
+          "Represents the grand and noble vision of the Constituent Assembly",
+          "Expresses the dreams and aspirations of the founding fathers"
+        ],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 16,
+        "text": "Preamble as Part of the Constitution",
+        "type": "CLUSTER",
+        "children": [
+          "Berubari Union case (1960): Preamble is not a part of the Constitution",
+          "Kesavananda Bharati case (1973): Preamble is a part of the Constitution",
+          "LIC of India case (1995): Preamble is an integral part of the Constitution",
+          "Preamble is non-justiciable (not enforceable in court)",
+          "Preamble is neither a source of power nor a prohibition on the legislature"
+        ],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 17,
+        "text": "Amendability of the Preamble",
+        "type": "CLUSTER",
+        "children": [
+          "Kesavananda Bharati case: Preamble can be amended under Article 368, but the basic features cannot be altered",
+          "42nd Constitutional Amendment Act (1976) added three words: Socialist, Secular, Integrity",
+          "The amendment to the Preamble was held valid"
+        ],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 18,
+        "text": "American Constitution was the first to begin with a Preamble",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 19,
+        "text": "India's practice of beginning its Constitution with a Preamble",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 20,
+        "text": "Term 'Preamble' as introduction or preface to the Constitution",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 21,
+        "text": "Preamble as summary or essence of the Constitution",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 22,
+        "text": "Objectives Resolution as basis of the Preamble",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 23,
+        "text": "Objectives Resolution drafted and moved by Pandit Nehru",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 24,
+        "text": "Objectives Resolution adopted by the Constituent Assembly",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 25,
+        "text": "Objectives Resolution moved on December 13, 1946",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 26,
+        "text": "Objectives Resolution adopted on January 22, 1947",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 27,
+        "text": "India continued full membership of the Commonwealth in 1949",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 28,
+        "text": "British Crown as the head of the Commonwealth",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 29,
+        "text": "India became a member of the United Nations Organisation in 1945",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 30,
+        "text": "Commonwealth membership does not affect India's sovereignty",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 31,
+        "text": "UNO membership does not limit India's sovereignty",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 32,
+        "text": "A sovereign state can acquire foreign territory",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 33,
+        "text": "A sovereign state can cede part of its territory to a foreign state",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 34,
+        "text": "G.B. Pant University of Agriculture and Technology v. State of Uttar Pradesh (2000) \u2013 socialist case",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 35,
+        "text": "Nakara v. Union of India (1983) \u2013 socialist case",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 36,
+        "text": "New Economic Policy of 1991: liberalisation, privatisation and globalisation",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 37,
+        "text": "New Economic Policy diluted the socialist credentials of the Indian State",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 38,
+        "text": "Supreme Court observation in 1974 on the secular state in the Constitution",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 39,
+        "text": "G.S. Pande's definition of a secular state",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 40,
+        "text": "H.R. Gokhale's definition of secularism",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 41,
+        "text": "P.B. Gajendragadkar's definition of secularism",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 42,
+        "text": "Atheistic state as anti-religion, condemning all religions",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 43,
+        "text": "Theocratic state declaring one particular religion as state religion",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 44,
+        "text": "Bangladesh, Burma, Sri Lanka, Pakistan as theocratic states",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 45,
+        "text": "Secular state as neutral in matters of religion",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 46,
+        "text": "USA and India as examples of secular states",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 47,
+        "text": "Direct democracy exists in Switzerland",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 48,
+        "text": "Supreme Court observation in 1997 on an egalitarian social order",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 49,
+        "text": "USA as an example of a republic",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 50,
+        "text": "Britain as an example of a monarchy",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 51,
+        "text": "Ideal of justice taken from the Russian Revolution of 1917",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 52,
+        "text": "Ideals of liberty, equality and fraternity taken from the French Revolution (1789\u20131799)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 53,
+        "text": "Article 14 \u2013 equality before the law",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 54,
+        "text": "Article 15 \u2013 prohibition of discrimination on grounds of religion, race, caste, sex or place of birth",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 55,
+        "text": "Article 16 \u2013 equality of opportunity in public employment",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 56,
+        "text": "Article 17 \u2013 abolition of untouchability",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 57,
+        "text": "Article 18 \u2013 abolition of titles",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 58,
+        "text": "Article 39 \u2013 equal right to adequate means of livelihood and equal pay for equal work",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 59,
+        "text": "Article 325 \u2013 no person ineligible for electoral rolls on grounds of religion, race, caste or sex",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 60,
+        "text": "Article 326 \u2013 elections to Lok Sabha and state assemblies on basis of adult suffrage",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 61,
+        "text": "K.M. Munshi called the Preamble 'horoscope of our sovereign democratic republic'",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 62,
+        "text": "Article 1 describes India as 'Union of States'",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 63,
+        "text": "States have no right to secede from the Union",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 64,
+        "text": "Indestructible nature of the Indian Union",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 65,
+        "text": "Hindrances to national integration: communalism, regionalism, casteism, linguism, secessionism",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 66,
+        "text": "Preamble embodies the basic philosophy and fundamental values of the Constitution",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 67,
+        "text": "Grand and noble vision of the Constituent Assembly reflected in the Preamble",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 68,
+        "text": "Dreams and aspirations of the founding fathers in the Preamble",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 69,
+        "text": "Sir Alladi Krishnaswami Iyer: Preamble expresses what we thought or dreamt so long",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 70,
+        "text": "Pandit Thakur Das Bhargava: Preamble as most precious part, soul, key, jewel, yardstick",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 71,
+        "text": "Sir Ernest Barker: Preamble as 'key-note' to the Constitution",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 72,
+        "text": "M. Hidayatullah: Preamble resembles Declaration of Independence, more than a declaration, contains a solemn resolve",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 73,
+        "text": "Preamble enacted after the rest of the Constitution was adopted",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 74,
+        "text": "Motion that Preamble stands part of Constitution was adopted",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 75,
+        "text": "Article 368 \u2013 amending power of the Constitution",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 76,
+        "text": "Basic elements of the Preamble are the foundation of the Constitution's edifice",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 77,
+        "text": "Pandit Nehru's 1949 statement on Commonwealth and India's sovereignty",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 78,
+        "text": "Pledge to achieve Purna Swaraj (complete self-rule)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 79,
+        "text": "Commonwealth of Nations is a free association of sovereign states, terminable by free will",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 80,
+        "text": "India's political status: dependency of British Empire until Indian Independence Act, 1947; then dominion until January 26, 1950",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "MEDIUM"
+      },
+      {
+        "id": 81,
+        "text": "India ceased to be a British dominion on January 26, 1950",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 82,
+        "text": "India declared herself a sovereign republic on January 26, 1950",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 83,
+        "text": "Pakistan continued as a British dominion until 1956",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 84,
+        "text": "Congress Resolution in 1955 (Avadi session) for a 'socialistic pattern of society'",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 85,
+        "text": "Means of production under social ownership or control (socialistic pattern)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 86,
+        "text": "Equitable distribution of national wealth (socialistic pattern)",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 87,
+        "text": "Indira Gandhi's statement on Indian brand of socialism: nationalisation only where necessary",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 88,
+        "text": "Berubari Union case (1960) involved Article 143 reference regarding Indo-Pakistan agreement on Berubari union and enclaves",
+        "type": "STANDALONE",
+        "children": [],
+        "tier": "SIMPLE"
+      },
+      {
+        "id": 89,
+        "text": "The Objectives Resolution was a fundamental declaration of principles adopted by the Constituent Assembly, outlining the vision for the Constitution.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 22,
+        "depth": 1,
+        "reason": "To understand how the Preamble was derived from it."
+      },
+      {
+        "id": 90,
+        "text": "Pandit Jawaharlal Nehru was a preeminent leader of the Indian independence movement and the first Prime Minister of India, who played a central role in the Constituent Assembly.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 23,
+        "depth": 1,
+        "reason": "To understand his role in drafting and moving the Resolution."
+      },
+      {
+        "id": 91,
+        "text": "The Constituent Assembly of India was the body elected to draft the Constitution of independent India.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 24,
+        "depth": 1,
+        "reason": "To understand the adopting authority."
+      },
+      {
+        "id": 92,
+        "text": "The Objectives Resolution was a document that laid down the philosophical foundations of the Indian Constitution.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 25,
+        "depth": 1,
+        "reason": "To grasp the significance of the date of its moving."
+      },
+      {
+        "id": 93,
+        "text": "The Objectives Resolution was a key declaration of the Constituent Assembly's ideals and goals.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 26,
+        "depth": 1,
+        "reason": "To understand what was adopted on that date."
+      },
+      {
+        "id": 94,
+        "text": "The Commonwealth of Nations is a voluntary association of sovereign states, mostly former territories of the British Empire.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 27,
+        "depth": 1,
+        "reason": "To understand what membership in this organization means."
+      },
+      {
+        "id": 95,
+        "text": "The British Crown symbolizes the constitutional monarchy of the United Kingdom, with the monarch as a ceremonial head.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 28,
+        "depth": 1,
+        "reason": "To understand what the 'British Crown' signifies as head of the association."
+      },
+      {
+        "id": 96,
+        "text": "The United Nations Organisation (UNO) is an international organization founded in 1945 to promote peace, security, and cooperation among nations.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 29,
+        "depth": 1,
+        "reason": "To understand the membership India acquired."
+      },
+      {
+        "id": 97,
+        "text": "The word 'socialist' in the Preamble of the Indian Constitution has been subject to judicial interpretation to determine its legal scope.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 34,
+        "depth": 1,
+        "reason": "To understand why this court case is significant in the context of socialism."
+      },
+      {
+        "id": 98,
+        "text": "The word 'socialist' in the Preamble is open to interpretation by the courts to give concrete meaning to social welfare measures.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 35,
+        "depth": 1,
+        "reason": "To understand the relevance of the case to the socialist principle."
+      },
+      {
+        "id": 99,
+        "text": "The Supreme Court of India, as the highest judicial authority, interprets the meaning and scope of the secular character of the Indian state as enshrined in the Preamble.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 38,
+        "depth": 1,
+        "reason": "To know why the Supreme Court's observation carries authoritative weight."
+      },
+      {
+        "id": 100,
+        "text": "The concept of a secular state as a state that does not favor any particular religion or discriminate against any religion (existing concept: meaning of 'secular' in the Preamble).",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 39,
+        "depth": 1,
+        "reason": "To understand the scholarly definition offered by G.S. Pande."
+      },
+      {
+        "id": 101,
+        "text": "Secularism in the Indian context denotes the principle of full respect for all religions and non-interference by the state in religious matters.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 40,
+        "depth": 1,
+        "reason": "To grasp the specific definition given by H.R. Gokhale."
+      },
+      {
+        "id": 102,
+        "text": "The idea of secularism as a positive concept of equal respect for all religions, distinct from mere neutrality or atheism.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 41,
+        "depth": 1,
+        "reason": "To understand the nuance in Gajendragadkar's definition."
+      },
+      {
+        "id": 103,
+        "text": "Classification of state-religion relationships: theocratic (one official religion), atheistic (no religion, anti-religion), and secular (neutral/equal treatment).",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 42,
+        "depth": 1,
+        "reason": "To place 'atheistic state' within a broader typology."
+      },
+      {
+        "id": 104,
+        "text": "Classification of state-religion relationships: theocratic, secular, atheistic.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 43,
+        "depth": 1,
+        "reason": "To understand the characteristics of a theocratic state."
+      },
+      {
+        "id": 105,
+        "text": "A theocratic state is one that declares a specific religion as the official state religion, as defined in concept 43.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 44,
+        "depth": 1,
+        "reason": "To know why these countries are cited as examples."
+      },
+      {
+        "id": 106,
+        "text": "The definition of a secular state as neutral or impartial in religious matters (existing concept 45).",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 46,
+        "depth": 1,
+        "reason": "To understand why these two countries qualify as secular states."
+      },
+      {
+        "id": 107,
+        "text": "Direct democracy is a form of governance where citizens directly participate in decision-making, rather than through elected representatives (existing concepts: Types of Democracy, Devices of Direct Democracy).",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 47,
+        "depth": 1,
+        "reason": "To understand the reference to Switzerland's political system."
+      },
+      {
+        "id": 108,
+        "text": "The Supreme Court interprets fundamental constitutional values, including social justice and equality, to realize an egalitarian society.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 48,
+        "depth": 1,
+        "reason": "To appreciate the Court's statement on social order."
+      },
+      {
+        "id": 109,
+        "text": "A republic is a state in which supreme power is held by the people and their elected representatives, and which has an elected or nominated president rather than a monarch (existing concept 10).",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 49,
+        "depth": 1,
+        "reason": "To understand why the USA is classified as a republic."
+      },
+      {
+        "id": 110,
+        "text": "A monarchy is a form of government where the head of state is a monarch, typically hereditary, such as a king or queen.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 50,
+        "depth": 1,
+        "reason": "To understand the example of Britain as a monarchy."
+      },
+      {
+        "id": 111,
+        "text": "The Russian Revolution (1917) overthrew the Tsarist autocracy and established a socialist state, emphasizing social and economic justice for the working class.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 51,
+        "depth": 1,
+        "reason": "To know the source of the ideal of justice referenced."
+      },
+      {
+        "id": 112,
+        "text": "The French Revolution (1789\u20131799) was a period of radical social and political upheaval in France, whose motto was 'Libert\u00e9, \u00c9galit\u00e9, Fraternit\u00e9' (Liberty, Equality, Fraternity).",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 52,
+        "depth": 1,
+        "reason": "To understand the source of these three ideals."
+      },
+      {
+        "id": 113,
+        "text": "Part III of the Indian Constitution (Articles 12\u201335) guarantees Fundamental Rights, including the Right to Equality under Articles 14\u201318.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 53,
+        "depth": 1,
+        "reason": "To understand the constitutional framework in which Article 14 is placed."
+      },
+      {
+        "id": 114,
+        "text": "Fundamental Rights in Part III of the Constitution are justiciable rights that protect individuals against state action.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 54,
+        "depth": 1,
+        "reason": "To understand the nature and enforceability of Article 15."
+      },
+      {
+        "id": 115,
+        "text": "The Right to Equality as a Fundamental Right under Part III includes provisions ensuring non-discrimination in state employment.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 55,
+        "depth": 1,
+        "reason": "To grasp the context of Article 16 within the equality code."
+      },
+      {
+        "id": 116,
+        "text": "Part III Fundamental Rights include social reform measures like abolition of untouchability to eradicate caste-based discrimination.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 56,
+        "depth": 1,
+        "reason": "To understand why Article 17 is a Fundamental Right."
+      },
+      {
+        "id": 117,
+        "text": "The Constitution's Fundamental Rights aim to create an egalitarian society by prohibiting hereditary and honorific privileges.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 57,
+        "depth": 1,
+        "reason": "To know the rationale behind Article 18."
+      },
+      {
+        "id": 118,
+        "text": "Directive Principles of State Policy in Part IV of the Constitution (Articles 36\u201351) are socio-economic guidelines for the governance of the country.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 58,
+        "depth": 1,
+        "reason": "To understand the nature and placement of Article 39."
+      },
+      {
+        "id": 119,
+        "text": "The Indian Constitution provides for universal adult suffrage, ensuring that every adult citizen has the right to vote irrespective of religion, race, caste, or sex.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 59,
+        "depth": 1,
+        "reason": "To understand the electoral principle underlying Article 325."
+      },
+      {
+        "id": 120,
+        "text": "Universal adult franchise is a fundamental principle of democratic elections, granting every adult citizen the right to vote.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 60,
+        "depth": 1,
+        "reason": "To explain the basis of elections mentioned in Article 326."
+      },
+      {
+        "id": 121,
+        "text": "K.M. Munshi was a prominent member of the Constituent Assembly and a framer of the Indian Constitution.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 61,
+        "depth": 1,
+        "reason": "To know the authority behind the quoted phrase."
+      },
+      {
+        "id": 122,
+        "text": "Article 1 of the Constitution specifies the name and territory of India, defining it as a Union of States.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 62,
+        "depth": 1,
+        "reason": "To understand the source of the description 'Union of States'."
+      },
+      {
+        "id": 123,
+        "text": "The indestructible nature of the Indian Union means it is an indissoluble federation where states cannot break away (existing concept 64).",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 63,
+        "depth": 1,
+        "reason": "To explain the prohibition on secession."
+      },
+      {
+        "id": 124,
+        "text": "National integration is the process of uniting diverse groups within a country into a single national identity and political community.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 65,
+        "depth": 1,
+        "reason": "To understand what these forces hinder."
+      },
+      {
+        "id": 125,
+        "text": "The Indian Constitution rests on a set of core philosophical principles such as justice, liberty, equality, and fraternity.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 66,
+        "depth": 1,
+        "reason": "To grasp what the Preamble embodies."
+      },
+      {
+        "id": 126,
+        "text": "The Constituent Assembly aimed to establish a sovereign democratic republic with social, economic, and political justice.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 67,
+        "depth": 1,
+        "reason": "To know what grand vision is being referred to."
+      },
+      {
+        "id": 127,
+        "text": "The founding fathers of the Indian Constitution desired a just, egalitarian, and progressive nation as articulated in the Preamble.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 68,
+        "depth": 1,
+        "reason": "To understand whose dreams and aspirations are captured."
+      },
+      {
+        "id": 128,
+        "text": "Sir Alladi Krishnaswami Iyer was a distinguished member of the Constituent Assembly and a key contributor to the framing of the Constitution.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 69,
+        "depth": 1,
+        "reason": "To know the speaker and his authority."
+      },
+      {
+        "id": 129,
+        "text": "Pandit Thakur Das Bhargava was a member of the Constituent Assembly who participated in the constitutional debates.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 70,
+        "depth": 1,
+        "reason": "To identify the author of the remark."
+      },
+      {
+        "id": 130,
+        "text": "Sir Ernest Barker was a British political scientist who analyzed the Indian Constitution and praised its Preamble.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 71,
+        "depth": 1,
+        "reason": "To understand the source and credibility of the quote."
+      },
+      {
+        "id": 131,
+        "text": "M. Hidayatullah served as the Chief Justice of India and also as the Vice President of India, and was a noted jurist.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 72,
+        "depth": 1,
+        "reason": "To know the stature of the person making the statement."
+      },
+      {
+        "id": 132,
+        "text": "The Constituent Assembly finalized and adopted the body of the Constitution before adopting the Preamble to ensure alignment with the adopted text.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 73,
+        "depth": 1,
+        "reason": "To understand the sequence of enactment."
+      },
+      {
+        "id": 133,
+        "text": "During the framing, a formal motion was proposed and accepted in the Constituent Assembly to declare the Preamble as an integral part of the Constitution.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 74,
+        "depth": 1,
+        "reason": "To know what motion is being referred to."
+      },
+      {
+        "id": 134,
+        "text": "The Constitution of India is not rigid; it provides a procedure for its own amendment to adapt to changing needs.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 75,
+        "depth": 1,
+        "reason": "To understand the purpose of Article 368."
+      },
+      {
+        "id": 135,
+        "text": "The basic structure doctrine, propounded in the Kesavananda Bharati case (1973), holds that certain fundamental features of the Constitution cannot be amended by Parliament.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 76,
+        "depth": 1,
+        "reason": "To understand the metaphor of the 'foundation of the edifice' as unamendable basic elements."
+      },
+      {
+        "id": 136,
+        "text": "In 1949, India decided to become a republic while remaining in the Commonwealth, and Prime Minister Nehru clarified that this posture would not compromise India's sovereign status.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 77,
+        "depth": 1,
+        "reason": "To know the context and content of Nehru's statement."
+      },
+      {
+        "id": 137,
+        "text": "The Indian National Congress, at its Lahore session in 1929, adopted a resolution demanding Purna Swaraj or complete independence from British rule.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 78,
+        "depth": 1,
+        "reason": "To understand the origin of the pledge."
+      },
+      {
+        "id": 138,
+        "text": "The Commonwealth of Nations is an intergovernmental organization of mostly former British colonies, based on voluntary membership and mutual cooperation.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 79,
+        "depth": 1,
+        "reason": "To explain why it is described as free and terminable at will."
+      },
+      {
+        "id": 139,
+        "text": "A British dominion was a self-governing entity within the British Empire that recognized the British monarch as head of state.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 81,
+        "depth": 1,
+        "reason": "To understand what status India held prior to becoming a republic."
+      },
+      {
+        "id": 140,
+        "text": "India adopted its Constitution on January 26, 1950, abolishing the dominion status and establishing itself as a republic with a President as head of state.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 82,
+        "depth": 1,
+        "reason": "To know the constitutional event that made India a republic."
+      },
+      {
+        "id": 141,
+        "text": "After independence in 1947, Pakistan initially retained the monarch as head of state and only adopted its first republican constitution in 1956.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 83,
+        "depth": 1,
+        "reason": "To compare with India's early transition to a republic."
+      },
+      {
+        "id": 142,
+        "text": "The Indian National Congress, as the ruling party, used its plenary sessions to adopt national policy resolutions, including economic and social goals.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 84,
+        "depth": 1,
+        "reason": "To understand the institutional context of the Avadi resolution."
+      },
+      {
+        "id": 143,
+        "text": "In socialist economic theory, the 'means of production' (factories, land, resources) should be owned or regulated by the state to prevent private monopoly and ensure equitable use.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 85,
+        "depth": 1,
+        "reason": "To explain the core idea of social ownership or control."
+      },
+      {
+        "id": 144,
+        "text": "Socialism advocates for reducing economic inequality through redistribution of wealth and income to achieve a fairer society.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 86,
+        "depth": 1,
+        "reason": "To understand the goal of equitable distribution."
+      },
+      {
+        "id": 145,
+        "text": "Indira Gandhi was the Prime Minister of India from 1966 to 1977 and again from 1980 to 1984, and pursued a distinct Indian version of socialism.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 87,
+        "depth": 1,
+        "reason": "To identify the leader and the policy context of her statement."
+      },
+      {
+        "id": 146,
+        "text": "Article 143 of the Indian Constitution empowers the President to refer any question of law or fact of public importance to the Supreme Court for its advisory opinion.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 88,
+        "depth": 1,
+        "reason": "To understand the legal basis on which the case was referred."
+      },
+      {
+        "id": 147,
+        "text": "After the Partition of India in 1947, boundary disputes between India and Pakistan arose, including over the Berubari enclaves.",
+        "type": "STANDALONE",
+        "tier": "SIMPLE",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 88,
+        "depth": 1,
+        "reason": "To provide the historical context of the Berubari Union case."
+      },
+      {
+        "id": 148,
+        "text": "India's economic policy before 1991 followed a socialist model with extensive state control, industrial licensing, and a dominant public sector (often called the 'License Raj').",
+        "type": "STANDALONE",
+        "tier": "MEDIUM",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 36,
+        "depth": 3,
+        "reason": "To understand the shift that the New Economic Policy represented, one must first know the pre-existing socialist-oriented economic framework."
+      },
+      {
+        "id": 149,
+        "text": "The economic crisis of 1990-91, particularly a severe balance of payments crisis, which forced the government to seek IMF assistance and adopt reforms.",
+        "type": "STANDALONE",
+        "tier": "MEDIUM",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 36,
+        "depth": 2,
+        "reason": "This crisis was the immediate trigger for the introduction of the New Economic Policy."
+      },
+      {
+        "id": 150,
+        "text": "Meaning of 'liberalisation' as the removal or reduction of government regulations and restrictions in the economy to allow greater market freedom.",
+        "type": "STANDALONE",
+        "tier": "MEDIUM",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 36,
+        "depth": 1,
+        "reason": "Liberalisation is a core component of the 1991 reforms."
+      },
+      {
+        "id": 151,
+        "text": "Meaning of 'privatisation' as the transfer of ownership and management of state-owned enterprises to private entities.",
+        "type": "STANDALONE",
+        "tier": "MEDIUM",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 36,
+        "depth": 1,
+        "reason": "Privatisation is a core component of the 1991 reforms."
+      },
+      {
+        "id": 152,
+        "text": "Meaning of 'globalisation' as the process of increasing integration and interdependence of the Indian economy with the global economy through trade, investment, and technology flows.",
+        "type": "STANDALONE",
+        "tier": "MEDIUM",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 36,
+        "depth": 1,
+        "reason": "Globalisation is a core component of the 1991 reforms."
+      },
+      {
+        "id": 153,
+        "text": "India's pre-1991 economic model based on socialist principles of state control and regulation.",
+        "type": "STANDALONE",
+        "tier": "MEDIUM",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 37,
+        "depth": 2,
+        "reason": "The socialist credentials of the Indian State were based on this model; the NEP's departure from it diluted those credentials."
+      },
+      {
+        "id": 154,
+        "text": "India as a colony under British rule: from the mid-18th century until 1947, India was part of the British Empire, ruled directly or indirectly by the British Crown.",
+        "type": "STANDALONE",
+        "tier": "MEDIUM",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 80,
+        "depth": 3,
+        "reason": "To understand the 'dependency' status mentioned, one must know that India was a British colony."
+      },
+      {
+        "id": 155,
+        "text": "The Indian Independence Act, 1947: an Act of the British Parliament that granted independence to India and Pakistan, creating them as dominions.",
+        "type": "STANDALONE",
+        "tier": "MEDIUM",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 80,
+        "depth": 2,
+        "reason": "This Act changed India's status from a dependency to a dominion."
+      },
+      {
+        "id": 156,
+        "text": "Meaning of 'dominion status': a semi-autonomous political entity within the British Commonwealth, with the British monarch as head of state, and full internal self-government but not full sovereignty.",
+        "type": "STANDALONE",
+        "tier": "MEDIUM",
+        "children": [],
+        "source": "decomposition",
+        "parent_concept_id": 80,
+        "depth": 1,
+        "reason": "To understand India's status between 1947 and 1950, one must know what a dominion is."
+      }
+    ]
+  }
+]
