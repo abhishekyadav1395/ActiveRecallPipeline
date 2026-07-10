@@ -1,0 +1,173 @@
+{
+  "nodes": [
+    {"id":"router_ProviderRouter","label":"ProviderRouter","file_type":"code","source_file":"active_recall_pipeline/providers/router.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"router_get_provider","label":"ProviderRouter._get_provider","file_type":"code","source_file":"active_recall_pipeline/providers/router.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"router_warm_cache_if_needed","label":"ProviderRouter._warm_cache_if_needed","file_type":"code","source_file":"active_recall_pipeline/providers/router.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"router_calculate_cost","label":"ProviderRouter._calculate_cost","file_type":"code","source_file":"active_recall_pipeline/providers/router.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"router_call","label":"ProviderRouter.call","file_type":"code","source_file":"active_recall_pipeline/providers/router.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"router_count_tokens","label":"ProviderRouter.count_tokens","file_type":"code","source_file":"active_recall_pipeline/providers/router.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"router_PROVIDER_MODELS","label":"PROVIDER_MODELS map","file_type":"code","source_file":"active_recall_pipeline/providers/router.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"router_PROVIDER_CLASSES","label":"PROVIDER_CLASSES map","file_type":"code","source_file":"active_recall_pipeline/providers/router.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+
+    {"id":"audit_run","label":"audit.run","file_type":"code","source_file":"active_recall_pipeline/stages/audit.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+
+    {"id":"consolidate_run","label":"consolidate.run","file_type":"code","source_file":"active_recall_pipeline/stages/consolidate.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"consolidate_parse_and_validate_json","label":"consolidate._parse_and_validate_json","file_type":"code","source_file":"active_recall_pipeline/stages/consolidate.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"consolidate_save_error_response","label":"consolidate._save_error_response","file_type":"code","source_file":"active_recall_pipeline/stages/consolidate.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+
+    {"id":"deliver_run","label":"deliver.run","file_type":"code","source_file":"active_recall_pipeline/stages/deliver.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"deliver_write_csv","label":"deliver._write_csv","file_type":"code","source_file":"active_recall_pipeline/stages/deliver.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+
+    {"id":"excavate_run","label":"excavate.run","file_type":"code","source_file":"active_recall_pipeline/stages/excavate.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"excavate_parse_batch_response","label":"excavate._parse_batch_response","file_type":"code","source_file":"active_recall_pipeline/stages/excavate.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"excavate_is_in_inventory","label":"excavate._is_in_inventory","file_type":"code","source_file":"active_recall_pipeline/stages/excavate.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+
+    {"id":"forge_run","label":"forge.run","file_type":"code","source_file":"active_recall_pipeline/stages/forge.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"forge_load_profile","label":"forge._load_profile","file_type":"code","source_file":"active_recall_pipeline/stages/forge.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"forge_sanitize_json_strings","label":"forge._sanitize_json_strings","file_type":"code","source_file":"active_recall_pipeline/stages/forge.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"forge_parse_forge_response","label":"forge._parse_forge_response","file_type":"code","source_file":"active_recall_pipeline/stages/forge.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"forge_save_error_response","label":"forge._save_error_response","file_type":"code","source_file":"active_recall_pipeline/stages/forge.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+
+    {"id":"ingest_run","label":"ingest.run","file_type":"code","source_file":"active_recall_pipeline/stages/ingest.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"ingest_extract_metadata_full_book","label":"ingest._extract_metadata_full_book","file_type":"code","source_file":"active_recall_pipeline/stages/ingest.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"ingest_extract_metadata_chapter","label":"ingest._extract_metadata_chapter","file_type":"code","source_file":"active_recall_pipeline/stages/ingest.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"ingest_detect_exam","label":"ingest._detect_exam","file_type":"code","source_file":"active_recall_pipeline/stages/ingest.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+
+    {"id":"mint_run","label":"mint.run","file_type":"code","source_file":"active_recall_pipeline/stages/mint.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"mint_jaccard_similarity","label":"mint._jaccard_similarity","file_type":"code","source_file":"active_recall_pipeline/stages/mint.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+
+    {"id":"parse_run","label":"parse.run","file_type":"code","source_file":"active_recall_pipeline/stages/parse.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"parse_extract_chapters_from_toc","label":"parse._extract_chapters_from_toc","file_type":"code","source_file":"active_recall_pipeline/stages/parse.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"parse_extract_single_chapter","label":"parse._extract_single_chapter","file_type":"code","source_file":"active_recall_pipeline/stages/parse.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"parse_extract_pdf_text","label":"parse._extract_pdf_text","file_type":"code","source_file":"active_recall_pipeline/stages/parse.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"parse_split_chapter_into_sections","label":"parse._split_chapter_into_sections","file_type":"code","source_file":"active_recall_pipeline/stages/parse.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+
+    {"id":"patch_run","label":"patch.run","file_type":"code","source_file":"active_recall_pipeline/stages/patch.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"patch_sanitize_json_strings","label":"patch._sanitize_json_strings","file_type":"code","source_file":"active_recall_pipeline/stages/patch.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"patch_parse_patch_response","label":"patch._parse_patch_response","file_type":"code","source_file":"active_recall_pipeline/stages/patch.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+
+    {"id":"scout_run","label":"scout.run","file_type":"code","source_file":"active_recall_pipeline/stages/scout.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"scout_parse_profile","label":"scout._parse_profile","file_type":"code","source_file":"active_recall_pipeline/stages/scout.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"scout_is_valid_profile","label":"scout._is_valid_profile","file_type":"code","source_file":"active_recall_pipeline/stages/scout.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+
+    {"id":"survey_run","label":"survey.run","file_type":"code","source_file":"active_recall_pipeline/stages/survey.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"survey_load_profile","label":"survey._load_profile","file_type":"code","source_file":"active_recall_pipeline/stages/survey.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"survey_parse_concepts","label":"survey._parse_concepts","file_type":"code","source_file":"active_recall_pipeline/stages/survey.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+
+    {"id":"tier_run","label":"tier.run","file_type":"code","source_file":"active_recall_pipeline/stages/tier.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"tier_parse_tier_response","label":"tier._parse_tier_response","file_type":"code","source_file":"active_recall_pipeline/stages/tier.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+
+    {"id":"stages_STAGE_RUNNERS","label":"STAGE_RUNNERS dispatch map","file_type":"code","source_file":"active_recall_pipeline/stages/__init__.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+
+    {"id":"api_get_router","label":"api.get_router","file_type":"code","source_file":"active_recall_pipeline/utils/api.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"api_call_haiku","label":"api.call_haiku","file_type":"code","source_file":"active_recall_pipeline/utils/api.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"api_call_sonnet","label":"api.call_sonnet","file_type":"code","source_file":"active_recall_pipeline/utils/api.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null},
+    {"id":"api_build_batches","label":"api.build_batches","file_type":"code","source_file":"active_recall_pipeline/utils/api.py","source_location":null,"source_url":null,"captured_at":null,"author":null,"contributor":null}
+  ],
+  "edges": [
+    {"source":"router_get_provider","target":"anthropic_AnthropicProvider","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/providers/router.py","source_location":null,"weight":1.0},
+    {"source":"router_get_provider","target":"deepseek_DeepSeekProvider","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/providers/router.py","source_location":null,"weight":1.0},
+    {"source":"router_get_provider","target":"gemini_GeminiProvider","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/providers/router.py","source_location":null,"weight":1.0},
+    {"source":"router_get_provider","target":"base_BaseProvider","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/providers/router.py","source_location":null,"weight":1.0},
+    {"source":"router_warm_cache_if_needed","target":"base_BaseProvider","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/providers/router.py","source_location":null,"weight":1.0},
+    {"source":"router_call","target":"base_BaseProvider","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/providers/router.py","source_location":null,"weight":1.0},
+    {"source":"router_count_tokens","target":"base_BaseProvider","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/providers/router.py","source_location":null,"weight":1.0},
+    {"source":"router_get_provider","target":"router_PROVIDER_MODELS","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/providers/router.py","source_location":null,"weight":1.0},
+    {"source":"router_get_provider","target":"router_PROVIDER_CLASSES","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/providers/router.py","source_location":null,"weight":1.0},
+    {"source":"router_PROVIDER_MODELS","target":"router_PROVIDER_CLASSES","relation":"shares_data_with","confidence":"INFERRED","confidence_score":0.95,"source_file":"active_recall_pipeline/providers/router.py","source_location":null,"weight":1.0},
+
+    {"source":"api_get_router","target":"router_ProviderRouter","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/utils/api.py","source_location":null,"weight":1.0},
+    {"source":"api_call_haiku","target":"api_get_router","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/utils/api.py","source_location":null,"weight":1.0},
+    {"source":"api_call_haiku","target":"router_call","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/utils/api.py","source_location":null,"weight":1.0},
+    {"source":"api_call_sonnet","target":"api_get_router","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/utils/api.py","source_location":null,"weight":1.0},
+    {"source":"api_call_sonnet","target":"router_call","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/utils/api.py","source_location":null,"weight":1.0},
+    {"source":"api_build_batches","target":"router_ProviderRouter","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/utils/api.py","source_location":null,"weight":1.0},
+    {"source":"api_build_batches","target":"router_count_tokens","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/utils/api.py","source_location":null,"weight":1.0},
+
+    {"source":"consolidate_run","target":"api_call_haiku","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/consolidate.py","source_location":null,"weight":1.0},
+    {"source":"consolidate_run","target":"consolidate_parse_and_validate_json","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/consolidate.py","source_location":null,"weight":1.0},
+    {"source":"consolidate_run","target":"consolidate_save_error_response","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/consolidate.py","source_location":null,"weight":1.0},
+
+    {"source":"deliver_run","target":"deliver_write_csv","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/deliver.py","source_location":null,"weight":1.0},
+
+    {"source":"excavate_run","target":"api_build_batches","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/excavate.py","source_location":null,"weight":1.0},
+    {"source":"excavate_run","target":"api_call_haiku","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/excavate.py","source_location":null,"weight":1.0},
+    {"source":"excavate_run","target":"excavate_parse_batch_response","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/excavate.py","source_location":null,"weight":1.0},
+    {"source":"excavate_run","target":"excavate_is_in_inventory","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/excavate.py","source_location":null,"weight":1.0},
+
+    {"source":"forge_run","target":"api_build_batches","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/forge.py","source_location":null,"weight":1.0},
+    {"source":"forge_run","target":"api_call_haiku","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/forge.py","source_location":null,"weight":1.0},
+    {"source":"forge_run","target":"forge_load_profile","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/forge.py","source_location":null,"weight":1.0},
+    {"source":"forge_run","target":"forge_parse_forge_response","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/forge.py","source_location":null,"weight":1.0},
+    {"source":"forge_run","target":"forge_save_error_response","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/forge.py","source_location":null,"weight":1.0},
+    {"source":"forge_parse_forge_response","target":"forge_sanitize_json_strings","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/forge.py","source_location":null,"weight":1.0},
+
+    {"source":"ingest_run","target":"ingest_extract_metadata_full_book","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/ingest.py","source_location":null,"weight":1.0},
+    {"source":"ingest_run","target":"ingest_extract_metadata_chapter","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/ingest.py","source_location":null,"weight":1.0},
+    {"source":"ingest_extract_metadata_full_book","target":"ingest_detect_exam","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/ingest.py","source_location":null,"weight":1.0},
+    {"source":"ingest_extract_metadata_chapter","target":"ingest_detect_exam","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/ingest.py","source_location":null,"weight":1.0},
+
+    {"source":"mint_run","target":"mint_jaccard_similarity","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/mint.py","source_location":null,"weight":1.0},
+
+    {"source":"parse_run","target":"parse_extract_chapters_from_toc","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/parse.py","source_location":null,"weight":1.0},
+    {"source":"parse_run","target":"parse_extract_single_chapter","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/parse.py","source_location":null,"weight":1.0},
+    {"source":"parse_run","target":"parse_split_chapter_into_sections","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/parse.py","source_location":null,"weight":1.0},
+    {"source":"parse_extract_chapters_from_toc","target":"parse_extract_pdf_text","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/parse.py","source_location":null,"weight":1.0},
+    {"source":"parse_extract_single_chapter","target":"parse_extract_pdf_text","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/parse.py","source_location":null,"weight":1.0},
+
+    {"source":"patch_run","target":"api_build_batches","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/patch.py","source_location":null,"weight":1.0},
+    {"source":"patch_run","target":"api_call_haiku","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/patch.py","source_location":null,"weight":1.0},
+    {"source":"patch_run","target":"patch_parse_patch_response","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/patch.py","source_location":null,"weight":1.0},
+    {"source":"patch_parse_patch_response","target":"patch_sanitize_json_strings","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/patch.py","source_location":null,"weight":1.0},
+
+    {"source":"scout_run","target":"api_call_haiku","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/scout.py","source_location":null,"weight":1.0},
+    {"source":"scout_run","target":"scout_parse_profile","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/scout.py","source_location":null,"weight":1.0},
+    {"source":"scout_run","target":"scout_is_valid_profile","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/scout.py","source_location":null,"weight":1.0},
+
+    {"source":"survey_run","target":"api_call_haiku","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/survey.py","source_location":null,"weight":1.0},
+    {"source":"survey_run","target":"survey_load_profile","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/survey.py","source_location":null,"weight":1.0},
+    {"source":"survey_run","target":"survey_parse_concepts","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/survey.py","source_location":null,"weight":1.0},
+
+    {"source":"tier_run","target":"api_call_haiku","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/tier.py","source_location":null,"weight":1.0},
+    {"source":"tier_run","target":"tier_parse_tier_response","relation":"calls","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/tier.py","source_location":null,"weight":1.0},
+
+    {"source":"stages_STAGE_RUNNERS","target":"ingest_run","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/__init__.py","source_location":null,"weight":1.0},
+    {"source":"stages_STAGE_RUNNERS","target":"parse_run","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/__init__.py","source_location":null,"weight":1.0},
+    {"source":"stages_STAGE_RUNNERS","target":"scout_run","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/__init__.py","source_location":null,"weight":1.0},
+    {"source":"stages_STAGE_RUNNERS","target":"survey_run","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/__init__.py","source_location":null,"weight":1.0},
+    {"source":"stages_STAGE_RUNNERS","target":"consolidate_run","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/__init__.py","source_location":null,"weight":1.0},
+    {"source":"stages_STAGE_RUNNERS","target":"tier_run","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/__init__.py","source_location":null,"weight":1.0},
+    {"source":"stages_STAGE_RUNNERS","target":"excavate_run","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/__init__.py","source_location":null,"weight":1.0},
+    {"source":"stages_STAGE_RUNNERS","target":"forge_run","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/__init__.py","source_location":null,"weight":1.0},
+    {"source":"stages_STAGE_RUNNERS","target":"audit_run","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/__init__.py","source_location":null,"weight":1.0},
+    {"source":"stages_STAGE_RUNNERS","target":"patch_run","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/__init__.py","source_location":null,"weight":1.0},
+    {"source":"stages_STAGE_RUNNERS","target":"mint_run","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/__init__.py","source_location":null,"weight":1.0},
+    {"source":"stages_STAGE_RUNNERS","target":"deliver_run","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/__init__.py","source_location":null,"weight":1.0},
+
+    {"source":"ingest_run","target":"parse_run","relation":"shares_data_with","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/parse.py","source_location":null,"weight":1.0},
+    {"source":"parse_run","target":"scout_run","relation":"shares_data_with","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/scout.py","source_location":null,"weight":1.0},
+    {"source":"parse_run","target":"survey_run","relation":"shares_data_with","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/survey.py","source_location":null,"weight":1.0},
+    {"source":"survey_run","target":"consolidate_run","relation":"shares_data_with","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/consolidate.py","source_location":null,"weight":1.0},
+    {"source":"consolidate_run","target":"tier_run","relation":"shares_data_with","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/tier.py","source_location":null,"weight":1.0},
+    {"source":"tier_run","target":"excavate_run","relation":"shares_data_with","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/excavate.py","source_location":null,"weight":1.0},
+    {"source":"excavate_run","target":"forge_run","relation":"shares_data_with","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/forge.py","source_location":null,"weight":1.0},
+    {"source":"parse_run","target":"forge_run","relation":"shares_data_with","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/forge.py","source_location":null,"weight":1.0},
+    {"source":"excavate_run","target":"audit_run","relation":"shares_data_with","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/audit.py","source_location":null,"weight":1.0},
+    {"source":"forge_run","target":"audit_run","relation":"shares_data_with","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/audit.py","source_location":null,"weight":1.0},
+    {"source":"audit_run","target":"patch_run","relation":"shares_data_with","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/patch.py","source_location":null,"weight":1.0},
+    {"source":"excavate_run","target":"patch_run","relation":"shares_data_with","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/patch.py","source_location":null,"weight":1.0},
+    {"source":"forge_run","target":"patch_run","relation":"shares_data_with","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/patch.py","source_location":null,"weight":1.0},
+    {"source":"patch_run","target":"mint_run","relation":"shares_data_with","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/mint.py","source_location":null,"weight":1.0},
+    {"source":"mint_run","target":"deliver_run","relation":"shares_data_with","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"active_recall_pipeline/stages/deliver.py","source_location":null,"weight":1.0},
+
+    {"source":"forge_sanitize_json_strings","target":"patch_sanitize_json_strings","relation":"semantically_similar_to","confidence":"INFERRED","confidence_score":0.95,"source_file":"active_recall_pipeline/stages/forge.py","source_location":null,"weight":1.0},
+    {"source":"forge_run","target":"mint_run","relation":"semantically_similar_to","confidence":"INFERRED","confidence_score":0.75,"source_file":"active_recall_pipeline/stages/forge.py","source_location":null,"weight":1.0}
+  ],
+  "hyperedges": [
+    {"id":"cid_context_preamble_injection","label":"CID Context Preamble Injection Pattern","nodes":["scout_run","survey_run","consolidate_run","excavate_run","forge_run","patch_run"],"relation":"participate_in","confidence":"INFERRED","confidence_score":0.65,"source_file":"active_recall_pipeline/stages/survey.py"},
+    {"id":"profile_aware_domain_injection","label":"Profile-Aware Domain Injection Pattern","nodes":["survey_run","survey_load_profile","forge_run","forge_load_profile"],"relation":"participate_in","confidence":"INFERRED","confidence_score":0.85,"source_file":"active_recall_pipeline/stages/survey.py"},
+    {"id":"json_markdown_fence_parsing_pattern","label":"Markdown-Fence JSON Response Parsing Pattern","nodes":["consolidate_parse_and_validate_json","excavate_parse_batch_response","forge_parse_forge_response","patch_parse_patch_response","scout_parse_profile","tier_parse_tier_response"],"relation":"implement","confidence":"INFERRED","confidence_score":0.85,"source_file":"active_recall_pipeline/stages/consolidate.py"}
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

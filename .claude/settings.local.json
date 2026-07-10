@@ -8,7 +8,9 @@
       "Bash(git commit -m ' *)",
       "Bash(ANTHROPIC_API_KEY=test python -c \"from active_recall_pipeline.pipeline import PipelineOrchestrator; print\\('All imports successful'\\)\")",
       "Bash(git commit *)",
-      "Bash(ANTHROPIC_API_KEY=test python)"
+      "Bash(ANTHROPIC_API_KEY=test python)",
+      "Bash(python3 -c ' *)",
+      "Bash(xxd graphify-out/.graphify_python)"
     ]
   }
 }
